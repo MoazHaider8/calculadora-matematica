@@ -1,26 +1,232 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-page: #f8fafc;
+  --color-white-soft: #ffffff;
+  --color-panel: #eef4f7;
+  --color-panel-2: #effaf8;
+  --color-panel-3: #ddebf0;
+
+  --color-deep-teal: #0f5c5c;
+  --color-teal: #147c7c;
+  --color-teal-2: #1f8f8c;
+  --color-teal-soft: #ddf3f0;
+  --color-aqua-soft: #effaf8;
+
+  --color-ink: #102a43;
+  --color-slate: #243b53;
+  --color-slate-soft: #334e68;
+  --color-muted: #627d98;
+  --color-muted-2: #829ab1;
+  --color-line: #d7e2ea;
+  --color-line-2: #c8d7e1;
+
+  --color-gold: #d8a31a;
+  --color-gold-soft: #fff4cc;
+  --color-mint: #3bb273;
+
+  --color-ocean: #073b3a;
+  --color-dark-teal: #084c4c;
+  --color-footer: #071e2b;
+
+  --font-heading: var(--font-space-grotesk), system-ui, -apple-system, sans-serif;
+  --font-body: var(--font-inter), system-ui, -apple-system, sans-serif;
+
+  /* Compatibility aliases for older reusable sections. */
+  --color-card: var(--color-white-soft);
+  --color-raised: var(--color-panel);
+  --color-lift: var(--color-panel-3);
+  --color-bright: var(--color-ink);
+  --color-soft: var(--color-slate-soft);
+  --color-dim: var(--color-muted);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: light;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    min-height: 100vh;
+    background: var(--color-page);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--color-ink);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.05;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+
+  [id] {
+    scroll-margin-top: 84px;
+  }
+
+  ::selection {
+    background: var(--color-gold-soft);
+    color: var(--color-ink);
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-page);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-line-2);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-teal);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .site-shell {
+    width: min(100% - 2rem, 1180px);
+    margin-inline: auto;
+  }
+
+  .section-pad {
+    padding-block: 5rem;
+  }
+
+  @media (min-width: 1024px) {
+    .section-pad {
+      padding-block: 6.5rem;
+    }
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: var(--color-teal);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .eyebrow::before {
+    content: "";
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 999px;
+    background: var(--color-gold);
+  }
+
+  .academic-card {
+    border: 1px solid var(--color-line);
+    border-radius: 8px;
+    background: var(--color-white-soft);
+    box-shadow: 0 12px 34px rgba(16, 42, 67, 0.08);
+  }
+
+  .math-pattern {
+    background-image:
+      linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+    background-size: 42px 42px;
+  }
+
+  .featured-calc-card {
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.22);
+    transition: transform 150ms, box-shadow 150ms;
+  }
+
+  .featured-calc-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.32);
+  }
+
+  .directory-card {
+    transition: box-shadow 180ms ease, transform 160ms ease, border-color 180ms ease;
+  }
+
+  .directory-card:hover {
+    box-shadow: 0 8px 32px rgba(16, 42, 67, 0.12);
+    border-color: #c8d7e1 !important;
+    transform: translateY(-2px);
+  }
+
+  /* HowItWorks section cards */
+  .how-card {
+    background: #ffffff;
+    border: 1px solid var(--color-line);
+    border-radius: 16px;
+    padding: 28px;
+    box-shadow: 0 2px 14px rgba(16, 42, 67, 0.06);
+    transition: background 200ms ease, border-color 200ms ease,
+      box-shadow 200ms ease, transform 180ms ease;
+  }
+
+  .how-card:hover {
+    background: #0f4744;
+    border-color: #0f4744;
+    box-shadow: 0 10px 32px rgba(15, 71, 68, 0.3);
+    transform: translateY(-4px);
+  }
+
+  .how-card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ddf3f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-deep-teal);
+    transition: background 200ms ease, border 200ms ease, color 200ms ease;
+    border: 1.5px solid transparent;
+  }
+
+  .how-card:hover .how-card-icon {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+  }
+
+  .how-card-title {
+    color: var(--color-ink);
+    transition: color 200ms ease;
+  }
+
+  .how-card:hover .how-card-title {
+    color: #ffffff;
+  }
+
+  .how-card-desc {
+    color: var(--color-slate-soft);
+    transition: color 200ms ease;
+  }
+
+  .how-card:hover .how-card-desc {
+    color: rgba(221, 243, 240, 0.82);
+  }
 }
