@@ -6,7 +6,7 @@ const tools = [
     name: 'Calculadora de Matrices',
     explanation: 'Suma, resta y multiplica matrices de distintas dimensiones. Muestra el procedimiento y el resultado de cada operación.',
     useCase: 'Para realizar operaciones entre dos matrices de forma directa.',
-    url: null,
+    url: '/calculadoras/matrices-y-vectores/calculadora-de-matrices',
   },
   {
     id: 'determinantes',
