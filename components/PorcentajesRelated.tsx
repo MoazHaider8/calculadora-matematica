@@ -5,9 +5,9 @@ const related = [
   { name: 'Calculadora de Fracciones',        category: 'Aritmética', description: 'Suma, resta, multiplica, divide y simplifica fracciones.',                 url: '/calculadoras/aritmetica/calculadora-de-fracciones' },
   { name: 'Calculadora de Raíz Cuadrada',     category: 'Álgebra',    description: 'Calcula raíces cuadradas exactas, decimales y radicales simplificados.',   url: '/calculadoras/algebra/calculadora-de-raiz-cuadrada' },
   { name: 'Calculadora de Exponentes',        category: 'Cálculo',    description: 'Potencias, exponentes negativos, fraccionarios y notación científica.',    url: '/calculadoras/calculo/calculadora-de-exponentes' },
-  { name: 'Calculadora Científica',           category: 'Aritmética', description: 'Trigonometría, logaritmos, exponentes y raíces en un solo lugar.',         url: null },
+  { name: 'Calculadora Científica',           category: 'Aritmética', description: 'Trigonometría, logaritmos, exponentes y raíces en un solo lugar.',         url: '/calculadoras/aritmetica/calculadora-cientifica' },
   { name: 'Calculadora de Promedio',          category: 'Aritmética', description: 'Calcula la media aritmética de un conjunto de valores.',                   url: null },
-  { name: 'Calculadora de Regla de Tres',     category: 'Aritmética', description: 'Resuelve proporciones directas e inversas.',                               url: null },
+  { name: 'Calculadora de Regla de Tres',     category: 'Aritmética', description: 'Resuelve proporciones directas e inversas.',                               url: '/calculadoras/aritmetica/calculadora-de-regla-de-tres' },
 ];
 
 export function PorcentajesRelated() {

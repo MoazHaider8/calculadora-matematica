@@ -47,7 +47,7 @@ const related = [
     name: 'Calculadora de Regla de Tres',
     desc: 'Resuelve proporciones directas e inversas.',
     url:  '/calculadoras/aritmetica/calculadora-de-regla-de-tres',
-    live: false,
+    live: true,
   },
 ];
 
