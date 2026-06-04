@@ -6,7 +6,7 @@ const related = [
   { name: 'Calculadora de Fracciones',   desc: 'Suma, resta, multiplica y divide fracciones con pasos.',                 url: '/calculadoras/aritmetica/calculadora-de-fracciones',             live: true  },
   { name: 'Calculadora Científica',      desc: 'Trigonometría, logaritmos, potencias y raíces en un solo lugar.',        url: '/calculadoras/aritmetica/calculadora-cientifica',                live: true  },
   { name: 'Calculadora de Ecuaciones',   desc: 'Resuelve ecuaciones lineales y cuadráticas con pasos.',                  url: '/calculadoras/algebra/calculadora-de-ecuaciones',                live: true  },
-  { name: 'Calculadora de Promedio',     desc: 'Calcula la media aritmética de un conjunto de valores.',                 url: '/calculadoras/aritmetica/calculadora-de-promedio',               live: false },
+  { name: 'Calculadora de Promedio',     desc: 'Calcula la media aritmética de un conjunto de valores.',                 url: '/calculadoras/aritmetica/calculadora-de-promedio',               live: true  },
 ];
 
 export function ReglaTresRelated() {

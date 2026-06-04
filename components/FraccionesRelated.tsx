@@ -8,7 +8,7 @@ const related = [
   { name: 'Calculadora de Logaritmos',        category: 'Cálculo',   description: 'Logaritmos en base 10, base e y bases personalizadas.',                   url: '/calculadoras/calculo/calculadora-de-logaritmos' },
   { name: 'Calculadora de Porcentajes',       category: 'Aritmética', description: 'Calcula porcentajes, descuentos y variaciones porcentuales.',             url: null },
   { name: 'Calculadora Científica',           category: 'Aritmética', description: 'Trigonometría, logaritmos, exponentes y raíces en un solo lugar.',        url: null },
-  { name: 'Calculadora de Promedio',          category: 'Aritmética', description: 'Calcula la media aritmética de un conjunto de valores.',                  url: null },
+  { name: 'Calculadora de Promedio',          category: 'Aritmética', description: 'Calcula la media aritmética de un conjunto de valores.',                  url: '/calculadoras/aritmetica/calculadora-de-promedio' },
   { name: 'Calculadora de Regla de Tres',     category: 'Aritmética', description: 'Resuelve proporciones directas e inversas.',                              url: '/calculadoras/aritmetica/calculadora-de-regla-de-tres' },
 ];
 

@@ -41,7 +41,7 @@ const related = [
     name: 'Calculadora de Promedio',
     desc: 'Calcula la media aritmética de un conjunto de valores.',
     url:  '/calculadoras/aritmetica/calculadora-de-promedio',
-    live: false,
+    live: true,
   },
   {
     name: 'Calculadora de Regla de Tres',

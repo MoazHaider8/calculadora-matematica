@@ -1,7 +1,7 @@
 const faqs = [
   {
     q: '¿Qué herramientas incluye esta categoría?',
-    a: 'Esta categoría incluye cinco herramientas: Calculadora Científica, Calculadora de Porcentajes, Calculadora de Fracciones, Calculadora de Promedio y Calculadora de Regla de Tres. Todas estarán disponibles próximamente.',
+    a: 'Esta categoría incluye cinco herramientas: Calculadora Científica, Calculadora de Porcentajes, Calculadora de Fracciones, Calculadora de Promedio y Calculadora de Regla de Tres. Todas están disponibles.',
   },
   {
     q: '¿Qué calculadora debo usar para operaciones básicas?',

@@ -6,7 +6,7 @@ const related = [
   { name: 'Calculadora de Raíz Cuadrada',     category: 'Álgebra',    description: 'Calcula raíces cuadradas exactas, decimales y radicales simplificados.',   url: '/calculadoras/algebra/calculadora-de-raiz-cuadrada' },
   { name: 'Calculadora de Exponentes',        category: 'Cálculo',    description: 'Potencias, exponentes negativos, fraccionarios y notación científica.',    url: '/calculadoras/calculo/calculadora-de-exponentes' },
   { name: 'Calculadora Científica',           category: 'Aritmética', description: 'Trigonometría, logaritmos, exponentes y raíces en un solo lugar.',         url: '/calculadoras/aritmetica/calculadora-cientifica' },
-  { name: 'Calculadora de Promedio',          category: 'Aritmética', description: 'Calcula la media aritmética de un conjunto de valores.',                   url: null },
+  { name: 'Calculadora de Promedio',          category: 'Aritmética', description: 'Calcula la media aritmética de un conjunto de valores.',                   url: '/calculadoras/aritmetica/calculadora-de-promedio' },
   { name: 'Calculadora de Regla de Tres',     category: 'Aritmética', description: 'Resuelve proporciones directas e inversas.',                               url: '/calculadoras/aritmetica/calculadora-de-regla-de-tres' },
 ];
 
