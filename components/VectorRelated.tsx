@@ -1,26 +1,24 @@
 import Link from 'next/link';
 
 const related = [
-  { name: 'Calculadoras de Matrices y Vectores', category: 'Categoría',  description: 'Determinantes, vectores, sistemas e inversas.',           url: '/calculadoras/matrices-y-vectores' },
-  { name: 'Calculadoras de Álgebra',             category: 'Categoría',  description: 'Ecuaciones, expresiones algebraicas y polinomios.',         url: '/calculadoras/algebra' },
-  { name: 'Calculadora de Ecuaciones',           category: 'Álgebra',    description: 'Resuelve ecuaciones lineales y cuadráticas.',               url: '/calculadoras/algebra/calculadora-de-ecuaciones' },
-  { name: 'Calculadora Algebraica',              category: 'Álgebra',    description: 'Simplifica y factoriza expresiones algebraicas.',           url: '/calculadoras/algebra/calculadora-algebraica' },
-  { name: 'Calculadora de Exponentes',           category: 'Cálculo',    description: 'Calcula potencias y exponentes fraccionarios.',             url: '/calculadoras/calculo/calculadora-de-exponentes' },
-  { name: 'Calculadora de Determinantes',        category: 'Mat. y Vec.', description: 'Calcula el determinante de matrices cuadradas.',           url: '/calculadoras/matrices-y-vectores/calculadora-de-determinantes' },
-  { name: 'Calculadora de Vectores',             category: 'Mat. y Vec.', description: 'Opera con componentes, norma y productos vectoriales.',    url: '/calculadoras/matrices-y-vectores/calculadora-de-vectores' },
-  { name: 'Calculadora de Sistemas de Ecuaciones', category: 'Mat. y Vec.', description: 'Resuelve sistemas de ecuaciones lineales.',             url: '/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones' },
-  { name: 'Calculadora de Matriz Inversa',       category: 'Mat. y Vec.', description: 'Obtiene la inversa de matrices cuadradas invertibles.',   url: '/calculadoras/matrices-y-vectores/calculadora-de-matriz-inversa' },
+  { name: 'Calculadoras de Matrices y Vectores', category: 'Categoría',   description: 'Matrices, determinantes, sistemas e inversas.',                  url: '/calculadoras/matrices-y-vectores' },
+  { name: 'Calculadora de Matrices',             category: 'Mat. y Vec.', description: 'Suma, resta, multiplica y transpone matrices.',                    url: '/calculadoras/matrices-y-vectores/calculadora-de-matrices' },
+  { name: 'Calculadora de Determinantes',        category: 'Mat. y Vec.', description: 'Calcula el determinante de matrices cuadradas 2x2, 3x3 y 4x4.',   url: '/calculadoras/matrices-y-vectores/calculadora-de-determinantes' },
+  { name: 'Calculadora de Ecuaciones',           category: 'Álgebra',     description: 'Resuelve ecuaciones lineales y cuadráticas.',                      url: '/calculadoras/algebra/calculadora-de-ecuaciones' },
+  { name: 'Calculadora Algebraica',              category: 'Álgebra',     description: 'Simplifica y factoriza expresiones algebraicas.',                  url: '/calculadoras/algebra/calculadora-algebraica' },
+  { name: 'Calculadora de Sistemas de Ecuaciones', category: 'Mat. y Vec.', description: 'Resuelve sistemas de ecuaciones lineales Ax = b.',             url: '/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones' },
+  { name: 'Calculadora de Matriz Inversa',       category: 'Mat. y Vec.', description: 'Obtiene la inversa de matrices cuadradas invertibles.',            url: '/calculadoras/matrices-y-vectores/calculadora-de-matriz-inversa' },
 ];
 
-export function MatricesRelated() {
+export function VectorRelated() {
   return (
-    <section className="bg-white py-10 lg:py-12" aria-labelledby="related-matrices-heading">
+    <section className="bg-white py-10 lg:py-12" aria-labelledby="related-vec-heading">
       <div className="site-shell">
 
         <div className="mb-8">
           <p className="eyebrow">Otras herramientas</p>
           <h2
-            id="related-matrices-heading"
+            id="related-vec-heading"
             className="mt-2 text-[1.5rem] font-bold leading-tight lg:text-[1.8rem]"
             style={{ color: '#102a43' }}
           >
@@ -28,7 +26,10 @@ export function MatricesRelated() {
           </h2>
         </div>
 
-        <div className="overflow-hidden rounded-2xl bg-white" style={{ border: '1px solid #D7E2EA', boxShadow: '0 2px 12px rgba(16,42,67,0.05)' }}>
+        <div
+          className="overflow-hidden rounded-2xl bg-white"
+          style={{ border: '1px solid #D7E2EA', boxShadow: '0 2px 12px rgba(16,42,67,0.05)' }}
+        >
           {related.map((item, i) => (
             <div
               key={item.name}
@@ -69,6 +70,7 @@ export function MatricesRelated() {
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

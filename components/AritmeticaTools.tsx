@@ -2,55 +2,55 @@ import Link from 'next/link';
 
 const tools = [
   {
-    id: 'matrices',
-    symbol: '[ ]',
-    mathPreview: 'A + B',
-    name: 'Calculadora de Matrices',
-    explanation: 'Suma, resta y multiplica matrices de distintas dimensiones. Muestra el procedimiento y el resultado de cada operación.',
-    useCase: 'Para realizar operaciones entre dos matrices de forma directa.',
-    url: '/calculadoras/matrices-y-vectores/calculadora-de-matrices',
+    id: 'cientifica',
+    symbol: 'sin',
+    mathPreview: 'sin(x), log(x), √x',
+    name: 'Calculadora Científica',
+    explanation: 'Resuelve operaciones con funciones trigonométricas, logaritmos, exponentes y raíces. Cubre los cálculos habituales en ciencias y matemáticas avanzadas.',
+    useCase: 'Para operaciones con funciones, raíces o logaritmos que van más allá de la aritmética básica.',
+    url: '/calculadoras/aritmetica/calculadora-cientifica',
   },
   {
-    id: 'determinantes',
-    symbol: 'det',
-    mathPreview: 'det(A)',
-    name: 'Calculadora de Determinantes',
-    explanation: 'Calcula el determinante de una matriz cuadrada. Necesario para conocer si una matriz es invertible y para resolver sistemas lineales.',
-    useCase: 'Para calcular el determinante de una matriz cuadrada de cualquier orden.',
-    url: '/calculadoras/matrices-y-vectores/calculadora-de-determinantes',
+    id: 'porcentajes',
+    symbol: '%',
+    mathPreview: '25% de 200',
+    name: 'Calculadora de Porcentajes',
+    explanation: 'Calcula porcentajes, descuentos, aumentos y variaciones porcentuales. Muestra el procedimiento y el resultado en valor absoluto y en tanto por ciento.',
+    useCase: 'Para calcular descuentos en precios, aumentos salariales o variaciones porcentuales.',
+    url: '/calculadoras/aritmetica/calculadora-de-porcentajes',
   },
   {
-    id: 'vectores',
-    symbol: 'v',
-    mathPreview: 'u · v',
-    name: 'Calculadora de Vectores',
-    explanation: 'Opera con vectores en dos y tres dimensiones. Calcula norma, suma, producto punto y producto vectorial.',
-    useCase: 'Para trabajar con componentes, norma o el producto entre dos vectores.',
-    url: '/calculadoras/matrices-y-vectores/calculadora-de-vectores',
+    id: 'fracciones',
+    symbol: 'a/b',
+    mathPreview: '1/2 + 3/4',
+    name: 'Calculadora de Fracciones',
+    explanation: 'Suma, resta, multiplica y divide fracciones. Simplifica el resultado y muestra el mínimo común denominador y la fracción equivalente.',
+    useCase: 'Para sumar, restar o simplificar fracciones con distinto denominador.',
+    url: '/calculadoras/aritmetica/calculadora-de-fracciones',
   },
   {
-    id: 'sistemas-de-ecuaciones',
-    symbol: 'Ax',
-    mathPreview: 'Ax = b',
-    name: 'Calculadora de Sistemas de Ecuaciones',
-    explanation: 'Resuelve sistemas de ecuaciones lineales usando eliminación gaussiana o regla de Cramer. Muestra el procedimiento paso a paso.',
-    useCase: 'Para resolver un sistema de ecuaciones lineales con dos o más incógnitas.',
-    url: '/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones',
+    id: 'promedio',
+    symbol: 'x̄',
+    mathPreview: '(8 + 9 + 10) / 3',
+    name: 'Calculadora de Promedio',
+    explanation: 'Calcula la media aritmética de un conjunto de valores. Acepta cualquier cantidad de números y muestra el proceso de cálculo.',
+    useCase: 'Para calcular la media de notas, datos numéricos o cualquier conjunto de valores.',
+    url: '/calculadoras/aritmetica/calculadora-de-promedio',
   },
   {
-    id: 'matriz-inversa',
-    symbol: 'A⁻¹',
-    mathPreview: 'A⁻¹',
-    name: 'Calculadora de Matriz Inversa',
-    explanation: 'Calcula la inversa de una matriz cuadrada usando el método de Gauss-Jordan. Verifica que el determinante no sea cero.',
-    useCase: 'Para obtener la matriz inversa de una matriz cuadrada invertible.',
-    url: '/calculadoras/matrices-y-vectores/calculadora-de-matriz-inversa',
+    id: 'regla-de-tres',
+    symbol: '∝',
+    mathPreview: 'a:b = c:x',
+    name: 'Calculadora de Regla de Tres',
+    explanation: 'Resuelve proporciones directas e inversas mediante la regla de tres simple. Calcula el valor desconocido a partir de tres valores conocidos.',
+    useCase: 'Para resolver proporciones directas cuando se conocen tres valores y se busca el cuarto.',
+    url: '/calculadoras/aritmetica/calculadora-de-regla-de-tres',
   },
 ];
 
-export function MatVecTools() {
+export function AritmeticaTools() {
   return (
-    <section className="py-14 lg:py-20 bg-white-soft" aria-labelledby="tools-matvec-heading">
+    <section className="py-14 lg:py-20 bg-white-soft" aria-labelledby="tools-aritmetica-heading">
       <div className="site-shell">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
 
@@ -59,14 +59,14 @@ export function MatVecTools() {
             <div className="lg:sticky lg:top-28">
               <p className="eyebrow">Herramientas disponibles</p>
               <h2
-                id="tools-matvec-heading"
+                id="tools-aritmetica-heading"
                 className="mt-3 text-[1.85rem] font-bold leading-tight lg:text-[2.2rem]"
                 style={{ color: '#102a43' }}
               >
-                Herramientas de matrices y vectores disponibles
+                Herramientas de aritmética disponibles
               </h2>
               <p className="mt-4 text-sm leading-relaxed" style={{ color: '#627d98' }}>
-                Cada calculadora cubre una operación específica dentro del área de matrices y vectores. Las herramientas estarán disponibles próximamente.
+                Cada calculadora cubre un tipo de operación aritmética específica. Elige la herramienta que necesitas.
               </p>
               <div
                 className="mt-5 inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-sm font-bold"

@@ -1,26 +1,26 @@
 import Link from 'next/link';
 
 const related = [
-  { name: 'Calculadoras de Matrices y Vectores', category: 'Categoría',  description: 'Determinantes, vectores, sistemas e inversas.',           url: '/calculadoras/matrices-y-vectores' },
-  { name: 'Calculadoras de Álgebra',             category: 'Categoría',  description: 'Ecuaciones, expresiones algebraicas y polinomios.',         url: '/calculadoras/algebra' },
-  { name: 'Calculadora de Ecuaciones',           category: 'Álgebra',    description: 'Resuelve ecuaciones lineales y cuadráticas.',               url: '/calculadoras/algebra/calculadora-de-ecuaciones' },
-  { name: 'Calculadora Algebraica',              category: 'Álgebra',    description: 'Simplifica y factoriza expresiones algebraicas.',           url: '/calculadoras/algebra/calculadora-algebraica' },
-  { name: 'Calculadora de Exponentes',           category: 'Cálculo',    description: 'Calcula potencias y exponentes fraccionarios.',             url: '/calculadoras/calculo/calculadora-de-exponentes' },
-  { name: 'Calculadora de Determinantes',        category: 'Mat. y Vec.', description: 'Calcula el determinante de matrices cuadradas.',           url: '/calculadoras/matrices-y-vectores/calculadora-de-determinantes' },
-  { name: 'Calculadora de Vectores',             category: 'Mat. y Vec.', description: 'Opera con componentes, norma y productos vectoriales.',    url: '/calculadoras/matrices-y-vectores/calculadora-de-vectores' },
-  { name: 'Calculadora de Sistemas de Ecuaciones', category: 'Mat. y Vec.', description: 'Resuelve sistemas de ecuaciones lineales.',             url: '/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones' },
-  { name: 'Calculadora de Matriz Inversa',       category: 'Mat. y Vec.', description: 'Obtiene la inversa de matrices cuadradas invertibles.',   url: '/calculadoras/matrices-y-vectores/calculadora-de-matriz-inversa' },
+  { name: 'Calculadoras de Aritmética',       category: 'Categoría', description: 'Porcentajes, promedio, regla de tres y calculadora científica.',          url: '/calculadoras/aritmetica' },
+  { name: 'Calculadora de Raíz Cuadrada',     category: 'Álgebra',   description: 'Calcula raíces cuadradas exactas, decimales y radicales simplificados.',   url: '/calculadoras/algebra/calculadora-de-raiz-cuadrada' },
+  { name: 'Calculadora de Raíces',            category: 'Álgebra',   description: 'Calcula raíces de polinomios y expresiones algebraicas.',                  url: '/calculadoras/algebra/calculadora-de-raices' },
+  { name: 'Calculadora de Exponentes',        category: 'Cálculo',   description: 'Potencias, exponentes negativos, fraccionarios y notación científica.',    url: '/calculadoras/calculo/calculadora-de-exponentes' },
+  { name: 'Calculadora de Logaritmos',        category: 'Cálculo',   description: 'Logaritmos en base 10, base e y bases personalizadas.',                   url: '/calculadoras/calculo/calculadora-de-logaritmos' },
+  { name: 'Calculadora de Porcentajes',       category: 'Aritmética', description: 'Calcula porcentajes, descuentos y variaciones porcentuales.',             url: null },
+  { name: 'Calculadora Científica',           category: 'Aritmética', description: 'Trigonometría, logaritmos, exponentes y raíces en un solo lugar.',        url: null },
+  { name: 'Calculadora de Promedio',          category: 'Aritmética', description: 'Calcula la media aritmética de un conjunto de valores.',                  url: null },
+  { name: 'Calculadora de Regla de Tres',     category: 'Aritmética', description: 'Resuelve proporciones directas e inversas.',                              url: null },
 ];
 
-export function MatricesRelated() {
+export function FraccionesRelated() {
   return (
-    <section className="bg-white py-10 lg:py-12" aria-labelledby="related-matrices-heading">
+    <section className="bg-white py-10 lg:py-12" aria-labelledby="related-frac-heading">
       <div className="site-shell">
 
         <div className="mb-8">
           <p className="eyebrow">Otras herramientas</p>
           <h2
-            id="related-matrices-heading"
+            id="related-frac-heading"
             className="mt-2 text-[1.5rem] font-bold leading-tight lg:text-[1.8rem]"
             style={{ color: '#102a43' }}
           >
@@ -28,7 +28,10 @@ export function MatricesRelated() {
           </h2>
         </div>
 
-        <div className="overflow-hidden rounded-2xl bg-white" style={{ border: '1px solid #D7E2EA', boxShadow: '0 2px 12px rgba(16,42,67,0.05)' }}>
+        <div
+          className="overflow-hidden rounded-2xl bg-white"
+          style={{ border: '1px solid #D7E2EA', boxShadow: '0 2px 12px rgba(16,42,67,0.05)' }}
+        >
           {related.map((item, i) => (
             <div
               key={item.name}
@@ -69,6 +72,7 @@ export function MatricesRelated() {
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );
