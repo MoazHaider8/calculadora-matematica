@@ -1,9 +1,11 @@
 const trustPages = [
-  { name: 'Contacto',                   desc: 'Envía consultas o sugerencias.',              url: null },
+  { name: 'Contacto',                   desc: 'Envía consultas o sugerencias.',              url: '/contacto' },
   { name: 'Política de privacidad',     desc: 'Cómo gestionamos los datos del sitio.',       url: null },
   { name: 'Términos y condiciones',     desc: 'Condiciones de uso de las herramientas.',     url: null },
   { name: 'Aviso legal',                desc: 'Información legal del sitio.',                url: null },
 ];
+
+import Link from 'next/link';
 
 export function SobreConfianza() {
   return (
@@ -25,12 +27,22 @@ export function SobreConfianza() {
                 <p className="mt-1.5 text-xs leading-relaxed text-slate">{page.desc}</p>
               </div>
               <div className="border-t px-5 pb-4 pt-3" style={{ borderColor: '#EEF4F7' }}>
-                <span
-                  className="inline-flex items-center rounded-lg px-3 py-2 text-xs font-bold opacity-55"
-                  style={{ background: '#D7E2EA', color: '#627d98' }}
-                >
-                  Próximamente
-                </span>
+                {page.url ? (
+                  <Link
+                    href={page.url}
+                    className="inline-flex items-center rounded-lg px-3 py-2 text-xs font-bold transition-opacity hover:opacity-90"
+                    style={{ background: '#D8A31A', color: '#0a2424' }}
+                  >
+                    Ver página &rarr;
+                  </Link>
+                ) : (
+                  <span
+                    className="inline-flex items-center rounded-lg px-3 py-2 text-xs font-bold opacity-55"
+                    style={{ background: '#D7E2EA', color: '#627d98' }}
+                  >
+                    Próximamente
+                  </span>
+                )}
               </div>
             </div>
           ))}
