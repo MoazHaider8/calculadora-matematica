@@ -35,7 +35,7 @@ const tools = [
     name:        'Calculadora de Media',
     explanation: 'Calcula la media de un conjunto de datos en contexto estadístico y muestra el procedimiento básico.',
     useCase:     'Para obtener el valor medio de un conjunto de datos en un análisis estadístico.',
-    url:         null,
+    url:         '/calculadoras/estadistica/calculadora-de-media',
   },
   {
     id:          'varianza',

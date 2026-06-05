@@ -11,7 +11,7 @@ const related = [
   { name: 'Calculadora de Estadística',        desc: 'Media, varianza, desviación estándar, mínimo y máximo.',         url: '/calculadoras/estadistica/calculadora-de-estadistica',           live: true  },
   { name: 'Calculadora de Probabilidad',       desc: 'Probabilidades básicas con casos favorables y posibles.',        url: '/calculadoras/estadistica/calculadora-de-probabilidad',          live: true  },
   { name: 'Calculadora de Desviación Estándar', desc: 'Dispersión de datos respecto a la media.',                      url: '/calculadoras/estadistica/calculadora-de-desviacion-estandar',  live: true  },
-  { name: 'Calculadora de Media',              desc: 'Media estadística de un conjunto de datos con procedimiento.',   url: '/calculadoras/estadistica/calculadora-de-media',                live: false },
+  { name: 'Calculadora de Media',              desc: 'Media estadística de un conjunto de datos con procedimiento.',   url: '/calculadoras/estadistica/calculadora-de-media',                live: true  },
   { name: 'Calculadora de Varianza',           desc: 'Dispersión cuadrática respecto a la media.',                     url: '/calculadoras/estadistica/calculadora-de-varianza',             live: false },
 ];
 

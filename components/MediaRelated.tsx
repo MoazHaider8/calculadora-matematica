@@ -1,20 +1,20 @@
 import Link from 'next/link';
 
 const related = [
-  { name: 'Calculadoras de Estadística',  desc: 'Hub con todas las herramientas estadísticas de la categoría.',            url: '/calculadoras/estadistica',                                      live: true  },
-  { name: 'Calculadora de Estadística',   desc: 'Media, mediana, moda, rango, varianza y desviación estándar juntos.',     url: '/calculadoras/estadistica/calculadora-de-estadistica',          live: true  },
-  { name: 'Calculadora de Probabilidad',  desc: 'Calcula probabilidades de eventos con casos favorables y posibles.',      url: '/calculadoras/estadistica/calculadora-de-probabilidad',         live: true  },
-  { name: 'Calculadora de Promedio',      desc: 'Promedio simple y ponderado para listas de valores.',                     url: '/calculadoras/aritmetica/calculadora-de-promedio',              live: true  },
-  { name: 'Calculadora de Media',         desc: 'Herramienta dedicada al cálculo de la media estadística.',                url: '/calculadoras/estadistica/calculadora-de-media',                live: true  },
-  { name: 'Calculadora de Varianza',      desc: 'Calcula la varianza poblacional y muestral de un conjunto de datos.',     url: '/calculadoras/estadistica/calculadora-de-varianza',             live: false },
+  { name: 'Calculadoras de Estadística',       desc: 'Hub con todas las herramientas estadísticas de la categoría.',            url: '/calculadoras/estadistica',                                      live: true  },
+  { name: 'Calculadora de Estadística',        desc: 'Media, mediana, moda, rango, varianza y desviación estándar juntos.',     url: '/calculadoras/estadistica/calculadora-de-estadistica',          live: true  },
+  { name: 'Calculadora de Probabilidad',       desc: 'Calcula probabilidades de eventos con casos favorables y posibles.',      url: '/calculadoras/estadistica/calculadora-de-probabilidad',         live: true  },
+  { name: 'Calculadora de Desviación Estándar', desc: 'Desviación estándar poblacional y muestral de un conjunto.',             url: '/calculadoras/estadistica/calculadora-de-desviacion-estandar',  live: true  },
+  { name: 'Calculadora de Promedio',           desc: 'Promedio simple y ponderado para listas de valores.',                     url: '/calculadoras/aritmetica/calculadora-de-promedio',              live: true  },
+  { name: 'Calculadora de Varianza',           desc: 'Calcula la varianza poblacional y muestral de un conjunto de datos.',     url: '/calculadoras/estadistica/calculadora-de-varianza',             live: false },
 ];
 
-export function DesviacionRelated() {
+export function MediaRelated() {
   return (
-    <section className="bg-white py-12 lg:py-16" aria-labelledby="related-desv-heading">
+    <section className="bg-page py-12 lg:py-16" aria-labelledby="related-media-heading">
       <div className="site-shell">
         <p className="eyebrow">Recursos</p>
-        <h2 id="related-desv-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
+        <h2 id="related-media-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
           Calculadoras relacionadas
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
