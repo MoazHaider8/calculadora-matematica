@@ -39,12 +39,9 @@ export interface NavItem {
 
 export const navItems: NavItem[] = [
   { label: 'Inicio', href: '/' },
-  { label: 'Calculadoras', href: '/calculadoras', hasMegaMenu: true },
-  { label: 'Categorías', href: '/categorias' },
-  { label: 'Guías', href: '/guias' },
-  { label: 'Recursos', href: '/recursos' },
-  { label: 'Contacto', href: '/contacto' },
   { label: 'Sobre nosotros', href: '/sobre-nosotros' },
+  { label: 'Calculadoras', href: '/calculadoras', hasMegaMenu: true },
+  { label: 'Contacto', href: '/contacto' },
 ];
 
 // ─── Mega menu categories ──────────────────────────────────────────────────────

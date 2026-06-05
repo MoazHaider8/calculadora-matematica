@@ -12,13 +12,6 @@ const popularFooterLinks = [
   { name: 'Calculadora de promedio', url: '/calculadoras/aritmetica/calculadora-de-promedio/' },
 ];
 
-const resourceLinks = [
-  { name: 'Guías de matemáticas', url: '/guias' },
-  { name: 'Fórmulas matemáticas', url: '/recursos/formulas' },
-  { name: 'Tablas de referencia', url: '/recursos/tablas' },
-  { name: 'Glosario matemático', url: '/recursos/glosario' },
-];
-
 const legalLinks = [
   { name: 'Sobre nosotros', url: '/sobre-nosotros' },
   { name: 'Términos y Condiciones', url: '/terminos-y-condiciones' },
@@ -82,16 +75,6 @@ export function Footer() {
           </div>
 
           <div className="lg:col-span-3">
-            <p className="mb-4 text-xs font-bold uppercase text-gold">Recursos</p>
-            <ul className="mb-7 space-y-2.5">
-              {resourceLinks.map((link) => (
-                <li key={link.url}>
-                  <Link href={link.url} className="text-[0.8125rem] text-panel-3 transition-colors hover:text-white-soft">
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
             <p className="mb-4 text-xs font-bold uppercase text-gold">Legal</p>
             <ul className="space-y-2.5">
               {legalLinks.map((link) => (
