@@ -41,6 +41,7 @@ export const navItems: NavItem[] = [
   { label: 'Inicio', href: '/' },
   { label: 'Sobre nosotros', href: '/sobre-nosotros' },
   { label: 'Calculadoras', href: '/calculadoras', hasMegaMenu: true },
+  { label: 'Blog', href: '/blog' },
   { label: 'Contacto', href: '/contacto' },
 ];
 

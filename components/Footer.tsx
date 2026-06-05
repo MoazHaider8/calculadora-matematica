@@ -14,6 +14,7 @@ const popularFooterLinks = [
 
 const legalLinks = [
   { name: 'Sobre nosotros', url: '/sobre-nosotros' },
+  { name: 'Blog', url: '/blog' },
   { name: 'Términos y Condiciones', url: '/terminos-y-condiciones' },
   { name: 'Política de Privacidad', url: '/politica-de-privacidad' },
   { name: 'Aviso Legal', url: '/aviso-legal' },
