@@ -175,10 +175,10 @@ export function EstadisticaCalcCalculator() {
         <div className="grid gap-8 lg:grid-cols-2">
 
           {/* ── Input panel ── */}
-          <div className="academic-card p-7">
+          <div className="academic-card p-6">
 
-            {/* Label */}
-            <div className="mb-4">
+            {/* Label + textarea */}
+            <div className="mb-3">
               <label htmlFor="datos-input" className="mb-1.5 block text-xs font-bold text-ink">
                 Datos del conjunto (separados por coma o por línea)
               </label>
@@ -186,44 +186,43 @@ export function EstadisticaCalcCalculator() {
                 id="datos-input"
                 value={raw}
                 onChange={e => setRaw(e.target.value)}
-                rows={5}
+                rows={4}
                 placeholder="10, 8, 9, 7, 6"
                 className="w-full resize-none rounded-xl border border-line bg-white px-4 py-3 font-mono text-sm text-ink focus:border-teal focus:outline-none focus:ring-2 focus:ring-teal/20"
                 aria-label="Lista de datos para el análisis estadístico"
               />
             </div>
 
-            {/* Parsed chips */}
+            {/* Compact "datos leídos" row */}
             {parsedChips.length > 0 && (
-              <div className="mb-5">
-                <p className="mb-2 text-[10px] font-bold uppercase tracking-widest text-muted">
-                  Valores detectados ({parsedChips.length})
-                </p>
-                <div className="flex flex-wrap gap-1.5">
-                  {parsedChips.map((v, i) => (
-                    <span
-                      key={i}
-                      className="inline-block rounded-md px-2.5 py-1 font-mono text-xs font-bold"
-                      style={{ background: '#F0FAF9', border: '1px solid #DDF3F0', color: '#0a4f4d' }}
-                    >
-                      {v}
-                    </span>
-                  ))}
-                </div>
+              <div
+                className="mb-4 flex items-center gap-2 rounded-lg px-3 py-2"
+                style={{ background: '#F0FAF9', border: '1px solid #DDF3F0' }}
+              >
+                <span
+                  className="shrink-0 text-[10px] font-bold uppercase tracking-widest"
+                  style={{ color: '#0a4f4d' }}
+                >
+                  Datos leídos ({parsedChips.length}):
+                </span>
+                <span className="min-w-0 truncate font-mono text-xs font-semibold" style={{ color: '#0a4f4d' }}>
+                  {parsedChips.length <= 8
+                    ? parsedChips.join(', ')
+                    : `${parsedChips.slice(0, 6).join(', ')} ... (${parsedChips.length} valores)`}
+                </span>
               </div>
             )}
 
-            {/* Formula reference */}
+            {/* Compact formula strip */}
             <div
-              className="mb-6 rounded-xl px-5 py-4"
+              className="mb-5 rounded-xl px-4 py-3"
               style={{ background: '#0a3535' }}
             >
-              <p className="mb-2 text-[9px] font-bold uppercase tracking-widest" style={{ color: 'rgba(221,243,240,0.45)' }}>
-                Fórmulas de referencia
-              </p>
-              <div className="flex flex-wrap gap-x-6 gap-y-1 font-mono text-xs" style={{ color: 'rgba(216,163,26,0.85)' }}>
+              <div className="flex flex-wrap items-center gap-x-5 gap-y-1 font-mono text-xs" style={{ color: 'rgba(216,163,26,0.8)' }}>
                 <span>x̄ = Σx / n</span>
+                <span style={{ color: 'rgba(221,243,240,0.2)' }}>·</span>
                 <span>σ² = Σ(x − x̄)² / n</span>
+                <span style={{ color: 'rgba(221,243,240,0.2)' }}>·</span>
                 <span>σ = √σ²</span>
               </div>
             </div>
@@ -246,14 +245,14 @@ export function EstadisticaCalcCalculator() {
             </div>
 
             {/* Example chips */}
-            <div className="mt-5 border-t border-line pt-4">
+            <div className="mt-4 border-t border-line pt-4">
               <p className="mb-2 text-[10px] font-bold uppercase tracking-widest text-muted">Ejemplos rápidos</p>
               <div className="flex flex-wrap gap-1.5">
                 {EXAMPLES.map(ex => (
                   <button
                     key={ex.label}
                     onClick={() => applyExample(ex)}
-                    className="min-h-[36px] rounded-md border border-line px-2.5 py-1 text-xs font-semibold text-slate transition-colors hover:border-teal hover:bg-aqua-soft hover:text-deep-teal focus:outline-none"
+                    className="min-h-[32px] rounded-md border border-line px-2.5 py-1 text-xs font-semibold text-slate transition-colors hover:border-teal hover:bg-aqua-soft hover:text-deep-teal focus:outline-none"
                     aria-label={`Ejemplo: ${ex.label}`}
                   >
                     {ex.label}
@@ -305,7 +304,10 @@ export function EstadisticaCalcCalculator() {
                     <StatCard label="Media" value={fmtNum(result.mean)} highlight />
                     <div className="grid grid-cols-2 gap-2">
                       <StatCard label="Mediana" value={fmtNum(result.median)} />
-                      <StatCard label="Moda" value={result.modes ? result.modes.map(fmtNum).join(', ') : 'Sin moda'} />
+                      <StatCard
+                        label={result.modes && result.modes.length > 1 ? 'Moda (múltiple)' : 'Moda'}
+                        value={result.modes ? result.modes.map(fmtNum).join(', ') : 'Sin moda'}
+                      />
                     </div>
                   </div>
                 </div>

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const tools = [
   {
     id:          'estadistica',
@@ -15,7 +17,7 @@ const tools = [
     name:        'Calculadora de Probabilidad',
     explanation: 'Calcula probabilidades básicas a partir de casos favorables y posibles, con resultado decimal y porcentaje.',
     useCase:     'Para calcular la probabilidad de un evento a partir de casos favorables y el espacio muestral.',
-    url:         null,
+    url:         '/calculadoras/estadistica/calculadora-de-probabilidad',
   },
   {
     id:          'desviacion-estandar',
@@ -163,13 +165,23 @@ export function EstadisticaTools() {
                     <p className="mt-3 text-xs font-semibold italic" style={{ color: '#829ab1' }}>{tool.useCase}</p>
                   </div>
                   <div className="px-5 pb-4 pt-2">
-                    <div
-                      className="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-xs font-bold opacity-60"
-                      style={{ background: '#D7E2EA', color: '#627d98', cursor: 'default' }}
-                      aria-label={`${tool.name} — próximamente`}
-                    >
-                      Próximamente
-                    </div>
+                    {tool.url ? (
+                      <Link
+                        href={tool.url}
+                        className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-bold transition-colors hover:opacity-90"
+                        style={{ background: '#D8A31A', color: '#fff' }}
+                      >
+                        Ver calculadora &rarr;
+                      </Link>
+                    ) : (
+                      <div
+                        className="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-xs font-bold opacity-60"
+                        style={{ background: '#D7E2EA', color: '#627d98', cursor: 'default' }}
+                        aria-label={`${tool.name} — próximamente`}
+                      >
+                        Próximamente
+                      </div>
+                    )}
                   </div>
                 </article>
               ))}
