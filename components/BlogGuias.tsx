@@ -5,30 +5,30 @@ const groups = [
     topic: 'Aritmética',
     articles: [
       { title: 'Cómo calcular porcentajes',       purpose: 'Descuentos, aumentos y cambios porcentuales con fórmulas.',       calcUrl: '/calculadoras/aritmetica/calculadora-de-porcentajes/', calcLabel: 'Calculadora de porcentajes', articleUrl: '/blog/como-calcular-porcentajes' as string | undefined },
-      { title: 'Qué es la regla de tres',          purpose: 'Relación proporcional entre tres valores con procedimiento.',       calcUrl: '/calculadoras/aritmetica/calculadora-de-regla-de-tres/', calcLabel: 'Calculadora de regla de tres' },
-      { title: 'Cómo sacar promedio',              purpose: 'Media aritmética de un conjunto de valores con pasos claros.',     calcUrl: '/calculadoras/aritmetica/calculadora-de-promedio/', calcLabel: 'Calculadora de promedio' },
+      { title: 'Qué es la regla de tres',          purpose: 'Relación proporcional entre tres valores con procedimiento.',       calcUrl: '/calculadoras/aritmetica/calculadora-de-regla-de-tres/', calcLabel: 'Calculadora de regla de tres', articleUrl: '/blog/que-es-la-regla-de-tres' as string | undefined },
+      { title: 'Cómo sacar promedio',              purpose: 'Media aritmética de un conjunto de valores con pasos claros.',     calcUrl: '/calculadoras/aritmetica/calculadora-de-promedio/', calcLabel: 'Calculadora de promedio', articleUrl: '/blog/como-sacar-promedio' as string | undefined },
     ],
   },
   {
     topic: 'Geometría',
     articles: [
-      { title: 'Fórmulas de área',                 purpose: 'Área de cuadrados, rectángulos, triángulos y círculos.',           calcUrl: '/calculadoras/geometria/calculadora-de-area/', calcLabel: 'Calculadora de área' },
-      { title: 'Fórmulas de volumen',              purpose: 'Volumen de cubos, esferas, cilindros, conos y pirámides.',         calcUrl: '/calculadoras/geometria/calculadora-de-volumen/', calcLabel: 'Calculadora de volumen' },
-      { title: 'Teorema de Pitágoras',             purpose: 'Relación entre los lados del triángulo rectángulo: a² + b² = c².', calcUrl: '/calculadoras/geometria/calculadora-de-pitagoras/', calcLabel: 'Calculadora de Pitágoras' },
+      { title: 'Fórmulas de área',                 purpose: 'Área de cuadrados, rectángulos, triángulos y círculos.',           calcUrl: '/calculadoras/geometria/calculadora-de-area/', calcLabel: 'Calculadora de área', articleUrl: '/blog/formulas-de-area' as string | undefined },
+      { title: 'Fórmulas de volumen',              purpose: 'Volumen de cubos, esferas, cilindros, conos y pirámides.',         calcUrl: '/calculadoras/geometria/calculadora-de-volumen/', calcLabel: 'Calculadora de volumen', articleUrl: '/blog/formulas-de-volumen' as string | undefined },
+      { title: 'Teorema de Pitágoras',             purpose: 'Relación entre los lados del triángulo rectángulo: a² + b² = c².', calcUrl: '/calculadoras/geometria/calculadora-de-pitagoras/', calcLabel: 'Calculadora de Pitágoras', articleUrl: '/blog/teorema-de-pitagoras' as string | undefined },
     ],
   },
   {
     topic: 'Estadística',
     articles: [
-      { title: 'Media, mediana y moda: diferencias', purpose: 'Medidas de tendencia central y cuándo usar cada una.',            calcUrl: '/calculadoras/estadistica/calculadora-de-estadistica/', calcLabel: 'Calculadora de estadística' },
-      { title: 'Varianza y desviación estándar',   purpose: 'Dispersión de datos estadísticos con fórmulas y ejemplos.',       calcUrl: '/calculadoras/estadistica/calculadora-de-varianza/', calcLabel: 'Calculadora de varianza' },
-      { title: 'Qué es la probabilidad',           purpose: 'Concepto de probabilidad, eventos y cálculo básico.',             calcUrl: '/calculadoras/estadistica/calculadora-de-probabilidad/', calcLabel: 'Calculadora de probabilidad' },
+      { title: 'Media, mediana y moda: diferencias', purpose: 'Medidas de tendencia central y cuándo usar cada una.',            calcUrl: '/calculadoras/estadistica/calculadora-de-estadistica/', calcLabel: 'Calculadora de estadística', articleUrl: '/blog/media-mediana-moda-diferencias' as string | undefined },
+      { title: 'Varianza y desviación estándar',   purpose: 'Dispersión de datos estadísticos con fórmulas y ejemplos.',       calcUrl: '/calculadoras/estadistica/calculadora-de-varianza/', calcLabel: 'Calculadora de varianza', articleUrl: '/blog/varianza-y-desviacion-estandar' as string | undefined },
+      { title: 'Qué es la probabilidad',           purpose: 'Concepto de probabilidad, eventos y cálculo básico.',             calcUrl: '/calculadoras/estadistica/calculadora-de-probabilidad/', calcLabel: 'Calculadora de probabilidad', articleUrl: '/blog/que-es-la-probabilidad' as string | undefined },
     ],
   },
   {
     topic: 'Cálculo',
     articles: [
-      { title: 'Qué es una derivada',              purpose: 'Concepto de derivada, reglas básicas y aplicaciones.',             calcUrl: '/calculadoras/calculo/calculadora-de-derivadas/', calcLabel: 'Calculadora de derivadas' },
+      { title: 'Qué es una derivada',              purpose: 'Concepto de derivada, reglas básicas y aplicaciones.',             calcUrl: '/calculadoras/calculo/calculadora-de-derivadas/', calcLabel: 'Calculadora de derivadas', articleUrl: '/blog/que-es-una-derivada' as string | undefined },
       { title: 'Qué es una integral',              purpose: 'Integral definida e indefinida con ejemplos prácticos.',           calcUrl: '/calculadoras/calculo/calculadora-de-integrales/', calcLabel: 'Calculadora de integrales' },
       { title: 'Cómo calcular límites',            purpose: 'Definición y cálculo de límites de funciones.',                   calcUrl: '/calculadoras/calculo/calculadora-de-limites/', calcLabel: 'Calculadora de límites' },
     ],

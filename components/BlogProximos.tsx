@@ -2,15 +2,15 @@ import Link from 'next/link';
 
 const proximos = [
   { n: 1,  title: 'Cómo calcular porcentajes',          calcUrl: '/calculadoras/aritmetica/calculadora-de-porcentajes/',         calcLabel: 'Calculadora de porcentajes',    articleUrl: '/blog/como-calcular-porcentajes' as string | undefined },
-  { n: 2,  title: 'Qué es la regla de tres',             calcUrl: '/calculadoras/aritmetica/calculadora-de-regla-de-tres/',        calcLabel: 'Calculadora de regla de tres',  articleUrl: undefined },
-  { n: 3,  title: 'Cómo sacar promedio',                 calcUrl: '/calculadoras/aritmetica/calculadora-de-promedio/',             calcLabel: 'Calculadora de promedio',       articleUrl: undefined },
-  { n: 4,  title: 'Fórmulas de área',                    calcUrl: '/calculadoras/geometria/calculadora-de-area/',                  calcLabel: 'Calculadora de área',           articleUrl: undefined },
-  { n: 5,  title: 'Fórmulas de volumen',                 calcUrl: '/calculadoras/geometria/calculadora-de-volumen/',               calcLabel: 'Calculadora de volumen',        articleUrl: undefined },
-  { n: 6,  title: 'Teorema de Pitágoras',                calcUrl: '/calculadoras/geometria/calculadora-de-pitagoras/',             calcLabel: 'Calculadora de Pitágoras',      articleUrl: undefined },
-  { n: 7,  title: 'Media, mediana y moda: diferencias',  calcUrl: '/calculadoras/estadistica/calculadora-de-estadistica/',         calcLabel: 'Calculadora de estadística',    articleUrl: undefined },
-  { n: 8,  title: 'Varianza y desviación estándar',      calcUrl: '/calculadoras/estadistica/calculadora-de-varianza/',            calcLabel: 'Calculadora de varianza',       articleUrl: undefined },
-  { n: 9,  title: 'Qué es la probabilidad',              calcUrl: '/calculadoras/estadistica/calculadora-de-probabilidad/',        calcLabel: 'Calculadora de probabilidad',   articleUrl: undefined },
-  { n: 10, title: 'Qué es una derivada',                 calcUrl: '/calculadoras/calculo/calculadora-de-derivadas/',               calcLabel: 'Calculadora de derivadas',      articleUrl: undefined },
+  { n: 2,  title: 'Qué es la regla de tres',             calcUrl: '/calculadoras/aritmetica/calculadora-de-regla-de-tres/',        calcLabel: 'Calculadora de regla de tres',  articleUrl: '/blog/que-es-la-regla-de-tres' as string | undefined },
+  { n: 3,  title: 'Cómo sacar promedio',                 calcUrl: '/calculadoras/aritmetica/calculadora-de-promedio/',             calcLabel: 'Calculadora de promedio',       articleUrl: '/blog/como-sacar-promedio' as string | undefined },
+  { n: 4,  title: 'Fórmulas de área',                    calcUrl: '/calculadoras/geometria/calculadora-de-area/',                  calcLabel: 'Calculadora de área',           articleUrl: '/blog/formulas-de-area' as string | undefined },
+  { n: 5,  title: 'Fórmulas de volumen',                 calcUrl: '/calculadoras/geometria/calculadora-de-volumen/',               calcLabel: 'Calculadora de volumen',        articleUrl: '/blog/formulas-de-volumen' as string | undefined },
+  { n: 6,  title: 'Teorema de Pitágoras',                calcUrl: '/calculadoras/geometria/calculadora-de-pitagoras/',             calcLabel: 'Calculadora de Pitágoras',      articleUrl: '/blog/teorema-de-pitagoras' as string | undefined },
+  { n: 7,  title: 'Media, mediana y moda: diferencias',  calcUrl: '/calculadoras/estadistica/calculadora-de-estadistica/',         calcLabel: 'Calculadora de estadística',    articleUrl: '/blog/media-mediana-moda-diferencias' as string | undefined },
+  { n: 8,  title: 'Varianza y desviación estándar',      calcUrl: '/calculadoras/estadistica/calculadora-de-varianza/',            calcLabel: 'Calculadora de varianza',       articleUrl: '/blog/varianza-y-desviacion-estandar' as string | undefined },
+  { n: 9,  title: 'Qué es la probabilidad',              calcUrl: '/calculadoras/estadistica/calculadora-de-probabilidad/',        calcLabel: 'Calculadora de probabilidad',   articleUrl: '/blog/que-es-la-probabilidad' as string | undefined },
+  { n: 10, title: 'Qué es una derivada',                 calcUrl: '/calculadoras/calculo/calculadora-de-derivadas/',               calcLabel: 'Calculadora de derivadas',      articleUrl: '/blog/que-es-una-derivada' as string | undefined },
 ];
 
 export function BlogProximos() {

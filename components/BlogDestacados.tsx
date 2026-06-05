@@ -15,7 +15,7 @@ const featured = [
     desc:        'Repasa las fórmulas de área más usadas para cuadrados, rectángulos, triángulos, círculos y otras figuras.',
     calcUrl:     '/calculadoras/geometria/calculadora-de-area/',
     calcLabel:   'Calculadora de área',
-    articleUrl:  undefined,
+    articleUrl:  '/blog/formulas-de-area' as string | undefined,
   },
   {
     category:    'Estadística',
@@ -23,7 +23,7 @@ const featured = [
     desc:        'Entiende la diferencia entre medidas de tendencia central y cuándo usar cada una.',
     calcUrl:     '/calculadoras/estadistica/calculadora-de-estadistica/',
     calcLabel:   'Calculadora de estadística',
-    articleUrl:  undefined,
+    articleUrl:  '/blog/media-mediana-moda-diferencias' as string | undefined,
   },
 ];
 
