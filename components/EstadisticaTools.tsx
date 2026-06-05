@@ -44,7 +44,7 @@ const tools = [
     name:        'Calculadora de Varianza',
     explanation: 'Calcula la varianza para entender qué tan separados están los valores respecto a la media.',
     useCase:     'Para calcular la dispersión cuadrática respecto a la media de un conjunto de datos.',
-    url:         null,
+    url:         '/calculadoras/estadistica/calculadora-de-varianza',
   },
 ];
 

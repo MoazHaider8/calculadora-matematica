@@ -6,7 +6,7 @@ const related = [
   { name: 'Calculadora de Probabilidad',  desc: 'Calcula probabilidades de eventos con casos favorables y posibles.',      url: '/calculadoras/estadistica/calculadora-de-probabilidad',         live: true  },
   { name: 'Calculadora de Promedio',      desc: 'Promedio simple y ponderado para listas de valores.',                     url: '/calculadoras/aritmetica/calculadora-de-promedio',              live: true  },
   { name: 'Calculadora de Media',         desc: 'Herramienta dedicada al cálculo de la media estadística.',                url: '/calculadoras/estadistica/calculadora-de-media',                live: true  },
-  { name: 'Calculadora de Varianza',      desc: 'Calcula la varianza poblacional y muestral de un conjunto de datos.',     url: '/calculadoras/estadistica/calculadora-de-varianza',             live: false },
+  { name: 'Calculadora de Varianza',      desc: 'Calcula la varianza poblacional y muestral de un conjunto de datos.',     url: '/calculadoras/estadistica/calculadora-de-varianza',             live: true  },
 ];
 
 export function DesviacionRelated() {

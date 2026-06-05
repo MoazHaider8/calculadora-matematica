@@ -8,7 +8,7 @@ const related = [
   { name: 'Calculadora de Probabilidad',         desc: 'Calcula probabilidades a partir de casos favorables y posibles.',       url: '/calculadoras/estadistica/calculadora-de-probabilidad',                         live: true  },
   { name: 'Calculadora de Desviación Estándar',  desc: 'Herramienta dedicada al cálculo de la desviación estándar.',           url: '/calculadoras/estadistica/calculadora-de-desviacion-estandar',                  live: true  },
   { name: 'Calculadora de Media',                desc: 'Calcula la media estadística con procedimiento detallado.',             url: '/calculadoras/estadistica/calculadora-de-media',                                live: true  },
-  { name: 'Calculadora de Varianza',             desc: 'Calcula la varianza poblacional y muestral de un conjunto.',            url: '/calculadoras/estadistica/calculadora-de-varianza',                             live: false },
+  { name: 'Calculadora de Varianza',             desc: 'Calcula la varianza poblacional y muestral de un conjunto.',            url: '/calculadoras/estadistica/calculadora-de-varianza',                             live: true  },
 ];
 
 export function EstadisticaCalcRelated() {
