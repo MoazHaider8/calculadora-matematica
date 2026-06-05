@@ -44,6 +44,7 @@ export const navItems: NavItem[] = [
   { label: 'Guías', href: '/guias' },
   { label: 'Recursos', href: '/recursos' },
   { label: 'Contacto', href: '/contacto' },
+  { label: 'Sobre nosotros', href: '/sobre-nosotros' },
 ];
 
 // ─── Mega menu categories ──────────────────────────────────────────────────────
