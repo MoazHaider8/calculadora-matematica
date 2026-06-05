@@ -6,7 +6,7 @@ const tools = [
     name:        'Calculadora de Estadística',
     explanation: 'Analiza un conjunto de datos y muestra medidas principales como media, varianza, desviación estándar, mínimo, máximo y cantidad de valores.',
     useCase:     'Para obtener un análisis completo de un conjunto de datos con varias medidas estadísticas a la vez.',
-    url:         null,
+    url:         '/calculadoras/estadistica/calculadora-de-estadistica',
   },
   {
     id:          'probabilidad',
