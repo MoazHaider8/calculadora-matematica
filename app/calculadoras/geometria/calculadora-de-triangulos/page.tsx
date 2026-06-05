@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { Header }              from '@/components/Header';
+import { Footer }              from '@/components/Footer';
 import { TriangulosHero }      from '@/components/TriangulosHero';
 import { TriangulosCalculator } from '@/components/TriangulosCalculator';
 import { TriangulosHowTo }     from '@/components/TriangulosHowTo';
@@ -79,6 +81,7 @@ export default function CalculadoraDeTriangulosPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <Header />
       <TriangulosHero />
       <TriangulosCalculator />
       <TriangulosHowTo />
@@ -89,6 +92,7 @@ export default function CalculadoraDeTriangulosPage() {
       <TriangulosErrors />
       <TriangulosRelated />
       <TriangulosFAQ />
+      <Footer />
     </>
   );
 }
