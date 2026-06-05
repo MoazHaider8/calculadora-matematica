@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
 const quickLinks = [
+  { label: 'Estadística',         anchor: '#herramienta-estadistica'         },
+  { label: 'Probabilidad',        anchor: '#herramienta-probabilidad'        },
   { label: 'Media',               anchor: '#herramienta-media'               },
-  { label: 'Mediana',             anchor: '#herramienta-mediana'             },
-  { label: 'Moda',                anchor: '#herramienta-moda'                },
   { label: 'Varianza',            anchor: '#herramienta-varianza'            },
   { label: 'Desviación estándar', anchor: '#herramienta-desviacion-estandar' },
 ];

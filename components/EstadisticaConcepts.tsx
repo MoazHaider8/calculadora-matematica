@@ -1,32 +1,32 @@
 const concepts = [
   {
+    title:   'Análisis de datos',
+    desc:    'Proceso de examinar un conjunto de valores para extraer medidas representativas como media, varianza y desviación estándar.',
+    related: 'Calculadora de Estadística',
+  },
+  {
+    title:   'Probabilidad',
+    desc:    'Medida numérica de la posibilidad de que ocurra un evento. Se expresa entre 0 y 1 o como porcentaje.',
+    related: 'Calculadora de Probabilidad',
+  },
+  {
     title:   'Tendencia central',
-    desc:    'Medidas que resumen un conjunto de datos con un valor representativo. Incluye media, mediana y moda.',
-    related: 'Media, Mediana, Moda',
+    desc:    'Medidas que resumen el conjunto con un valor representativo. Incluye la media. La mediana y la moda son también medidas de tendencia central.',
+    related: 'Calculadora de Media',
   },
   {
     title:   'Dispersión',
-    desc:    'Mide cuánto se alejan los valores de la media. Un valor alto indica datos más separados.',
+    desc:    'Indica cuánto se alejan los valores de la media. Una dispersión alta indica datos muy separados entre sí.',
     related: 'Varianza, Desviación estándar',
   },
   {
     title:   'Media',
-    desc:    'Suma de todos los valores dividida entre la cantidad de datos. También llamada promedio aritmético.',
+    desc:    'Suma de todos los valores del conjunto dividida entre la cantidad de datos. Es la medida de tendencia central más utilizada.',
     related: 'Calculadora de Media',
   },
   {
-    title:   'Mediana',
-    desc:    'El valor que ocupa la posición central cuando los datos están ordenados de menor a mayor.',
-    related: 'Calculadora de Mediana',
-  },
-  {
-    title:   'Moda',
-    desc:    'El valor o valores que aparecen con mayor frecuencia en el conjunto de datos.',
-    related: 'Calculadora de Moda',
-  },
-  {
-    title:   'Muestra y población',
-    desc:    'La población incluye todos los datos posibles. La muestra es un subconjunto representativo.',
+    title:   'Varianza y desviación estándar',
+    desc:    'La varianza mide la dispersión cuadrática respecto a la media. La desviación estándar es su raíz cuadrada y se expresa en las mismas unidades que los datos.',
     related: 'Varianza, Desviación estándar',
   },
 ];

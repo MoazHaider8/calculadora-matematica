@@ -5,27 +5,27 @@ import { useState } from 'react';
 const faqs = [
   {
     q: '¿Qué herramientas incluye esta categoría?',
-    a: 'Esta categoría incluye cinco calculadoras: media, mediana, moda, varianza y desviación estándar. Todas estarán disponibles próximamente.',
+    a: 'Esta categoría incluye cinco calculadoras: Calculadora de Estadística, Calculadora de Probabilidad, Calculadora de Desviación Estándar, Calculadora de Media y Calculadora de Varianza. Todas estarán disponibles próximamente.',
   },
   {
-    q: '¿Qué diferencia hay entre media y promedio?',
-    a: 'Promedio es el término cotidiano para referirse al promedio aritmético, especialmente en contextos escolares como notas o calificaciones. Media es el término estadístico formal y se usa en análisis de datos. La calculadora de promedio de la sección de aritmética es útil para promedios simples. La futura calculadora de media estará orientada al contexto estadístico.',
+    q: '¿Qué diferencia hay entre calculadora de estadística y calculadora de media?',
+    a: 'La calculadora de estadística analizará un conjunto de datos completo y mostrará varias medidas a la vez: media, varianza, desviación estándar, mínimo, máximo y cantidad de valores. La calculadora de media se centrará en calcular el valor medio de un conjunto de datos en contexto estadístico. Para promedios simples de notas o valores cotidianos, la calculadora de promedio de la sección de aritmética es la herramienta adecuada.',
   },
   {
-    q: '¿Qué calculadora debo usar para encontrar el valor central?',
-    a: 'Para el valor central de un conjunto de datos ordenados, la calculadora de mediana es la herramienta adecuada. La mediana no se ve afectada por valores extremos, lo que la hace más representativa que la media en ciertos casos.',
+    q: '¿Qué calculadora debo usar para probabilidad?',
+    a: 'La calculadora de probabilidad está diseñada para calcular la probabilidad de un evento a partir de los casos favorables y el número total de casos posibles. El resultado se muestra como fracción, decimal y porcentaje.',
   },
   {
     q: '¿Qué es la desviación estándar?',
-    a: 'La desviación estándar mide cuánto se dispersan los valores de un conjunto de datos respecto a la media. Se calcula como la raíz cuadrada de la varianza y se expresa en las mismas unidades que los datos originales, lo que facilita su interpretación.',
+    a: 'La desviación estándar mide cuánto se dispersan los valores de un conjunto de datos respecto a la media. Se calcula como la raíz cuadrada de la varianza y se expresa en las mismas unidades que los datos originales, lo que facilita su interpretación directa.',
   },
   {
     q: '¿Qué diferencia hay entre varianza y desviación estándar?',
-    a: 'La varianza es la media de los cuadrados de las diferencias entre cada valor y la media. La desviación estándar es la raíz cuadrada de la varianza. Ambas miden dispersión, pero la desviación estándar es más fácil de interpretar porque está en las mismas unidades que los datos.',
+    a: 'La varianza es la media de los cuadrados de las diferencias entre cada valor y la media. La desviación estándar es la raíz cuadrada de la varianza. Ambas miden dispersión, pero la desviación estándar es más fácil de interpretar porque está en las mismas unidades que los datos originales.',
   },
   {
     q: '¿Estas herramientas sirven para analizar datos escolares?',
-    a: 'Sí. Puedes usarlas para calcular la media de calificaciones, identificar la nota más frecuente con la moda, o revisar la variabilidad de los resultados con la varianza y la desviación estándar. Son útiles tanto en educación como en cualquier área que trabaje con conjuntos de datos numéricos.',
+    a: 'Sí. Puedes usarlas para calcular la media de calificaciones, revisar la varianza y desviación estándar de los resultados, o calcular la probabilidad de un evento concreto. Son útiles tanto en educación como en cualquier área que trabaje con conjuntos de datos numéricos.',
   },
 ];
 

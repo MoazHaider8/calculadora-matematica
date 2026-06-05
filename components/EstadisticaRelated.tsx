@@ -1,13 +1,18 @@
 import Link from 'next/link';
 
 const related = [
-  { name: 'Directorio de Calculadoras',  desc: 'Explora todas las categorías matemáticas disponibles.',          url: '/calculadoras',                                                  live: true },
-  { name: 'Calculadoras de Aritmética',  desc: 'Fracciones, porcentajes, promedio, regla de tres y científica.', url: '/calculadoras/aritmetica',                                       live: true },
-  { name: 'Calculadora de Promedio',     desc: 'Calcula la media aritmética simple y ponderada.',                url: '/calculadoras/aritmetica/calculadora-de-promedio',               live: true },
-  { name: 'Calculadora de Porcentajes',  desc: 'Descuentos, aumentos y variaciones porcentuales.',               url: '/calculadoras/aritmetica/calculadora-de-porcentajes',            live: true },
-  { name: 'Calculadora Científica',      desc: 'Trigonometría, logaritmos, potencias y raíces en un lugar.',     url: '/calculadoras/aritmetica/calculadora-cientifica',                live: true },
-  { name: 'Calculadoras de Álgebra',     desc: 'Ecuaciones, polinomios y herramientas algebraicas.',             url: '/calculadoras/algebra',                                          live: true },
-  { name: 'Calculadoras de Cálculo',     desc: 'Derivadas, integrales, límites, logaritmos y exponentes.',       url: '/calculadoras/calculo',                                          live: true },
+  { name: 'Directorio de Calculadoras',        desc: 'Explora todas las categorías matemáticas disponibles.',          url: '/calculadoras',                                                  live: true  },
+  { name: 'Calculadoras de Aritmética',        desc: 'Fracciones, porcentajes, promedio, regla de tres y científica.', url: '/calculadoras/aritmetica',                                       live: true  },
+  { name: 'Calculadora de Promedio',           desc: 'Calcula la media aritmética simple y ponderada.',                url: '/calculadoras/aritmetica/calculadora-de-promedio',               live: true  },
+  { name: 'Calculadora de Porcentajes',        desc: 'Descuentos, aumentos y variaciones porcentuales.',               url: '/calculadoras/aritmetica/calculadora-de-porcentajes',            live: true  },
+  { name: 'Calculadora Científica',            desc: 'Trigonometría, logaritmos, potencias y raíces en un lugar.',     url: '/calculadoras/aritmetica/calculadora-cientifica',                live: true  },
+  { name: 'Calculadoras de Álgebra',           desc: 'Ecuaciones, polinomios y herramientas algebraicas.',             url: '/calculadoras/algebra',                                          live: true  },
+  { name: 'Calculadoras de Cálculo',           desc: 'Derivadas, integrales, límites, logaritmos y exponentes.',       url: '/calculadoras/calculo',                                          live: true  },
+  { name: 'Calculadora de Estadística',        desc: 'Media, varianza, desviación estándar, mínimo y máximo.',         url: '/calculadoras/estadistica/calculadora-de-estadistica',           live: false },
+  { name: 'Calculadora de Probabilidad',       desc: 'Probabilidades básicas con casos favorables y posibles.',        url: '/calculadoras/estadistica/calculadora-de-probabilidad',          live: false },
+  { name: 'Calculadora de Desviación Estándar', desc: 'Dispersión de datos respecto a la media.',                      url: '/calculadoras/estadistica/calculadora-de-desviacion-estandar',  live: false },
+  { name: 'Calculadora de Media',              desc: 'Media estadística de un conjunto de datos con procedimiento.',   url: '/calculadoras/estadistica/calculadora-de-media',                live: false },
+  { name: 'Calculadora de Varianza',           desc: 'Dispersión cuadrática respecto a la media.',                     url: '/calculadoras/estadistica/calculadora-de-varianza',             live: false },
 ];
 
 export function EstadisticaRelated() {

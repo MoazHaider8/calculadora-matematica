@@ -14,12 +14,12 @@ const CANONICAL = 'https://calculadoramatematica.com/calculadoras/estadistica';
 export const metadata: Metadata = {
   title: 'Calculadoras de Estadística Online',
   description:
-    'Explora calculadoras de estadística para media, mediana, moda, varianza, desviación estándar y análisis de datos.',
+    'Explora calculadoras de estadística para media, varianza, desviación estándar, probabilidad y análisis de datos.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
     title:       'Calculadoras de Estadística Online',
-    description: 'Explora calculadoras de estadística para media, mediana, moda, varianza, desviación estándar y análisis de datos.',
+    description: 'Explora calculadoras de estadística para media, varianza, desviación estándar, probabilidad y análisis de datos.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card:        'summary',
     title:       'Calculadoras de Estadística Online',
-    description: 'Explora calculadoras de estadística para media, mediana, moda, varianza, desviación estándar y análisis de datos.',
+    description: 'Explora calculadoras de estadística para media, varianza, desviación estándar, probabilidad y análisis de datos.',
   },
 };
 
@@ -39,7 +39,7 @@ const jsonLd = {
       '@id':   CANONICAL,
       url:     CANONICAL,
       name:    'Calculadoras de Estadística Online',
-      description: 'Categoría de calculadoras estadísticas: media, mediana, moda, varianza y desviación estándar.',
+      description: 'Categoría de calculadoras estadísticas: estadística, probabilidad, media, varianza y desviación estándar.',
       inLanguage: 'es',
       isPartOf:   { '@id': 'https://calculadoramatematica.com/calculadoras' },
       breadcrumb: { '@id': `${CANONICAL}#breadcrumb` },
@@ -58,11 +58,11 @@ const jsonLd = {
       '@id':   `${CANONICAL}#tools`,
       name:    'Calculadoras de estadística',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Calculadora de Media',               url: `${CANONICAL}/calculadora-de-media` },
-        { '@type': 'ListItem', position: 2, name: 'Calculadora de Mediana',             url: `${CANONICAL}/calculadora-de-mediana` },
-        { '@type': 'ListItem', position: 3, name: 'Calculadora de Moda',                url: `${CANONICAL}/calculadora-de-moda` },
-        { '@type': 'ListItem', position: 4, name: 'Calculadora de Varianza',            url: `${CANONICAL}/calculadora-de-varianza` },
-        { '@type': 'ListItem', position: 5, name: 'Calculadora de Desviación Estándar', url: `${CANONICAL}/calculadora-de-desviacion-estandar` },
+        { '@type': 'ListItem', position: 1, name: 'Calculadora de Estadística',        url: `${CANONICAL}/calculadora-de-estadistica` },
+        { '@type': 'ListItem', position: 2, name: 'Calculadora de Probabilidad',       url: `${CANONICAL}/calculadora-de-probabilidad` },
+        { '@type': 'ListItem', position: 3, name: 'Calculadora de Desviación Estándar', url: `${CANONICAL}/calculadora-de-desviacion-estandar` },
+        { '@type': 'ListItem', position: 4, name: 'Calculadora de Media',              url: `${CANONICAL}/calculadora-de-media` },
+        { '@type': 'ListItem', position: 5, name: 'Calculadora de Varianza',           url: `${CANONICAL}/calculadora-de-varianza` },
       ],
     },
     {
@@ -71,17 +71,17 @@ const jsonLd = {
         {
           '@type': 'Question',
           name: '¿Qué herramientas incluye esta categoría?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Esta categoría incluye cinco calculadoras: media, mediana, moda, varianza y desviación estándar. Estarán disponibles próximamente.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Esta categoría incluye cinco calculadoras: Calculadora de Estadística, Calculadora de Probabilidad, Calculadora de Desviación Estándar, Calculadora de Media y Calculadora de Varianza. Estarán disponibles próximamente.' },
         },
         {
           '@type': 'Question',
-          name: '¿Qué diferencia hay entre media y promedio?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Promedio es el término cotidiano para el promedio aritmético. Media es el término estadístico formal. La calculadora de promedio es útil para promedios simples; la futura calculadora de media estará orientada al análisis estadístico.' },
+          name: '¿Qué diferencia hay entre calculadora de estadística y calculadora de media?',
+          acceptedAnswer: { '@type': 'Answer', text: 'La calculadora de estadística mostrará varias medidas a la vez: media, varianza, desviación estándar, mínimo y máximo. La calculadora de media se centrará en el valor medio estadístico. Para promedios simples, la calculadora de promedio de aritmética es la herramienta adecuada.' },
         },
         {
           '@type': 'Question',
-          name: '¿Qué calculadora debo usar para encontrar el valor central?',
-          acceptedAnswer: { '@type': 'Answer', text: 'La calculadora de mediana permite encontrar el valor central de una lista ordenada. Es especialmente útil cuando hay valores extremos que distorsionarían la media.' },
+          name: '¿Qué calculadora debo usar para probabilidad?',
+          acceptedAnswer: { '@type': 'Answer', text: 'La calculadora de probabilidad calcula la probabilidad de un evento a partir de los casos favorables y el número total de casos posibles. El resultado se muestra como fracción, decimal y porcentaje.' },
         },
         {
           '@type': 'Question',
@@ -96,7 +96,7 @@ const jsonLd = {
         {
           '@type': 'Question',
           name: '¿Estas herramientas sirven para analizar datos escolares?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Sí. Son útiles para calcular medias de calificaciones, identificar la nota más frecuente o revisar la variabilidad de resultados en educación y ciencias.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Sí. Puedes usarlas para calcular la media de calificaciones, revisar la varianza y desviación estándar de los resultados, o calcular la probabilidad de un evento concreto.' },
         },
       ],
     },

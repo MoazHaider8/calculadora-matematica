@@ -1,9 +1,9 @@
 const rows = [
-  { need: 'Calcular el valor representativo de un conjunto de datos', tool: 'Calculadora de Media', id: 'media' },
-  { need: 'Encontrar el valor central de una lista ordenada',         tool: 'Calculadora de Mediana', id: 'mediana' },
-  { need: 'Identificar el valor que más se repite',                   tool: 'Calculadora de Moda', id: 'moda' },
-  { need: 'Medir cuánto se dispersan los datos respecto a la media',  tool: 'Calculadora de Varianza', id: 'varianza' },
-  { need: 'Interpretar la dispersión en las mismas unidades de los datos', tool: 'Calculadora de Desviación Estándar', id: 'desviacion-estandar' },
+  { need: 'Analizar un conjunto de datos con varias medidas estadísticas', tool: 'Calculadora de Estadística', id: 'estadistica' },
+  { need: 'Calcular casos favorables frente a casos posibles',             tool: 'Calculadora de Probabilidad', id: 'probabilidad' },
+  { need: 'Medir la dispersión en las mismas unidades de los datos',       tool: 'Calculadora de Desviación Estándar', id: 'desviacion-estandar' },
+  { need: 'Obtener el valor medio de un conjunto de datos',                tool: 'Calculadora de Media', id: 'media' },
+  { need: 'Calcular la dispersión cuadrática respecto a la media',         tool: 'Calculadora de Varianza', id: 'varianza' },
 ];
 
 export function EstadisticaWhenToUse() {
