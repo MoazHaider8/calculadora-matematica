@@ -35,7 +35,7 @@ const tools = [
     name:        'Calculadora de Círculos',
     explanation: 'Calcula área, circunferencia, diámetro y radio de un círculo usando las fórmulas principales.',
     useCase:     'Úsala cuando tienes radio, diámetro o circunferencia.',
-    url:         null,
+    url:         '/calculadoras/geometria/calculadora-de-circulos',
   },
   {
     id:          'pitagoras',
