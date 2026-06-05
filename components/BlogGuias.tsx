@@ -15,6 +15,8 @@ const groups = [
       { title: 'Fórmulas de área',                 purpose: 'Área de cuadrados, rectángulos, triángulos y círculos.',           calcUrl: '/calculadoras/geometria/calculadora-de-area/', calcLabel: 'Calculadora de área', articleUrl: '/blog/formulas-de-area' as string | undefined },
       { title: 'Fórmulas de volumen',              purpose: 'Volumen de cubos, esferas, cilindros, conos y pirámides.',         calcUrl: '/calculadoras/geometria/calculadora-de-volumen/', calcLabel: 'Calculadora de volumen', articleUrl: '/blog/formulas-de-volumen' as string | undefined },
       { title: 'Teorema de Pitágoras',             purpose: 'Relación entre los lados del triángulo rectángulo: a² + b² = c².', calcUrl: '/calculadoras/geometria/calculadora-de-pitagoras/', calcLabel: 'Calculadora de Pitágoras', articleUrl: '/blog/teorema-de-pitagoras' as string | undefined },
+      { title: 'Tipos de triángulos',              purpose: 'Clasificación por lados y ángulos con fórmulas de área.',           calcUrl: '/calculadoras/geometria/calculadora-de-triangulos/', calcLabel: 'Calculadora de triángulos', articleUrl: '/blog/tipos-de-triangulos' as string | undefined },
+      { title: 'Área y circunferencia del círculo', purpose: 'Fórmulas con radio y diámetro usando π.',                          calcUrl: '/calculadoras/geometria/calculadora-de-circulos/', calcLabel: 'Calculadora de círculos', articleUrl: '/blog/area-y-circunferencia-del-circulo' as string | undefined },
     ],
   },
   {
@@ -29,8 +31,19 @@ const groups = [
     topic: 'Cálculo',
     articles: [
       { title: 'Qué es una derivada',              purpose: 'Concepto de derivada, reglas básicas y aplicaciones.',             calcUrl: '/calculadoras/calculo/calculadora-de-derivadas/', calcLabel: 'Calculadora de derivadas', articleUrl: '/blog/que-es-una-derivada' as string | undefined },
-      { title: 'Qué es una integral',              purpose: 'Integral definida e indefinida con ejemplos prácticos.',           calcUrl: '/calculadoras/calculo/calculadora-de-integrales/', calcLabel: 'Calculadora de integrales' },
-      { title: 'Cómo calcular límites',            purpose: 'Definición y cálculo de límites de funciones.',                   calcUrl: '/calculadoras/calculo/calculadora-de-limites/', calcLabel: 'Calculadora de límites' },
+      { title: 'Qué es una integral',              purpose: 'Integral definida e indefinida con ejemplos prácticos.',           calcUrl: '/calculadoras/calculo/calculadora-de-integrales/', calcLabel: 'Calculadora de integrales', articleUrl: '/blog/que-es-una-integral' as string | undefined },
+      { title: 'Cómo calcular límites',            purpose: 'Definición y cálculo de límites de funciones.',                   calcUrl: '/calculadoras/calculo/calculadora-de-limites/', calcLabel: 'Calculadora de límites', articleUrl: '/blog/como-calcular-limites' as string | undefined },
+      { title: 'Reglas de logaritmos',             purpose: 'Producto, cociente, potencia y cambio de base con ejemplos.',      calcUrl: '/calculadoras/calculo/calculadora-de-logaritmos/', calcLabel: 'Calculadora de logaritmos', articleUrl: '/blog/reglas-de-logaritmos' as string | undefined },
+      { title: 'Reglas de exponentes',             purpose: 'Las siete reglas de potencias con ejemplos claros.',              calcUrl: '/calculadoras/calculo/calculadora-de-exponentes/', calcLabel: 'Calculadora de exponentes', articleUrl: '/blog/reglas-de-exponentes' as string | undefined },
+    ],
+  },
+  {
+    topic: 'Álgebra',
+    articles: [
+      { title: 'Cómo resolver ecuaciones',                    purpose: 'Ecuaciones lineales y cuadráticas paso a paso.',                 calcUrl: '/calculadoras/algebra/calculadora-de-ecuaciones/', calcLabel: 'Calculadora de ecuaciones', articleUrl: '/blog/como-resolver-ecuaciones' as string | undefined },
+      { title: 'Cómo simplificar expresiones algebraicas',   purpose: 'Términos semejantes, distributiva y fracciones algebraicas.',    calcUrl: '/calculadoras/algebra/calculadora-algebraica/', calcLabel: 'Calculadora algebraica', articleUrl: '/blog/como-simplificar-expresiones-algebraicas' as string | undefined },
+      { title: 'Qué son los polinomios',                     purpose: 'Grado, coeficientes y operaciones con polinomios.',              calcUrl: '/calculadoras/algebra/calculadora-de-polinomios/', calcLabel: 'Calculadora de polinomios', articleUrl: '/blog/que-son-los-polinomios' as string | undefined },
+      { title: 'Raíces y radicales',                         purpose: 'Raíz cuadrada, cúbica y simplificación de radicales.',           calcUrl: '/calculadoras/algebra/calculadora-de-raices/', calcLabel: 'Calculadora de raíces', articleUrl: '/blog/raices-y-radicales' as string | undefined },
     ],
   },
 ];
