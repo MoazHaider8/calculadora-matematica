@@ -1,4 +1,12 @@
 User-agent: *
 Allow: /
 
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /search
+Disallow: /*?*
+
 Sitemap: https://calculadoramatematica.com/sitemap.xml
