@@ -21,7 +21,7 @@ const resourceLinks = [
 
 const legalLinks = [
   { name: 'Sobre nosotros', url: '/sobre-nosotros' },
-  { name: 'Aviso legal', url: '/aviso-legal' },
+  { name: 'Términos y Condiciones', url: '/terminos-y-condiciones' },
   { name: 'Política de Privacidad', url: '/politica-de-privacidad' },
   { name: 'Cookies', url: '/cookies' },
   { name: 'Contacto', url: '/contacto' },
