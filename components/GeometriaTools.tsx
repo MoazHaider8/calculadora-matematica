@@ -44,7 +44,7 @@ const tools = [
     name:        'Calculadora de Pitágoras',
     explanation: 'Calcula hipotenusa o catetos de un triángulo rectángulo usando el teorema de Pitágoras.',
     useCase:     'Úsala cuando trabajas con triángulos rectángulos.',
-    url:         null,
+    url:         '/calculadoras/geometria/calculadora-de-pitagoras',
   },
 ];
 

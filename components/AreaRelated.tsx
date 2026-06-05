@@ -7,7 +7,7 @@ const related = [
   { name: 'Calculadora de Volumen',         desc: 'Calcula volúmenes de cuerpos geométricos en 3D.',                    url: '/calculadoras/geometria/calculadora-de-volumen',            live: true  },
   { name: 'Calculadora de Triángulos',      desc: 'Resuelve medidas de triángulos: lados, ángulos y área.',             url: '/calculadoras/geometria/calculadora-de-triangulos',         live: true  },
   { name: 'Calculadora de Círculos',        desc: 'Calcula radio, diámetro, área y circunferencia de círculos.',        url: '/calculadoras/geometria/calculadora-de-circulos',           live: true  },
-  { name: 'Calculadora de Pitágoras',       desc: 'Hipotenusa y catetos de triángulos rectángulos.',                   url: '/calculadoras/geometria/calculadora-de-pitagoras',          live: false },
+  { name: 'Calculadora de Pitágoras',       desc: 'Hipotenusa y catetos de triángulos rectángulos.',                   url: '/calculadoras/geometria/calculadora-de-pitagoras',          live: true  },
 ];
 
 export function AreaRelated() {
