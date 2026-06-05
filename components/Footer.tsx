@@ -23,7 +23,7 @@ const legalLinks = [
   { name: 'Sobre nosotros', url: '/sobre-nosotros' },
   { name: 'Términos y Condiciones', url: '/terminos-y-condiciones' },
   { name: 'Política de Privacidad', url: '/politica-de-privacidad' },
-  { name: 'Cookies', url: '/cookies' },
+  { name: 'Aviso Legal', url: '/aviso-legal' },
   { name: 'Contacto', url: '/contacto' },
 ];
 
