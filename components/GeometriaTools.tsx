@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const tools = [
   {
     id:          'area',
@@ -6,7 +8,7 @@ const tools = [
     name:        'Calculadora de Área',
     explanation: 'Calcula áreas de figuras planas como cuadrados, rectángulos, triángulos, círculos y otras formas comunes.',
     useCase:     'Úsala cuando necesitas conocer la superficie de una figura.',
-    url:         null,
+    url:         '/calculadoras/geometria/calculadora-de-area',
   },
   {
     id:          'volumen',
@@ -116,13 +118,23 @@ export function GeometriaTools() {
                       <p className="mt-2 text-xs font-semibold italic" style={{ color: '#829ab1' }}>{tool.useCase}</p>
                     </div>
                     <div className="border-t px-6 pb-5 pt-4" style={{ borderColor: '#EEF4F7' }}>
-                      <div
-                        className="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-xs font-bold opacity-60"
-                        style={{ background: '#D7E2EA', color: '#627d98', cursor: 'default' }}
-                        aria-label={`${tool.name} — próximamente`}
-                      >
-                        Próximamente
-                      </div>
+                      {tool.url ? (
+                        <Link
+                          href={tool.url}
+                          className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-bold transition-colors hover:opacity-90"
+                          style={{ background: '#D8A31A', color: '#fff' }}
+                        >
+                          Ver calculadora &rarr;
+                        </Link>
+                      ) : (
+                        <div
+                          className="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-xs font-bold opacity-60"
+                          style={{ background: '#D7E2EA', color: '#627d98', cursor: 'default' }}
+                          aria-label={`${tool.name} — próximamente`}
+                        >
+                          Próximamente
+                        </div>
+                      )}
                     </div>
                   </div>
                 </article>
@@ -163,13 +175,23 @@ export function GeometriaTools() {
                     <p className="mt-3 text-xs font-semibold italic" style={{ color: '#829ab1' }}>{tool.useCase}</p>
                   </div>
                   <div className="px-5 pb-4 pt-2">
-                    <div
-                      className="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-xs font-bold opacity-60"
-                      style={{ background: '#D7E2EA', color: '#627d98', cursor: 'default' }}
-                      aria-label={`${tool.name} — próximamente`}
-                    >
-                      Próximamente
-                    </div>
+                    {tool.url ? (
+                      <Link
+                        href={tool.url}
+                        className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-bold transition-colors hover:opacity-90"
+                        style={{ background: '#D8A31A', color: '#fff' }}
+                      >
+                        Ver calculadora &rarr;
+                      </Link>
+                    ) : (
+                      <div
+                        className="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-xs font-bold opacity-60"
+                        style={{ background: '#D7E2EA', color: '#627d98', cursor: 'default' }}
+                        aria-label={`${tool.name} — próximamente`}
+                      >
+                        Próximamente
+                      </div>
+                    )}
                   </div>
                 </article>
               ))}
