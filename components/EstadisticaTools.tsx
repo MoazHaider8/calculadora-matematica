@@ -26,7 +26,7 @@ const tools = [
     name:        'Calculadora de Desviación Estándar',
     explanation: 'Mide cuánto se dispersan los datos respecto a la media y ayuda a interpretar la variación del conjunto.',
     useCase:     'Para medir la dispersión en las mismas unidades de los datos y facilitar la interpretación del conjunto.',
-    url:         null,
+    url:         '/calculadoras/estadistica/calculadora-de-desviacion-estandar',
   },
   {
     id:          'media',

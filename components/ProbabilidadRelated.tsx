@@ -5,7 +5,7 @@ const related = [
   { name: 'Calculadora de Estadística',        desc: 'Media, mediana, moda, varianza y desviación estándar de un conjunto.', url: '/calculadoras/estadistica/calculadora-de-estadistica',          live: true  },
   { name: 'Calculadora de Promedio',           desc: 'Promedio simple y ponderado para listas de valores.',                url: '/calculadoras/aritmetica/calculadora-de-promedio',               live: true  },
   { name: 'Calculadora Científica',            desc: 'Trigonometría, logaritmos, potencias y raíces en un lugar.',         url: '/calculadoras/aritmetica/calculadora-cientifica',                live: true  },
-  { name: 'Calculadora de Desviación Estándar', desc: 'Herramienta dedicada al cálculo de la desviación estándar.',        url: '/calculadoras/estadistica/calculadora-de-desviacion-estandar',  live: false },
+  { name: 'Calculadora de Desviación Estándar', desc: 'Herramienta dedicada al cálculo de la desviación estándar.',        url: '/calculadoras/estadistica/calculadora-de-desviacion-estandar',  live: true  },
   { name: 'Calculadora de Media',              desc: 'Calcula la media estadística con procedimiento detallado.',          url: '/calculadoras/estadistica/calculadora-de-media',                 live: false },
   { name: 'Calculadora de Varianza',           desc: 'Calcula la varianza poblacional y muestral de un conjunto.',         url: '/calculadoras/estadistica/calculadora-de-varianza',              live: false },
 ];
