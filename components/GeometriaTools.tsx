@@ -17,7 +17,7 @@ const tools = [
     name:        'Calculadora de Volumen',
     explanation: 'Calcula volúmenes de cuerpos geométricos como cubos, prismas, cilindros, conos y esferas.',
     useCase:     'Úsala cuando necesitas medir el espacio que ocupa un cuerpo.',
-    url:         null,
+    url:         '/calculadoras/geometria/calculadora-de-volumen',
   },
   {
     id:          'triangulos',
