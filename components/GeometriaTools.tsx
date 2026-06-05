@@ -26,7 +26,7 @@ const tools = [
     name:        'Calculadora de Triángulos',
     explanation: 'Resuelve medidas de triángulos, área, perímetro, lados, ángulos y relaciones básicas según los datos disponibles.',
     useCase:     'Úsala para trabajar con lados, altura, área o perímetro de triángulos.',
-    url:         null,
+    url:         '/calculadoras/geometria/calculadora-de-triangulos',
   },
   {
     id:          'circulos',

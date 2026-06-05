@@ -1,21 +1,21 @@
 import Link from 'next/link';
 
 const related = [
-  { name: 'Calculadoras de Geometría',    desc: 'Hub con todas las herramientas de geometría de la categoría.',    url: '/calculadoras/geometria',                                live: true  },
-  { name: 'Calculadora de Área',          desc: 'Calcula áreas de figuras planas: cuadrados, círculos, triángulos.', url: '/calculadoras/geometria/calculadora-de-area',            live: true  },
-  { name: 'Calculadora de Raíz Cuadrada', desc: 'Calcula raíces cuadradas con procedimiento y explicación.',        url: '/calculadoras/algebra/calculadora-de-raiz-cuadrada',     live: true  },
-  { name: 'Calculadora Científica',       desc: 'Trigonometría, logaritmos, potencias y raíces en un lugar.',       url: '/calculadoras/aritmetica/calculadora-cientifica',         live: true  },
-  { name: 'Calculadora de Triángulos',    desc: 'Resuelve medidas de triángulos: lados, ángulos y área.',           url: '/calculadoras/geometria/calculadora-de-triangulos',      live: true  },
-  { name: 'Calculadora de Círculos',      desc: 'Calcula radio, diámetro, área y circunferencia de círculos.',      url: '/calculadoras/geometria/calculadora-de-circulos',        live: false },
-  { name: 'Calculadora de Pitágoras',     desc: 'Hipotenusa y catetos de triángulos rectángulos.',                  url: '/calculadoras/geometria/calculadora-de-pitagoras',       live: false },
+  { name: 'Calculadoras de Geometría',    desc: 'Hub con todas las herramientas de geometría.',                url: '/calculadoras/geometria',                               live: true  },
+  { name: 'Calculadora de Área',          desc: 'Calcula áreas de 7 figuras planas con fórmula y pasos.',      url: '/calculadoras/geometria/calculadora-de-area',           live: true  },
+  { name: 'Calculadora de Volumen',       desc: 'Calcula volúmenes de cuerpos geométricos en 3D.',             url: '/calculadoras/geometria/calculadora-de-volumen',        live: true  },
+  { name: 'Calculadora de Raíz Cuadrada', desc: 'Calcula raíces cuadradas con procedimiento.',                 url: '/calculadoras/algebra/calculadora-de-raiz-cuadrada',   live: true  },
+  { name: 'Calculadora Científica',       desc: 'Trigonometría, logaritmos, potencias y raíces.',              url: '/calculadoras/aritmetica/calculadora-cientifica',       live: true  },
+  { name: 'Calculadora de Círculos',      desc: 'Calcula radio, diámetro, área y circunferencia.',             url: '/calculadoras/geometria/calculadora-de-circulos',       live: false },
+  { name: 'Calculadora de Pitágoras',     desc: 'Hipotenusa y catetos de triángulos rectángulos.',             url: '/calculadoras/geometria/calculadora-de-pitagoras',      live: false },
 ];
 
-export function VolumenRelated() {
+export function TriangulosRelated() {
   return (
-    <section className="bg-white py-12 lg:py-16" aria-labelledby="related-vol-heading">
+    <section className="bg-white py-12 lg:py-16" aria-labelledby="related-tri-heading">
       <div className="site-shell">
         <p className="eyebrow">Recursos</p>
-        <h2 id="related-vol-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
+        <h2 id="related-tri-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
           Calculadoras relacionadas
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
