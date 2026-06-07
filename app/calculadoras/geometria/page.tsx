@@ -7,27 +7,28 @@ import { GeometriaWhatIs }     from '@/components/GeometriaWhatIs';
 import { GeometriaWhenToUse }  from '@/components/GeometriaWhenToUse';
 import { GeometriaConcepts }   from '@/components/GeometriaConcepts';
 import { GeometriaRelated }    from '@/components/GeometriaRelated';
+import { HubRelatedCategories } from '@/components/HubRelatedCategories';
 import { GeometriaFAQ }        from '@/components/GeometriaFAQ';
 
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/geometria';
 
 export const metadata: Metadata = {
-  title: 'Calculadoras de Geometría Online',
+  title: 'Calculadoras de Geometría Online: Áreas, Triángulos y Más',
   description:
-    'Explora calculadoras de geometría para área, volumen, triángulos, círculos y teorema de Pitágoras con fórmulas claras.',
+    'Calcula áreas, volúmenes, triángulos, círculos y el teorema de Pitágoras. Cada herramienta muestra fórmulas y pasos para revisar el resultado fácilmente.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadoras de Geometría Online',
-    description: 'Explora calculadoras de geometría para área, volumen, triángulos, círculos y teorema de Pitágoras con fórmulas claras.',
+    title:       'Calculadoras de Geometría Online: Áreas, Triángulos y Más',
+    description: 'Calcula áreas, volúmenes, triángulos, círculos y el teorema de Pitágoras. Cada herramienta muestra fórmulas y pasos para revisar el resultado fácilmente.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadoras de Geometría Online',
-    description: 'Explora calculadoras de geometría para área, volumen, triángulos, círculos y teorema de Pitágoras con fórmulas claras.',
+    title:       'Calculadoras de Geometría Online: Áreas, Triángulos y Más',
+    description: 'Calcula áreas, volúmenes, triángulos, círculos y el teorema de Pitágoras. Cada herramienta muestra fórmulas y pasos para revisar el resultado fácilmente.',
   },
 };
 
@@ -38,7 +39,7 @@ const jsonLd = {
       '@type': 'CollectionPage',
       '@id':   CANONICAL,
       url:     CANONICAL,
-      name:    'Calculadoras de Geometría Online',
+      name:    'Calculadoras de Geometría Online: Áreas, Triángulos y Más',
       description: 'Categoría de calculadoras de geometría: área, volumen, triángulos, círculos y teorema de Pitágoras.',
       inLanguage: 'es',
       isPartOf:   { '@id': 'https://calculadoramatematica.com/calculadoras' },
@@ -114,6 +115,7 @@ export default function GeometriaPage() {
       <GeometriaWhenToUse />
       <GeometriaConcepts />
       <GeometriaRelated />
+      <HubRelatedCategories current="geometria" />
       <GeometriaFAQ />
       <Footer />
     </>

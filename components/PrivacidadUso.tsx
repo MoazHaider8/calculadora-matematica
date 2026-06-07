@@ -10,7 +10,7 @@ const usoItems = [
 export function PrivacidadUso() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="uso-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="uso-heading">
         <div className="site-shell">
           <p className="eyebrow">Propósito</p>
           <h2 id="uso-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -42,7 +42,7 @@ export function PrivacidadUso() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="cookies-heading">
+      <section className="bg-white py-8 lg:py-11" aria-labelledby="cookies-heading">
         <div className="site-shell">
           <p className="eyebrow">Cookies</p>
           <h2 id="cookies-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

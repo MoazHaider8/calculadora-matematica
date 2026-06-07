@@ -14,9 +14,9 @@ const BASE_URL = 'https://calculadoramatematica.com';
 const PAGE_URL = `${BASE_URL}/calculadoras`;
 
 export const metadata: Metadata = {
-  title: { absolute: 'Directorio de Calculadoras por Categoría | Matemáticas' },
+  title: { absolute: 'Explora Calculadoras Matemáticas Online Organizadas por Área' },
   description:
-    'Explora calculadoras organizadas por categoría. Encuentra herramientas de cálculo, álgebra, matrices, estadística y geometría.',
+    'Directorio de calculadoras matemáticas online por categoría. Cálculo, álgebra, aritmética, estadística, geometría, matrices y vectores en un solo sitio.',
   keywords: [
     'directorio de calculadoras',
     'calculadoras por categoría',
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     languages: { es: PAGE_URL },
   },
   openGraph: {
-    title: 'Directorio de Calculadoras por Categoría | Matemáticas',
+    title: 'Explora Calculadoras Matemáticas Online Organizadas por Área',
     description:
-      'Explora calculadoras organizadas por categoría. Encuentra herramientas de cálculo, álgebra, matrices, estadística y geometría.',
+      'Directorio de calculadoras matemáticas online por categoría. Cálculo, álgebra, aritmética, estadística, geometría, matrices y vectores en un solo sitio.',
     url: PAGE_URL,
     siteName: 'Calculadoras Matemáticas',
     locale: 'es_ES',
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Directorio de Calculadoras por Categoría | Matemáticas',
+    title: 'Explora Calculadoras Matemáticas Online Organizadas por Área',
     description:
-      'Explora calculadoras organizadas por categoría. Encuentra herramientas de cálculo, álgebra, matrices, estadística y geometría.',
+      'Directorio de calculadoras matemáticas online por categoría. Cálculo, álgebra, aritmética, estadística, geometría, matrices y vectores en un solo sitio.',
   },
   robots: { index: true, follow: true },
 };

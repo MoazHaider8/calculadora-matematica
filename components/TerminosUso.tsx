@@ -3,7 +3,7 @@ import Link from 'next/link';
 export function TerminosUso() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="uso-calc-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="uso-calc-heading">
         <div className="site-shell">
           <p className="eyebrow">Calculadoras</p>
           <h2 id="uso-calc-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -23,7 +23,7 @@ export function TerminosUso() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="exactitud-heading">
+      <section className="bg-white py-8 lg:py-11" aria-labelledby="exactitud-heading">
         <div className="site-shell">
           <p className="eyebrow">Resultados</p>
           <h2 id="exactitud-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

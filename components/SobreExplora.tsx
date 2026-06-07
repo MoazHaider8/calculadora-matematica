@@ -11,7 +11,7 @@ const secondaryCats = [
 
 export function SobreExplora() {
   return (
-    <section className="bg-white py-12 lg:py-16" aria-labelledby="explora-heading">
+    <section className="bg-white py-8 lg:py-11" aria-labelledby="explora-heading">
       <div className="site-shell">
         <p className="eyebrow">Directorio</p>
         <h2 id="explora-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

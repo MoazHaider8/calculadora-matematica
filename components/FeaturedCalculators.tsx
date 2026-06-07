@@ -99,13 +99,13 @@ export function FeaturedCalculators() {
               className="eyebrow"
               style={{ color: '#D8A31A' }}
             >
-              Herramientas matemáticas destacadas
+              Calculadoras populares
             </p>
             <h2
               id="featured-heading"
               className="mt-3 text-[1.9rem] font-bold leading-tight text-white lg:text-[2.5rem]"
             >
-              Una selección curada para operaciones frecuentes
+              Las calculadoras más consultadas del sitio
             </h2>
           </div>
           <div className="shrink-0 pt-1">

@@ -10,7 +10,7 @@ const usoNoPermitido = [
 export function TerminosPropiedad() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="propiedad-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="propiedad-heading">
         <div className="site-shell">
           <p className="eyebrow">Contenido</p>
           <h2 id="propiedad-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -30,7 +30,7 @@ export function TerminosPropiedad() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="terceros-term-heading">
+      <section className="bg-white py-6 lg:py-8" aria-labelledby="terceros-term-heading">
         <div className="site-shell">
           <p className="eyebrow">Terceros</p>
           <h2 id="terceros-term-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -44,7 +44,7 @@ export function TerminosPropiedad() {
         </div>
       </section>
 
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="no-permitido-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="no-permitido-heading">
         <div className="site-shell">
           <p className="eyebrow">Restricciones</p>
           <h2 id="no-permitido-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

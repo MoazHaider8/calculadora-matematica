@@ -7,29 +7,30 @@ import { MatVecWhatIs } from '@/components/MatVecWhatIs';
 import { MatVecWhenToUse } from '@/components/MatVecWhenToUse';
 import { MatVecConcepts } from '@/components/MatVecConcepts';
 import { MatVecRelated } from '@/components/MatVecRelated';
+import { HubRelatedCategories } from '@/components/HubRelatedCategories';
 import { MatVecFAQ } from '@/components/MatVecFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadoras de Matrices y Vectores Online',
+  title: 'Calculadoras Online de Matrices, Vectores y Álgebra Lineal',
   description:
-    'Explora calculadoras de matrices y vectores para operar matrices, calcular determinantes, vectores, sistemas e inversas.',
+    'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores',
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadoras de Matrices y Vectores Online',
+    title: 'Calculadoras Online de Matrices, Vectores y Álgebra Lineal',
     description:
-      'Explora calculadoras de matrices y vectores para operar matrices, calcular determinantes, vectores, sistemas e inversas.',
+      'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
     url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadoras de Matrices y Vectores Online',
+    title: 'Calculadoras Online de Matrices, Vectores y Álgebra Lineal',
     description:
-      'Explora calculadoras de matrices y vectores para operar matrices, calcular determinantes, vectores, sistemas e inversas.',
+      'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
   },
 };
 
@@ -40,9 +41,9 @@ const jsonLd = {
       '@type': 'CollectionPage',
       '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores',
       url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores',
-      name: 'Calculadoras de Matrices y Vectores Online',
+      name: 'Calculadoras Online de Matrices, Vectores y Álgebra Lineal Online',
       description:
-        'Explora calculadoras de matrices y vectores para operar matrices, calcular determinantes, vectores, sistemas e inversas.',
+        'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
       inLanguage: 'es',
       isPartOf: { '@id': 'https://calculadoramatematica.com' },
       breadcrumb: { '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores#breadcrumb' },
@@ -97,6 +98,7 @@ export default function MatricesVectoresPage() {
       <MatVecWhenToUse />
       <MatVecConcepts />
       <MatVecRelated />
+      <HubRelatedCategories current="matrices-y-vectores" />
       <MatVecFAQ />
       <Footer />
     </>

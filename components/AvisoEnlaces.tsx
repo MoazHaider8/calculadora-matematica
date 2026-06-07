@@ -13,10 +13,10 @@ const links = [
 
 export function AvisoEnlaces() {
   return (
-    <section className="bg-white py-12 lg:py-16" aria-labelledby="enlaces-aviso-heading">
+    <section className="bg-white py-8 lg:py-11" aria-labelledby="enlaces-aviso-heading">
       <div className="site-shell">
         <p className="eyebrow">Navegación</p>
-        <h2 id="enlaces-aviso-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
+        <h2 id="enlaces-aviso-heading" className="mt-2 mb-5 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
           Enlaces útiles
         </h2>
         <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">

@@ -7,7 +7,7 @@ const finalidad = [
 export function AvisoFinalidadYUso() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="finalidad-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="finalidad-heading">
         <div className="site-shell">
           <p className="eyebrow">Propósito</p>
           <h2 id="finalidad-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -36,7 +36,7 @@ export function AvisoFinalidadYUso() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="uso-aviso-heading">
+      <section className="bg-white py-7 lg:py-9" aria-labelledby="uso-aviso-heading">
         <div className="site-shell">
           <p className="eyebrow">Calculadoras</p>
           <h2 id="uso-aviso-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

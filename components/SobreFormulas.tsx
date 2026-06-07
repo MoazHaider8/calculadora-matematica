@@ -1,6 +1,6 @@
 export function SobreFormulas() {
   return (
-    <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="formulas-heading">
+    <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="formulas-heading">
       <div className="site-shell">
         <p className="eyebrow">Metodología</p>
         <h2 id="formulas-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

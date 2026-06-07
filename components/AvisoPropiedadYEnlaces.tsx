@@ -1,7 +1,7 @@
 export function AvisoPropiedadYEnlaces() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="propiedad-aviso-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="propiedad-aviso-heading">
         <div className="site-shell">
           <p className="eyebrow">Contenido</p>
           <h2 id="propiedad-aviso-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -21,7 +21,7 @@ export function AvisoPropiedadYEnlaces() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="externos-aviso-heading">
+      <section className="bg-white py-6 lg:py-8" aria-labelledby="externos-aviso-heading">
         <div className="site-shell">
           <p className="eyebrow">Terceros</p>
           <h2 id="externos-aviso-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -35,7 +35,7 @@ export function AvisoPropiedadYEnlaces() {
         </div>
       </section>
 
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="disponibilidad-heading">
+      <section className="bg-white-soft py-6 lg:py-8" aria-labelledby="disponibilidad-heading">
         <div className="site-shell">
           <p className="eyebrow">Servicio</p>
           <h2 id="disponibilidad-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

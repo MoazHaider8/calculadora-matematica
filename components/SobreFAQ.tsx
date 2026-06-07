@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: '¿Cómo puedo reportar un error o sugerir una calculadora?',
-    a: 'Una página de contacto estará disponible próximamente. Puedes usarla para enviar consultas, reportar errores o sugerir nuevas herramientas.',
+    a: 'Puedes usar la página de contacto para enviar consultas, reportar errores o sugerir nuevas herramientas. Está disponible en la sección Contacto del sitio.',
   },
 ];
 
@@ -34,7 +34,7 @@ export function SobreFAQ() {
   const toggle = (i: number) => setOpen(prev => (prev === i ? null : i));
 
   return (
-    <section className="bg-white py-12 lg:py-16" aria-labelledby="faq-sobre-heading">
+    <section className="bg-white py-8 lg:py-11" aria-labelledby="faq-sobre-heading">
       <div className="site-shell">
         <p className="eyebrow">FAQ</p>
         <h2 id="faq-sobre-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

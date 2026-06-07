@@ -1,7 +1,7 @@
 export function TerminosIntroYAceptacion() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="terminos-intro-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="terminos-intro-heading">
         <div className="site-shell">
           <p className="eyebrow">El documento</p>
           <h2 id="terminos-intro-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -21,7 +21,7 @@ export function TerminosIntroYAceptacion() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="aceptacion-heading">
+      <section className="bg-white py-6 lg:py-8" aria-labelledby="aceptacion-heading">
         <div className="site-shell">
           <p className="eyebrow">Uso del sitio</p>
           <h2 id="aceptacion-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

@@ -1,6 +1,6 @@
 export function ContactoSugerir() {
   return (
-    <section className="bg-white py-12 lg:py-16" aria-labelledby="sugerir-heading">
+    <section className="bg-white py-8 lg:py-11" aria-labelledby="sugerir-heading">
       <div className="site-shell">
         <p className="eyebrow">Propuestas</p>
         <h2 id="sugerir-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

@@ -7,15 +7,16 @@ import { AlgebraWhatIs } from '@/components/AlgebraWhatIs';
 import { AlgebraWhenToUse } from '@/components/AlgebraWhenToUse';
 import { AlgebraConcepts } from '@/components/AlgebraConcepts';
 import { AlgebraRelated } from '@/components/AlgebraRelated';
+import { HubRelatedCategories } from '@/components/HubRelatedCategories';
 import { AlgebraFAQ } from '@/components/AlgebraFAQ';
 
 const BASE_URL = 'https://calculadoramatematica.com';
 const PAGE_URL = `${BASE_URL}/calculadoras/algebra`;
 
 export const metadata: Metadata = {
-  title: { absolute: 'Calculadoras de Álgebra | Ecuaciones y Polinomios' },
+  title: { absolute: 'Calculadoras de Álgebra Online: Ecuaciones, Polinomios y Más' },
   description:
-    'Explora calculadoras de álgebra para ecuaciones, polinomios, raíces y operaciones algebraicas organizadas por tema.',
+    'Resuelve ecuaciones, trabaja con expresiones algebraicas, polinomios, raíces y raíz cuadrada. Cada calculadora muestra fórmulas y procedimientos en español.',
   keywords: [
     'calculadoras de álgebra',
     'herramientas de álgebra',
@@ -34,9 +35,9 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadoras de Álgebra | Ecuaciones y Polinomios',
+    title: 'Calculadoras de Álgebra Online: Ecuaciones, Polinomios y Más',
     description:
-      'Explora calculadoras de álgebra para ecuaciones, polinomios, raíces y operaciones algebraicas organizadas por tema.',
+      'Resuelve ecuaciones, trabaja con expresiones algebraicas, polinomios, raíces y raíz cuadrada. Cada calculadora muestra fórmulas y procedimientos en español.',
     url: PAGE_URL,
     siteName: 'Calculadora Matemática',
     locale: 'es_ES',
@@ -44,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadoras de Álgebra | Ecuaciones y Polinomios',
+    title: 'Calculadoras de Álgebra Online: Ecuaciones, Polinomios y Más',
     description:
-      'Explora calculadoras de álgebra para ecuaciones, polinomios, raíces y operaciones algebraicas organizadas por tema.',
+      'Resuelve ecuaciones, trabaja con expresiones algebraicas, polinomios, raíces y raíz cuadrada. Cada calculadora muestra fórmulas y procedimientos en español.',
   },
 };
 
@@ -156,6 +157,7 @@ export default function AlgebraPage() {
         <AlgebraWhenToUse />
         <AlgebraConcepts />
         <AlgebraRelated />
+        <HubRelatedCategories current="algebra" />
         <AlgebraFAQ />
       </main>
       <Footer />

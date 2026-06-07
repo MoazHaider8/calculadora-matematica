@@ -1,15 +1,15 @@
 const trustPages = [
-  { name: 'Contacto',                   desc: 'Envía consultas o sugerencias.',              url: '/contacto' },
-  { name: 'Política de privacidad',     desc: 'Cómo gestionamos los datos del sitio.',       url: null },
-  { name: 'Términos y condiciones',     desc: 'Condiciones de uso de las herramientas.',     url: null },
-  { name: 'Aviso legal',                desc: 'Información legal del sitio.',                url: null },
+  { name: 'Contacto',               desc: 'Envía consultas o sugerencias.',          url: '/contacto' },
+  { name: 'Política de privacidad', desc: 'Cómo gestionamos los datos del sitio.',   url: '/politica-de-privacidad' },
+  { name: 'Términos y condiciones', desc: 'Condiciones de uso de las herramientas.', url: '/terminos-y-condiciones' },
+  { name: 'Aviso legal',            desc: 'Información legal del sitio.',            url: '/aviso-legal' },
 ];
 
 import Link from 'next/link';
 
 export function SobreConfianza() {
   return (
-    <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="confianza-heading">
+    <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="confianza-heading">
       <div className="site-shell">
         <p className="eyebrow">Transparencia</p>
         <h2 id="confianza-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

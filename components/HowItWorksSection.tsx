@@ -127,13 +127,13 @@ export function HowItWorksSection() {
 
           {/* Text block — no card background */}
           <div className="flex flex-col justify-center px-2 lg:px-4">
-            <p className="eyebrow">Del dato al resultado</p>
+            <p className="eyebrow">Cómo usar la plataforma</p>
             <h2
               id="how-heading"
               className="mt-3 text-[1.9rem] font-bold leading-tight lg:text-[2.4rem]"
               style={{ color: '#102a43' }}
             >
-              Un flujo claro para usar cada calculadora
+              Cinco pasos para resolver cualquier operación
             </h2>
           </div>
 

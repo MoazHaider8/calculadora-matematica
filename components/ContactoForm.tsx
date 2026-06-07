@@ -69,10 +69,10 @@ export function ContactoForm() {
 
   if (submitted) {
     return (
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="form-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="form-heading">
         <div className="site-shell">
           <p className="eyebrow">Formulario</p>
-          <h2 id="form-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
+          <h2 id="form-heading" className="mt-2 mb-5 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
             Envíanos un mensaje
           </h2>
           <div
@@ -91,17 +91,17 @@ export function ContactoForm() {
   }
 
   return (
-    <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="form-heading">
+    <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="form-heading">
       <div className="site-shell">
         <p className="eyebrow">Formulario</p>
-        <h2 id="form-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
+        <h2 id="form-heading" className="mt-2 mb-5 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
           Envíanos un mensaje
         </h2>
 
         <form
           onSubmit={handleSubmit}
           noValidate
-          className="max-w-lg space-y-6"
+          className="max-w-lg space-y-5"
           aria-label="Formulario de contacto"
         >
           <div>

@@ -32,7 +32,7 @@ const datosCards = [
 export function PrivacidadIntroYDatos() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="intro-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="intro-heading">
         <div className="site-shell">
           <p className="eyebrow">La política</p>
           <h2 id="intro-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -52,7 +52,7 @@ export function PrivacidadIntroYDatos() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="datos-heading">
+      <section className="bg-white py-8 lg:py-11" aria-labelledby="datos-heading">
         <div className="site-shell">
           <p className="eyebrow">Datos</p>
           <h2 id="datos-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

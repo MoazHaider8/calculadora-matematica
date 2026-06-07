@@ -7,15 +7,16 @@ import { AritmeticaWhatIs } from '@/components/AritmeticaWhatIs';
 import { AritmeticaWhenToUse } from '@/components/AritmeticaWhenToUse';
 import { AritmeticaConcepts } from '@/components/AritmeticaConcepts';
 import { AritmeticaRelated } from '@/components/AritmeticaRelated';
+import { HubRelatedCategories } from '@/components/HubRelatedCategories';
 import { AritmeticaFAQ } from '@/components/AritmeticaFAQ';
 
 const BASE_URL = 'https://calculadoramatematica.com';
 const PAGE_URL = `${BASE_URL}/calculadoras/aritmetica`;
 
 export const metadata: Metadata = {
-  title: { absolute: 'Calculadoras de Aritmética Online' },
+  title: { absolute: 'Calculadoras de Aritmética Online: Fracciones y Porcentajes' },
   description:
-    'Explora calculadoras de aritmética para fracciones, porcentajes, promedio, regla de tres y operaciones científicas.',
+    'Usa calculadoras de fracciones, porcentajes, promedios, regla de tres y calculadora científica. Herramientas claras para operaciones aritméticas en español.',
   keywords: [
     'calculadoras de aritmética',
     'herramientas de aritmética',
@@ -34,9 +35,9 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadoras de Aritmética Online',
+    title: 'Calculadoras de Aritmética Online: Fracciones y Porcentajes',
     description:
-      'Explora calculadoras de aritmética para fracciones, porcentajes, promedio, regla de tres y operaciones científicas.',
+      'Usa calculadoras de fracciones, porcentajes, promedios, regla de tres y calculadora científica. Herramientas claras para operaciones aritméticas en español.',
     url: PAGE_URL,
     siteName: 'Calculadora Matemática',
     locale: 'es_ES',
@@ -44,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadoras de Aritmética Online',
+    title: 'Calculadoras de Aritmética Online: Fracciones y Porcentajes',
     description:
-      'Explora calculadoras de aritmética para fracciones, porcentajes, promedio, regla de tres y operaciones científicas.',
+      'Usa calculadoras de fracciones, porcentajes, promedios, regla de tres y calculadora científica. Herramientas claras para operaciones aritméticas en español.',
   },
 };
 
@@ -156,6 +157,7 @@ export default function AritmeticaPage() {
         <AritmeticaWhenToUse />
         <AritmeticaConcepts />
         <AritmeticaRelated />
+        <HubRelatedCategories current="aritmetica" />
         <AritmeticaFAQ />
       </main>
       <Footer />

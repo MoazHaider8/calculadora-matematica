@@ -1,79 +1,13 @@
+import { HubWhenToUse } from './HubWhenToUse';
+
 const rows = [
-  { need: 'Analizar un conjunto de datos con varias medidas estadísticas', tool: 'Calculadora de Estadística', id: 'estadistica' },
-  { need: 'Calcular casos favorables frente a casos posibles',             tool: 'Calculadora de Probabilidad', id: 'probabilidad' },
-  { need: 'Medir la dispersión en las mismas unidades de los datos',       tool: 'Calculadora de Desviación Estándar', id: 'desviacion-estandar' },
-  { need: 'Obtener el valor medio de un conjunto de datos',                tool: 'Calculadora de Media', id: 'media' },
-  { need: 'Calcular la dispersión cuadrática respecto a la media',         tool: 'Calculadora de Varianza', id: 'varianza' },
+  { situation: 'Obtener un resumen completo de un conjunto de datos', tool: 'Calculadora de Estadística', href: '/calculadoras/estadistica/calculadora-de-estadistica' },
+  { situation: 'Calcular la probabilidad de un evento simple o compuesto', tool: 'Calculadora de Probabilidad', href: '/calculadoras/estadistica/calculadora-de-probabilidad' },
+  { situation: 'Medir la dispersión de datos en sus unidades originales', tool: 'Calculadora de Desviación Estándar', href: '/calculadoras/estadistica/calculadora-de-desviacion-estandar' },
+  { situation: 'Calcular la media simple o ponderada de un conjunto', tool: 'Calculadora de Media', href: '/calculadoras/estadistica/calculadora-de-media' },
+  { situation: 'Medir la dispersión cuadrática respecto a la media', tool: 'Calculadora de Varianza', href: '/calculadoras/estadistica/calculadora-de-varianza' },
 ];
 
 export function EstadisticaWhenToUse() {
-  return (
-    <section className="bg-panel py-12 lg:py-16" aria-labelledby="when-est-heading">
-      <div className="site-shell">
-        <p className="eyebrow">Guía de uso</p>
-        <h2
-          id="when-est-heading"
-          className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]"
-        >
-          ¿Cuándo utilizar cada herramienta?
-        </h2>
-
-        {/* Desktop table */}
-        <div className="hidden overflow-hidden rounded-2xl lg:block" style={{ border: '1px solid #D7E2EA' }}>
-          <table className="w-full text-sm" aria-label="Guía de uso de calculadoras de estadística">
-            <thead>
-              <tr style={{ background: '#0a3535' }}>
-                <th className="px-6 py-4 text-left text-xs font-bold uppercase tracking-widest" style={{ color: 'rgba(221,243,240,0.7)' }}>
-                  Necesito
-                </th>
-                <th className="px-6 py-4 text-left text-xs font-bold uppercase tracking-widest" style={{ color: 'rgba(221,243,240,0.7)' }}>
-                  Herramienta recomendada
-                </th>
-              </tr>
-            </thead>
-            <tbody className="divide-y bg-white" style={{ borderColor: '#EEF4F7' }}>
-              {rows.map((row, i) => (
-                <tr key={i} className="transition-colors hover:bg-panel">
-                  <td className="px-6 py-4 text-sm leading-relaxed" style={{ color: '#334e68' }}>
-                    {row.need}
-                  </td>
-                  <td className="px-6 py-4">
-                    <span
-                      className="inline-flex items-center rounded-lg px-3 py-1.5 text-xs font-bold"
-                      style={{ background: '#DDF3F0', color: '#0F5C5C' }}
-                    >
-                      {row.tool}
-                    </span>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        {/* Mobile cards */}
-        <div className="flex flex-col gap-3 lg:hidden">
-          {rows.map((row, i) => (
-            <div
-              key={i}
-              className="overflow-hidden rounded-xl bg-white"
-              style={{ border: '1px solid #D7E2EA' }}
-            >
-              <div className="px-4 py-3" style={{ background: '#F0FAF9', borderBottom: '1px solid #DDF3F0' }}>
-                <span
-                  className="text-xs font-bold"
-                  style={{ color: '#0F5C5C' }}
-                >
-                  {row.tool}
-                </span>
-              </div>
-              <p className="px-4 py-3 text-sm leading-relaxed" style={{ color: '#334e68' }}>
-                {row.need}
-              </p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+  return <HubWhenToUse headingId="estadistica-when-heading" rows={rows} />;
 }

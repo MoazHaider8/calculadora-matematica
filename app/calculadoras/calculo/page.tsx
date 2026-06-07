@@ -7,6 +7,7 @@ import { CalculoWhatIs } from '@/components/CalculoWhatIs';
 import { CalculoWhenToUse } from '@/components/CalculoWhenToUse';
 import { CalculoConcepts } from '@/components/CalculoConcepts';
 import { CalculoRelated } from '@/components/CalculoRelated';
+import { HubRelatedCategories } from '@/components/HubRelatedCategories';
 import { CalculoFAQ } from '@/components/CalculoFAQ';
 
 const BASE_URL = 'https://calculadoramatematica.com';
@@ -15,9 +16,9 @@ const PAGE_URL = `${BASE_URL}/calculadoras/calculo`;
 // ── Metadata ───────────────────────────────────────────────────────────────────
 
 export const metadata: Metadata = {
-  title: { absolute: 'Calculadoras de Cálculo | Integrales y Derivadas' },
+  title: { absolute: 'Calculadoras de Cálculo Online: Integrales, Derivadas y Más' },
   description:
-    'Explora calculadoras de cálculo para integrales, derivadas, límites, logaritmos y exponentes organizadas en una sola categoría.',
+    'Usa calculadoras de integrales, derivadas, límites, logaritmos y exponentes. Cada herramienta muestra fórmulas y pasos para revisar el resultado con claridad.',
   keywords: [
     'calculadoras de cálculo',
     'calculadora de cálculo',
@@ -38,9 +39,9 @@ export const metadata: Metadata = {
     languages: { es: PAGE_URL },
   },
   openGraph: {
-    title: 'Calculadoras de Cálculo | Integrales y Derivadas',
+    title: 'Calculadoras de Cálculo Online: Integrales, Derivadas y Más',
     description:
-      'Explora calculadoras de cálculo para integrales, derivadas, límites, logaritmos y exponentes organizadas en una sola categoría.',
+      'Usa calculadoras de integrales, derivadas, límites, logaritmos y exponentes. Cada herramienta muestra fórmulas y pasos para revisar el resultado con claridad.',
     url: PAGE_URL,
     siteName: 'Calculadora Matemática',
     locale: 'es_ES',
@@ -48,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadoras de Cálculo | Integrales y Derivadas',
+    title: 'Calculadoras de Cálculo Online: Integrales, Derivadas y Más',
     description:
-      'Explora calculadoras de cálculo para integrales, derivadas, límites, logaritmos y exponentes organizadas en una sola categoría.',
+      'Usa calculadoras de integrales, derivadas, límites, logaritmos y exponentes. Cada herramienta muestra fórmulas y pasos para revisar el resultado con claridad.',
   },
   robots: { index: true, follow: true },
 };
@@ -157,6 +158,7 @@ export default function CalculoPage() {
         <CalculoWhenToUse />
         <CalculoConcepts />
         <CalculoRelated />
+        <HubRelatedCategories current="calculo" />
         <CalculoFAQ />
       </main>
       <Footer />

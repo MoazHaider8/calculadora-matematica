@@ -23,7 +23,7 @@ const values = [
 
 export function SobreEnfoque() {
   return (
-    <section className="bg-white py-12 lg:py-16" aria-labelledby="enfoque-heading">
+    <section className="bg-white py-8 lg:py-11" aria-labelledby="enfoque-heading">
       <div className="site-shell">
         <p className="eyebrow">Valores</p>
         <h2 id="enfoque-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

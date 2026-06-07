@@ -1,31 +1,13 @@
+import { HubWhatIs } from './HubWhatIs';
+
+const topics = ['Figuras planas', 'Cuerpos geométricos', 'Triángulos', 'Círculos', 'Teorema de Pitágoras'];
+
+const paragraphs = [
+  'Esta categoría incluye calculadoras para área, volumen, triángulos, círculos y el teorema de Pitágoras. Con estas herramientas puedes calcular la superficie de figuras planas como rectángulos, triángulos y círculos, obtener el volumen de cuerpos como cubos, prismas y cilindros, resolver medidas de cualquier triángulo, calcular radio, diámetro y circunferencia, y encontrar hipotenusa o catetos de triángulos rectángulos.',
+  'La geometría estudia las propiedades de figuras planas y cuerpos en el espacio. Las fórmulas de área y volumen son herramientas fundamentales en arquitectura, ingeniería y ciencias naturales. El teorema de Pitágoras es uno de los resultados más aplicados en trigonometría y geometría plana.',
+  'Cada herramienta muestra el procedimiento con los pasos aplicados para facilitar la revisión del resultado.',
+];
+
 export function GeometriaWhatIs() {
-  return (
-    <section className="bg-white py-12 lg:py-16" aria-labelledby="whatis-geo-heading">
-      <div className="site-shell">
-        <div className="mx-auto max-w-2xl">
-          <div className="academic-card p-6">
-            <p className="eyebrow">Sobre esta categoría</p>
-            <h2
-              id="whatis-geo-heading"
-              className="mt-3 text-[1.35rem] font-bold leading-snug"
-              style={{ color: '#102a43' }}
-            >
-              ¿Qué incluye la geometría?
-            </h2>
-            <div className="mt-4 space-y-3 text-sm leading-relaxed" style={{ color: '#334e68' }}>
-              <p>
-                La <strong>geometría</strong> es la rama de las matemáticas que estudia las propiedades y medidas de <strong>figuras planas</strong> y <strong>cuerpos geométricos</strong> en el espacio. Trabaja con formas, medidas y relaciones entre sus elementos.
-              </p>
-              <p>
-                Las principales magnitudes geométricas son el <strong>área</strong>, que mide la superficie de una figura, y el <strong>volumen</strong>, que mide el espacio que ocupa un cuerpo tridimensional. El <strong>perímetro</strong> mide la longitud del contorno de una figura plana; la <strong>circunferencia</strong> es el perímetro de un círculo.
-              </p>
-              <p>
-                Los <strong>triángulos</strong> y los <strong>círculos</strong> son las figuras más usadas en geometría escolar. El <strong>teorema de Pitágoras</strong> relaciona los lados de un triángulo rectángulo con la fórmula a² + b² = c², donde c es la <strong>hipotenusa</strong>.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+  return <HubWhatIs headingId="geometria-whatis-heading" topics={topics} paragraphs={paragraphs} />;
 }

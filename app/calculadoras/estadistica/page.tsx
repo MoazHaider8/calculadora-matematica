@@ -7,27 +7,28 @@ import { EstadisticaWhatIs }    from '@/components/EstadisticaWhatIs';
 import { EstadisticaWhenToUse } from '@/components/EstadisticaWhenToUse';
 import { EstadisticaConcepts }  from '@/components/EstadisticaConcepts';
 import { EstadisticaRelated }   from '@/components/EstadisticaRelated';
+import { HubRelatedCategories } from '@/components/HubRelatedCategories';
 import { EstadisticaFAQ }       from '@/components/EstadisticaFAQ';
 
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/estadistica';
 
 export const metadata: Metadata = {
-  title: 'Calculadoras de Estadística Online',
+  title: 'Calculadoras de Estadística Online: Media, Varianza y Más',
   description:
-    'Explora calculadoras de estadística para media, varianza, desviación estándar, probabilidad y análisis de datos.',
+    'Analiza datos con calculadoras de media, probabilidad, desviación estándar, varianza y estadística descriptiva. Herramientas con fórmulas y pasos en español.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadoras de Estadística Online',
-    description: 'Explora calculadoras de estadística para media, varianza, desviación estándar, probabilidad y análisis de datos.',
+    title:       'Calculadoras de Estadística Online: Media, Varianza y Más',
+    description: 'Analiza datos con calculadoras de media, probabilidad, desviación estándar, varianza y estadística descriptiva. Herramientas con fórmulas y pasos en español.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadoras de Estadística Online',
-    description: 'Explora calculadoras de estadística para media, varianza, desviación estándar, probabilidad y análisis de datos.',
+    title:       'Calculadoras de Estadística Online: Media, Varianza y Más',
+    description: 'Analiza datos con calculadoras de media, probabilidad, desviación estándar, varianza y estadística descriptiva. Herramientas con fórmulas y pasos en español.',
   },
 };
 
@@ -38,7 +39,7 @@ const jsonLd = {
       '@type': 'CollectionPage',
       '@id':   CANONICAL,
       url:     CANONICAL,
-      name:    'Calculadoras de Estadística Online',
+      name:    'Calculadoras de Estadística Online: Media, Varianza y Más',
       description: 'Categoría de calculadoras estadísticas: estadística, probabilidad, media, varianza y desviación estándar.',
       inLanguage: 'es',
       isPartOf:   { '@id': 'https://calculadoramatematica.com/calculadoras' },
@@ -114,6 +115,7 @@ export default function EstadisticaPage() {
       <EstadisticaWhenToUse />
       <EstadisticaConcepts />
       <EstadisticaRelated />
+      <HubRelatedCategories current="estadistica" />
       <EstadisticaFAQ />
       <Footer />
     </>

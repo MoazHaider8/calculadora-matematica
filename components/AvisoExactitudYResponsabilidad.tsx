@@ -18,7 +18,7 @@ const responsabilidadItems = [
 export function AvisoExactitudYResponsabilidad() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="exactitud-aviso-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="exactitud-aviso-heading">
         <div className="site-shell">
           <p className="eyebrow">Limitaciones</p>
           <h2 id="exactitud-aviso-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -53,7 +53,7 @@ export function AvisoExactitudYResponsabilidad() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="responsabilidad-aviso-heading">
+      <section className="bg-white py-8 lg:py-11" aria-labelledby="responsabilidad-aviso-heading">
         <div className="site-shell">
           <p className="eyebrow">Usuario</p>
           <h2 id="responsabilidad-aviso-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

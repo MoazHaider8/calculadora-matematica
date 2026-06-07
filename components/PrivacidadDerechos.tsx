@@ -3,7 +3,7 @@ import Link from 'next/link';
 export function PrivacidadDerechos() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="derechos-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="derechos-heading">
         <div className="site-shell">
           <p className="eyebrow">Derechos</p>
           <h2 id="derechos-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -24,7 +24,7 @@ export function PrivacidadDerechos() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="cambios-heading">
+      <section className="bg-white py-7 lg:py-9" aria-labelledby="cambios-heading">
         <div className="site-shell">
           <p className="eyebrow">Actualizaciones</p>
           <h2 id="cambios-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -41,7 +41,7 @@ export function PrivacidadDerechos() {
         </div>
       </section>
 
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="contacto-priv-heading">
+      <section className="bg-white-soft py-6 lg:py-8" aria-labelledby="contacto-priv-heading">
         <div className="site-shell">
           <p className="eyebrow">Consultas</p>
           <h2 id="contacto-priv-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

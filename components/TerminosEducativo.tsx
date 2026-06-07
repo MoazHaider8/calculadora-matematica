@@ -18,7 +18,7 @@ const responsabilidades = [
 export function TerminosEducativo() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="educativo-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="educativo-heading">
         <div className="site-shell">
           <p className="eyebrow">Alcance</p>
           <h2 id="educativo-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -46,7 +46,7 @@ export function TerminosEducativo() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="responsabilidad-heading">
+      <section className="bg-white py-8 lg:py-11" aria-labelledby="responsabilidad-heading">
         <div className="site-shell">
           <p className="eyebrow">Usuario</p>
           <h2 id="responsabilidad-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

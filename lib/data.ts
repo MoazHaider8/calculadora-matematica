@@ -258,28 +258,33 @@ export const categories: CategoryData[] = [
   },
 ];
 
-// ─── FAQ (4 focused questions) ────────────────────────────────────────────────
+// ─── FAQ (5 focused questions) ────────────────────────────────────────────────
 
 export const faqItems: FAQItem[] = [
   {
-    question: '¿Qué calculadoras matemáticas incluye la plataforma?',
+    question: '¿Qué calculadoras están disponibles en la plataforma?',
     answer:
-      'La plataforma reúne más de treinta calculadoras organizadas en seis categorías: cálculo, álgebra, matrices y vectores, aritmética, estadística y geometría. Cada herramienta responde a una operación matemática concreta.',
+      'La plataforma reúne más de treinta calculadoras organizadas en seis áreas: cálculo, álgebra, matrices y vectores, aritmética, estadística y geometría. Puedes verlas todas en la sección de calculadoras del sitio.',
   },
   {
-    question: '¿Puedo usar estas calculadoras online para estudiar?',
+    question: '¿Qué calculadora usar para integrales o derivadas?',
     answer:
-      'Sí. El sitio está pensado para estudiar, comprobar ejercicios y revisar operaciones matemáticas con apoyo de fórmulas y resultados claros.',
+      'Para integrales y derivadas, usa las herramientas de la categoría de cálculo. Incluye calculadoras de integrales, derivadas, límites, logaritmos y exponentes.',
   },
   {
-    question: '¿Las herramientas muestran fórmulas o pasos?',
+    question: '¿Las calculadoras muestran el procedimiento paso a paso?',
     answer:
-      'Depende de la calculadora, pero la estructura general del sitio está orientada a explicar el procedimiento cuando la operación lo requiere, no solo a mostrar un resultado final.',
+      'La mayoría de las herramientas del sitio están diseñadas para mostrar el resultado con el procedimiento o las fórmulas aplicadas, no solo el número final. Esto facilita verificar y aprender el método.',
+  },
+  {
+    question: '¿Puedo consultar guías matemáticas además de calculadoras?',
+    answer:
+      'Sí. El blog del sitio incluye artículos sobre integrales, ecuaciones, fracciones, probabilidad, matrices, geometría y otros temas matemáticos para complementar el uso de las calculadoras.',
   },
   {
     question: '¿Todo el contenido está disponible en español?',
     answer:
-      'Sí. Las categorías, los nombres de las calculadoras, los textos de apoyo y la navegación están pensados para usuarios que buscan herramientas matemáticas en español.',
+      'Sí. Las categorías, los nombres de las calculadoras, los textos explicativos, las guías del blog y la navegación completa están escritos en español.',
   },
 ];
 

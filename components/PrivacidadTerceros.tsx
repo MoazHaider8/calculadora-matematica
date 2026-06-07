@@ -1,7 +1,7 @@
 export function PrivacidadTerceros() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="terceros-heading">
+      <section className="bg-white-soft py-6 lg:py-8" aria-labelledby="terceros-heading">
         <div className="site-shell">
           <p className="eyebrow">Terceros</p>
           <h2 id="terceros-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -15,7 +15,7 @@ export function PrivacidadTerceros() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="seguridad-heading">
+      <section className="bg-white py-6 lg:py-8" aria-labelledby="seguridad-heading">
         <div className="site-shell">
           <p className="eyebrow">Seguridad</p>
           <h2 id="seguridad-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

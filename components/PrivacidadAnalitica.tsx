@@ -1,7 +1,7 @@
 export function PrivacidadAnalitica() {
   return (
     <div>
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="analitica-heading">
+      <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="analitica-heading">
         <div className="site-shell">
           <p className="eyebrow">Servicios externos</p>
           <h2 id="analitica-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -18,7 +18,7 @@ export function PrivacidadAnalitica() {
         </div>
       </section>
 
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="formularios-priv-heading">
+      <section className="bg-white py-8 lg:py-11" aria-labelledby="formularios-priv-heading">
         <div className="site-shell">
           <p className="eyebrow">Formularios</p>
           <h2 id="formularios-priv-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

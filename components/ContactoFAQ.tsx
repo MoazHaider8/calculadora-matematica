@@ -34,7 +34,7 @@ export function ContactoFAQ() {
   const toggle = (i: number) => setOpen(prev => (prev === i ? null : i));
 
   return (
-    <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="faq-contacto-heading">
+    <section className="bg-white-soft py-8 lg:py-11" aria-labelledby="faq-contacto-heading">
       <div className="site-shell">
         <p className="eyebrow">FAQ</p>
         <h2 id="faq-contacto-heading" className="mt-2 mb-8 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">

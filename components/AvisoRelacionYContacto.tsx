@@ -3,7 +3,7 @@ import Link from 'next/link';
 export function AvisoRelacionYContacto() {
   return (
     <div>
-      <section className="bg-white py-12 lg:py-16" aria-labelledby="relacion-heading">
+      <section className="bg-white py-8 lg:py-11" aria-labelledby="relacion-heading">
         <div className="site-shell">
           <p className="eyebrow">Documentos legales</p>
           <h2 id="relacion-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
@@ -49,7 +49,7 @@ export function AvisoRelacionYContacto() {
         </div>
       </section>
 
-      <section className="bg-white-soft py-12 lg:py-16" aria-labelledby="contacto-aviso-heading">
+      <section className="bg-white-soft py-6 lg:py-8" aria-labelledby="contacto-aviso-heading">
         <div className="site-shell">
           <p className="eyebrow">Preguntas</p>
           <h2 id="contacto-aviso-heading" className="mt-2 mb-6 text-[1.5rem] font-bold text-ink lg:text-[1.8rem]">
