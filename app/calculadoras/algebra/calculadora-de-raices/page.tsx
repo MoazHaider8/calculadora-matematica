@@ -13,26 +13,26 @@ import { RaizRelated } from '@/components/RaizRelated';
 import { RaizFAQ } from '@/components/RaizFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Raíces Online | Raíz Cúbica y Enésima',
+  title: { absolute: 'Calculadora de Raíces Online: Cúbica, Cuarta y Enésima' },
   description:
-    'Calcula raíces online con índice personalizado. Obtén raíz cúbica, cuarta o enésima con resultado exacto, decimal y comprobación.',
+    'Calcula raíces con índice personalizado online en español. Obtén raíz cúbica, cuarta, quinta o enésima con resultado exacto, decimal y comprobación del cálculo.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/algebra/calculadora-de-raices',
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Raíces Online | Raíz Cúbica y Enésima',
+    title: 'Calculadora de Raíces Online: Cúbica, Cuarta y Enésima',
     description:
-      'Calcula raíces online con índice personalizado. Obtén raíz cúbica, cuarta o enésima con resultado exacto, decimal y comprobación.',
+      'Calcula raíces con índice personalizado online en español. Obtén raíz cúbica, cuarta, quinta o enésima con resultado exacto, decimal y comprobación del cálculo.',
     url: 'https://calculadoramatematica.com/calculadoras/algebra/calculadora-de-raices',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadora de Raíces Online | Raíz Cúbica y Enésima',
+    title: 'Calculadora de Raíces Online: Cúbica, Cuarta y Enésima',
     description:
-      'Calcula raíces online con índice personalizado. Obtén raíz cúbica, cuarta o enésima con resultado exacto, decimal y comprobación.',
+      'Calcula raíces con índice personalizado online en español. Obtén raíz cúbica, cuarta, quinta o enésima con resultado exacto, decimal y comprobación del cálculo.',
   },
 };
 

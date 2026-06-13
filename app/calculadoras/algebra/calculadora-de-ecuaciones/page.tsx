@@ -17,8 +17,8 @@ const BASE_URL = 'https://calculadoramatematica.com';
 const PAGE_URL = `${BASE_URL}/calculadoras/algebra/calculadora-de-ecuaciones`;
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Ecuaciones Online | Paso a Paso',
-  description: 'Resuelve ecuaciones online lineales y cuadráticas. Introduce la ecuación, elige variable y revisa solución, pasos y comprobación.',
+  title: { absolute: 'Calculadora de Ecuaciones Online: Lineales y Cuadráticas' },
+  description: 'Resuelve ecuaciones lineales y cuadráticas online en español. Introduce la ecuación, elige la variable y obtén la solución con pasos y comprobación detallada.',
   keywords: [
     'calculadora de ecuaciones',
     'calculadora de ecuaciones online',
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
     locale: 'es_ES',
     url: PAGE_URL,
     siteName: 'Calculadoras Matemáticas',
-    title: 'Calculadora de Ecuaciones Online | Paso a Paso',
-    description: 'Resuelve ecuaciones online lineales y cuadráticas. Introduce la ecuación, elige variable y revisa solución, pasos y comprobación.',
+    title: 'Calculadora de Ecuaciones Online: Lineales y Cuadráticas',
+    description: 'Resuelve ecuaciones lineales y cuadráticas online en español. Introduce la ecuación, elige la variable y obtén la solución con pasos y comprobación detallada.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadora de Ecuaciones Online | Paso a Paso',
-    description: 'Resuelve ecuaciones online lineales y cuadráticas. Introduce la ecuación, elige variable y revisa solución, pasos y comprobación.',
+    title: 'Calculadora de Ecuaciones Online: Lineales y Cuadráticas',
+    description: 'Resuelve ecuaciones lineales y cuadráticas online en español. Introduce la ecuación, elige la variable y obtén la solución con pasos y comprobación detallada.',
   },
 };
 

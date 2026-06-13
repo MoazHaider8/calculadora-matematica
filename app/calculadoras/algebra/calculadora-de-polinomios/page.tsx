@@ -16,8 +16,8 @@ const BASE_URL = 'https://calculadoramatematica.com';
 const PAGE_URL = `${BASE_URL}/calculadoras/algebra/calculadora-de-polinomios`;
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Polinomios Online | Factorizar y Operar',
-  description: 'Simplifica, factoriza, evalúa y opera polinomios online. Introduce un polinomio y revisa grado, coeficientes y resultado.',
+  title: { absolute: 'Calculadora de Polinomios Online: Factorizar y Evaluar' },
+  description: 'Simplifica, factoriza, suma, resta, multiplica y evalúa polinomios online. Obtén el grado, coeficientes y resultado con procedimiento explicado paso a paso.',
   keywords: [
     'calculadora de polinomios',
     'calculadora de polinomios online',
@@ -33,13 +33,13 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
   openGraph: {
     type: 'website', locale: 'es_ES', url: PAGE_URL, siteName: 'Calculadoras Matemáticas',
-    title: 'Calculadora de Polinomios Online | Factorizar y Operar',
-    description: 'Simplifica, factoriza, evalúa y opera polinomios online. Introduce un polinomio y revisa grado, coeficientes y resultado.',
+    title: 'Calculadora de Polinomios Online: Factorizar y Evaluar',
+    description: 'Simplifica, factoriza, suma, resta, multiplica y evalúa polinomios online. Obtén el grado, coeficientes y resultado con procedimiento explicado paso a paso.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadora de Polinomios Online | Factorizar y Operar',
-    description: 'Simplifica, factoriza, evalúa y opera polinomios online. Introduce un polinomio y revisa grado, coeficientes y resultado.',
+    title: 'Calculadora de Polinomios Online: Factorizar y Evaluar',
+    description: 'Simplifica, factoriza, suma, resta, multiplica y evalúa polinomios online. Obtén el grado, coeficientes y resultado con procedimiento explicado paso a paso.',
   },
 };
 

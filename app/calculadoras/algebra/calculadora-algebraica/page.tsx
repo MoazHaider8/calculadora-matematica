@@ -16,8 +16,8 @@ const BASE_URL = 'https://calculadoramatematica.com';
 const PAGE_URL = `${BASE_URL}/calculadoras/algebra/calculadora-algebraica`;
 
 export const metadata: Metadata = {
-  title: 'Calculadora Algebraica Online | Simplificar y Factorizar',
-  description: 'Simplifica, expande, factoriza y evalúa expresiones algebraicas online. Introduce tu expresión y revisa el resultado.',
+  title: { absolute: 'Calculadora Algebraica Online: Expande, Factoriza y Evalúa' },
+  description: 'Simplifica, expande, factoriza y evalúa expresiones algebraicas online en español. Introduce la expresión y obtén el resultado con cada paso de la operación.',
   keywords: [
     'calculadora algebraica',
     'calculadora algebraica online',
@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     locale: 'es_ES',
     url: PAGE_URL,
     siteName: 'Calculadoras Matemáticas',
-    title: 'Calculadora Algebraica Online | Simplificar y Factorizar',
-    description: 'Simplifica, expande, factoriza y evalúa expresiones algebraicas online. Introduce tu expresión y revisa el resultado.',
+    title: 'Calculadora Algebraica Online: Expande, Factoriza y Evalúa',
+    description: 'Simplifica, expande, factoriza y evalúa expresiones algebraicas online en español. Introduce la expresión y obtén el resultado con cada paso de la operación.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadora Algebraica Online | Simplificar y Factorizar',
-    description: 'Simplifica, expande, factoriza y evalúa expresiones algebraicas online. Introduce tu expresión y revisa el resultado.',
+    title: 'Calculadora Algebraica Online: Expande, Factoriza y Evalúa',
+    description: 'Simplifica, expande, factoriza y evalúa expresiones algebraicas online en español. Introduce la expresión y obtén el resultado con cada paso de la operación.',
   },
 };
 

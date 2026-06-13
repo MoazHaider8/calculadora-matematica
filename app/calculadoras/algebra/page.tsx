@@ -16,7 +16,7 @@ const PAGE_URL = `${BASE_URL}/calculadoras/algebra`;
 export const metadata: Metadata = {
   title: { absolute: 'Calculadoras de Álgebra Online: Ecuaciones, Polinomios y Más' },
   description:
-    'Resuelve ecuaciones, trabaja con expresiones algebraicas, polinomios, raíces y raíz cuadrada. Cada calculadora muestra fórmulas y procedimientos en español.',
+    'Resuelve ecuaciones, trabaja con expresiones algebraicas, polinomios, raíces y raíz cuadrada. Herramientas de álgebra con fórmulas, pasos y resultados claros.',
   keywords: [
     'calculadoras de álgebra',
     'herramientas de álgebra',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Calculadoras de Álgebra Online: Ecuaciones, Polinomios y Más',
     description:
-      'Resuelve ecuaciones, trabaja con expresiones algebraicas, polinomios, raíces y raíz cuadrada. Cada calculadora muestra fórmulas y procedimientos en español.',
+      'Resuelve ecuaciones, trabaja con expresiones algebraicas, polinomios, raíces y raíz cuadrada. Herramientas de álgebra con fórmulas, pasos y resultados claros.',
     url: PAGE_URL,
     siteName: 'Calculadora Matemática',
     locale: 'es_ES',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Calculadoras de Álgebra Online: Ecuaciones, Polinomios y Más',
     description:
-      'Resuelve ecuaciones, trabaja con expresiones algebraicas, polinomios, raíces y raíz cuadrada. Cada calculadora muestra fórmulas y procedimientos en español.',
+      'Resuelve ecuaciones, trabaja con expresiones algebraicas, polinomios, raíces y raíz cuadrada. Herramientas de álgebra con fórmulas, pasos y resultados claros.',
   },
 };
 

@@ -13,26 +13,26 @@ import { RaizCuadradaRelated } from '@/components/RaizCuadradaRelated';
 import { RaizCuadradaFAQ } from '@/components/RaizCuadradaFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Raíz Cuadrada Online | Exacta y Decimal',
+  title: { absolute: 'Calculadora de Raíz Cuadrada: Resultado Exacto y Decimal' },
   description:
-    'Calcula raíces cuadradas online. Obtén resultado exacto, decimal, simplificación del radical y comprobación paso a paso.',
+    'Calcula la raíz cuadrada online con resultado exacto y decimal. Obtén la simplificación del radical y comprobación paso a paso. Herramienta gratuita en español.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/algebra/calculadora-de-raiz-cuadrada',
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Raíz Cuadrada Online | Exacta y Decimal',
+    title: 'Calculadora de Raíz Cuadrada: Resultado Exacto y Decimal',
     description:
-      'Calcula raíces cuadradas online. Obtén resultado exacto, decimal, simplificación del radical y comprobación paso a paso.',
+      'Calcula la raíz cuadrada online con resultado exacto y decimal. Obtén la simplificación del radical y comprobación paso a paso. Herramienta gratuita en español.',
     url: 'https://calculadoramatematica.com/calculadoras/algebra/calculadora-de-raiz-cuadrada',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadora de Raíz Cuadrada Online | Exacta y Decimal',
+    title: 'Calculadora de Raíz Cuadrada: Resultado Exacto y Decimal',
     description:
-      'Calcula raíces cuadradas online. Obtén resultado exacto, decimal, simplificación del radical y comprobación paso a paso.',
+      'Calcula la raíz cuadrada online con resultado exacto y decimal. Obtén la simplificación del radical y comprobación paso a paso. Herramienta gratuita en español.',
   },
 };
 
