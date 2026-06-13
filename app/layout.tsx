@@ -76,6 +76,9 @@ export const metadata: Metadata = {
     description:
       'Explora calculadoras matemáticas y calculadoras online en español. Encuentra herramientas matemáticas organizadas por tema.',
   },
+  verification: {
+    google: '-ovCHO7n_HmuXjpYEIal7p_gwiCyN06kaXzwcOM2rQg',
+  },
 };
 
 function buildSchema() {
