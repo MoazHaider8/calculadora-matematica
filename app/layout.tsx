@@ -79,6 +79,7 @@ export const metadata: Metadata = {
   },
   verification: {
     google: '-ovCHO7n_HmuXjpYEIal7p_gwiCyN06kaXzwcOM2rQg',
+    yandex: '6731fef46659cd47',
   },
 };
 
