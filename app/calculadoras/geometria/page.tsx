@@ -13,7 +13,7 @@ import { GeometriaFAQ }        from '@/components/GeometriaFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/geometria';
 
 export const metadata: Metadata = {
-  title: 'Calculadoras de Geometría Online: Áreas, Triángulos y Más',
+  title: { absolute: 'Calculadoras de Geometría Online: Áreas, Triángulos y Más' },
   description:
     'Calcula áreas, volúmenes, triángulos, círculos y el teorema de Pitágoras. Cada herramienta muestra fórmulas y pasos para revisar el resultado fácilmente.',
   alternates: { canonical: CANONICAL },
