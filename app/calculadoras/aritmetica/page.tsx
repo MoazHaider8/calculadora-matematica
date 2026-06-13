@@ -16,7 +16,7 @@ const PAGE_URL = `${BASE_URL}/calculadoras/aritmetica`;
 export const metadata: Metadata = {
   title: { absolute: 'Calculadoras de Aritmética Online: Fracciones y Porcentajes' },
   description:
-    'Usa calculadoras de fracciones, porcentajes, promedios, regla de tres y calculadora científica. Herramientas claras para operaciones aritméticas en español.',
+    'Resuelve fracciones, porcentajes, regla de tres y promedios online. Calculadora científica incluida con pasos explicados. Herramientas de aritmética en español.',
   keywords: [
     'calculadoras de aritmética',
     'herramientas de aritmética',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Calculadoras de Aritmética Online: Fracciones y Porcentajes',
     description:
-      'Usa calculadoras de fracciones, porcentajes, promedios, regla de tres y calculadora científica. Herramientas claras para operaciones aritméticas en español.',
+      'Resuelve fracciones, porcentajes, regla de tres y promedios online. Calculadora científica incluida con pasos explicados. Herramientas de aritmética en español.',
     url: PAGE_URL,
     siteName: 'Calculadora Matemática',
     locale: 'es_ES',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Calculadoras de Aritmética Online: Fracciones y Porcentajes',
     description:
-      'Usa calculadoras de fracciones, porcentajes, promedios, regla de tres y calculadora científica. Herramientas claras para operaciones aritméticas en español.',
+      'Resuelve fracciones, porcentajes, regla de tres y promedios online. Calculadora científica incluida con pasos explicados. Herramientas de aritmética en español.',
   },
 };
 

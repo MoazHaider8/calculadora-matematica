@@ -15,22 +15,22 @@ import { ReglaTresFAQ }         from '@/components/ReglaTresFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-regla-de-tres';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Regla de Tres Online | Directa e Inversa',
+  title: { absolute: 'Calculadora de Regla de Tres: Directa e Inversa Online' },
   description:
-    'Calcula regla de tres online directa e inversa. Introduce valores, obtiene X, fórmula, procedimiento y explicación paso a paso.',
+    'Resuelve la regla de tres directa e inversa online en español. Introduce tres valores, obtén el cuarto, la fórmula y el procedimiento explicado paso a paso.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Regla de Tres Online | Directa e Inversa',
-    description: 'Calcula regla de tres online directa e inversa. Introduce valores, obtiene X, fórmula, procedimiento y explicación paso a paso.',
+    title:       'Calculadora de Regla de Tres: Directa e Inversa Online',
+    description: 'Resuelve la regla de tres directa e inversa online en español. Introduce tres valores, obtén el cuarto, la fórmula y el procedimiento explicado paso a paso.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadora de Regla de Tres Online | Directa e Inversa',
-    description: 'Calcula regla de tres online directa e inversa. Introduce valores, obtiene X, fórmula, procedimiento y explicación paso a paso.',
+    title:       'Calculadora de Regla de Tres: Directa e Inversa Online',
+    description: 'Resuelve la regla de tres directa e inversa online en español. Introduce tres valores, obtén el cuarto, la fórmula y el procedimiento explicado paso a paso.',
   },
 };
 
@@ -41,7 +41,7 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id':   CANONICAL,
       url:     CANONICAL,
-      name:    'Calculadora de Regla de Tres Online | Directa e Inversa',
+      name:    'Calculadora de Regla de Tres: Directa e Inversa Online',
       description: 'Calculadora de regla de tres directa e inversa. Encuentra el valor X, muestra fórmula y procedimiento.',
       inLanguage: 'es',
       isPartOf:   { '@id': 'https://calculadoramatematica.com' },

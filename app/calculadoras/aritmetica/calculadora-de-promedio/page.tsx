@@ -15,22 +15,22 @@ import { PromedioFAQ }             from '@/components/PromedioFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-promedio';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Promedio Online | Notas y Valores',
+  title: { absolute: 'Calculadora de Promedio Online: Media Simple y Ponderada' },
   description:
-    'Calcula promedio online de notas, calificaciones o valores. Introduce números y revisa suma, cantidad, resultado y procedimiento.',
+    'Calcula el promedio de notas, calificaciones o cualquier valor numérico online en español. Obtén media simple y ponderada con suma, cantidad y procedimiento.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Promedio Online | Notas y Valores',
-    description: 'Calcula promedio online de notas, calificaciones o valores. Introduce números y revisa suma, cantidad, resultado y procedimiento.',
+    title:       'Calculadora de Promedio Online: Media Simple y Ponderada',
+    description: 'Calcula el promedio de notas, calificaciones o cualquier valor numérico online en español. Obtén media simple y ponderada con suma, cantidad y procedimiento.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadora de Promedio Online | Notas y Valores',
-    description: 'Calcula promedio online de notas, calificaciones o valores. Introduce números y revisa suma, cantidad, resultado y procedimiento.',
+    title:       'Calculadora de Promedio Online: Media Simple y Ponderada',
+    description: 'Calcula el promedio de notas, calificaciones o cualquier valor numérico online en español. Obtén media simple y ponderada con suma, cantidad y procedimiento.',
   },
 };
 
@@ -41,7 +41,7 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id':   CANONICAL,
       url:     CANONICAL,
-      name:    'Calculadora de Promedio Online | Notas y Valores',
+      name:    'Calculadora de Promedio Online: Media Simple y Ponderada',
       description: 'Calculadora de promedio simple y ponderado. Acepta listas de valores, muestra suma, cantidad, resultado y procedimiento.',
       inLanguage: 'es',
       isPartOf:   { '@id': 'https://calculadoramatematica.com' },

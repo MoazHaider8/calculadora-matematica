@@ -13,26 +13,26 @@ import { PorcentajesRelated } from '@/components/PorcentajesRelated';
 import { PorcentajesFAQ } from '@/components/PorcentajesFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Porcentajes Online | Descuentos',
+  title: { absolute: 'Calculadora de Porcentajes Online: Descuentos y Variaciones' },
   description:
-    'Calcula porcentajes online. Obtén porcentaje de un número, descuentos, aumentos, cambio porcentual y total con explicación.',
+    'Calcula porcentajes online en español: obtén el % de un número, aplica descuentos, calcula aumentos, cambio porcentual y encuentra el valor total. Con pasos.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-porcentajes',
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Porcentajes Online | Descuentos',
+    title: 'Calculadora de Porcentajes Online: Descuentos y Variaciones',
     description:
-      'Calcula porcentajes online. Obtén porcentaje de un número, descuentos, aumentos, cambio porcentual y total con explicación.',
+      'Calcula porcentajes online en español: obtén el % de un número, aplica descuentos, calcula aumentos, cambio porcentual y encuentra el valor total. Con pasos.',
     url: 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-porcentajes',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadora de Porcentajes Online | Descuentos',
+    title: 'Calculadora de Porcentajes Online: Descuentos y Variaciones',
     description:
-      'Calcula porcentajes online. Obtén porcentaje de un número, descuentos, aumentos, cambio porcentual y total con explicación.',
+      'Calcula porcentajes online en español: obtén el % de un número, aplica descuentos, calcula aumentos, cambio porcentual y encuentra el valor total. Con pasos.',
   },
 };
 
@@ -43,8 +43,8 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id': 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-porcentajes',
       url: 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-porcentajes',
-      name: 'Calculadora de Porcentajes Online | Descuentos',
-      description: 'Calcula porcentajes online. Obtén porcentaje de un número, descuentos, aumentos, cambio porcentual y total con explicación.',
+      name: 'Calculadora de Porcentajes Online: Descuentos y Variaciones',
+      description: 'Calcula porcentajes online en español: obtén el % de un número, aplica descuentos, calcula aumentos, cambio porcentual y encuentra el valor total. Con pasos.',
       inLanguage: 'es',
       isPartOf: { '@id': 'https://calculadoramatematica.com' },
       breadcrumb: { '@id': 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-porcentajes#breadcrumb' },

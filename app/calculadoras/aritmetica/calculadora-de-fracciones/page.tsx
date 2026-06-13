@@ -13,26 +13,26 @@ import { FraccionesRelated } from '@/components/FraccionesRelated';
 import { FracionesFAQ } from '@/components/FracionesFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Fracciones Online | Pasos y Decimal',
+  title: { absolute: 'Calculadora de Fracciones Online: Suma, Resta y División' },
   description:
-    'Suma, resta, multiplica, divide y simplifica fracciones online. Obtén resultado simplificado, mixto, decimal y pasos.',
+    'Opera fracciones online en español: suma, resta, multiplicación, división y simplificación. Obtén el resultado en forma exacta, mixta, decimal y con pasos.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-fracciones',
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Fracciones Online | Pasos y Decimal',
+    title: 'Calculadora de Fracciones Online: Suma, Resta y División',
     description:
-      'Suma, resta, multiplica, divide y simplifica fracciones online. Obtén resultado simplificado, mixto, decimal y pasos.',
+      'Opera fracciones online en español: suma, resta, multiplicación, división y simplificación. Obtén el resultado en forma exacta, mixta, decimal y con pasos.',
     url: 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-fracciones',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadora de Fracciones Online | Pasos y Decimal',
+    title: 'Calculadora de Fracciones Online: Suma, Resta y División',
     description:
-      'Suma, resta, multiplica, divide y simplifica fracciones online. Obtén resultado simplificado, mixto, decimal y pasos.',
+      'Opera fracciones online en español: suma, resta, multiplicación, división y simplificación. Obtén el resultado en forma exacta, mixta, decimal y con pasos.',
   },
 };
 
@@ -43,8 +43,8 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id': 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-fracciones',
       url: 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-fracciones',
-      name: 'Calculadora de Fracciones Online | Pasos y Decimal',
-      description: 'Suma, resta, multiplica, divide y simplifica fracciones online. Obtén resultado simplificado, mixto, decimal y pasos.',
+      name: 'Calculadora de Fracciones Online: Suma, Resta y División',
+      description: 'Opera fracciones online en español: suma, resta, multiplicación, división y simplificación. Obtén el resultado en forma exacta, mixta, decimal y con pasos.',
       inLanguage: 'es',
       isPartOf: { '@id': 'https://calculadoramatematica.com' },
       breadcrumb: { '@id': 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-de-fracciones#breadcrumb' },

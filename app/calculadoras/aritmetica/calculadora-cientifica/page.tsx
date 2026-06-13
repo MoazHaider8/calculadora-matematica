@@ -15,22 +15,22 @@ import { CientificaFAQ }        from '@/components/CientificaFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/aritmetica/calculadora-cientifica';
 
 export const metadata: Metadata = {
-  title: 'Calculadora Científica Online | Funciones y Grados',
+  title: { absolute: 'Calculadora Científica Online: Trig, Log y Potencias' },
   description:
-    'Usa una calculadora científica online con seno, coseno, tangente, logaritmos, raíces, potencias, π, e, grados y radianes.',
+    'Usa la calculadora científica online en español. Incluye sin, cos, tan, logaritmos, raíces, potencias, constantes π y e, y cambio entre grados y radianes.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora Científica Online | Funciones y Grados',
-    description: 'Usa una calculadora científica online con seno, coseno, tangente, logaritmos, raíces, potencias, π, e, grados y radianes.',
+    title:       'Calculadora Científica Online: Trig, Log y Potencias',
+    description: 'Usa la calculadora científica online en español. Incluye sin, cos, tan, logaritmos, raíces, potencias, constantes π y e, y cambio entre grados y radianes.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadora Científica Online | Funciones y Grados',
-    description: 'Usa una calculadora científica online con seno, coseno, tangente, logaritmos, raíces, potencias, π, e, grados y radianes.',
+    title:       'Calculadora Científica Online: Trig, Log y Potencias',
+    description: 'Usa la calculadora científica online en español. Incluye sin, cos, tan, logaritmos, raíces, potencias, constantes π y e, y cambio entre grados y radianes.',
   },
 };
 
@@ -41,7 +41,7 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id':   CANONICAL,
       url:     CANONICAL,
-      name:    'Calculadora Científica Online | Funciones y Grados',
+      name:    'Calculadora Científica Online: Trig, Log y Potencias',
       description: 'Calculadora científica online con trigonometría, logaritmos, potencias, raíces, constantes π y e, y cambio entre grados y radianes.',
       inLanguage: 'es',
       isPartOf:   { '@id': 'https://calculadoramatematica.com' },
