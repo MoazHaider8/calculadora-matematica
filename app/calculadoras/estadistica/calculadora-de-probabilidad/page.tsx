@@ -14,22 +14,22 @@ import { ProbabilidadFAQ }       from '@/components/ProbabilidadFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/estadistica/calculadora-de-probabilidad';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Probabilidad Online | Eventos y Casos',
+  title: { absolute: 'Calculadora de Probabilidad Online: Simple y Compuesta' },
   description:
-    'Calcula probabilidad online con casos favorables, posibles, eventos complementarios, unión, intersección y porcentaje.',
+    'Calcula probabilidad de eventos simples, complementarios, unión e intersección en español. Introduce los casos favorables y posibles, obtén fracción y decimal.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Probabilidad Online | Eventos y Casos',
-    description: 'Calcula probabilidad online con casos favorables, posibles, eventos complementarios, unión, intersección y porcentaje.',
+    title:       'Calculadora de Probabilidad Online: Simple y Compuesta',
+    description: 'Calcula probabilidad de eventos simples, complementarios, unión e intersección en español. Introduce los casos favorables y posibles, obtén fracción y decimal.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadora de Probabilidad Online | Eventos y Casos',
-    description: 'Calcula probabilidad online con casos favorables, posibles, eventos complementarios, unión, intersección y porcentaje.',
+    title:       'Calculadora de Probabilidad Online: Simple y Compuesta',
+    description: 'Calcula probabilidad de eventos simples, complementarios, unión e intersección en español. Introduce los casos favorables y posibles, obtén fracción y decimal.',
   },
 };
 

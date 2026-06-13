@@ -15,12 +15,12 @@ const CANONICAL = 'https://calculadoramatematica.com/calculadoras/estadistica';
 export const metadata: Metadata = {
   title: { absolute: 'Calculadoras de Estadística Online: Media, Varianza y Más' },
   description:
-    'Analiza datos con calculadoras de media, probabilidad, desviación estándar, varianza y estadística descriptiva. Herramientas con fórmulas y pasos en español.',
+    'Calcula media aritmética, probabilidad, desviación estándar, varianza y estadística descriptiva online. Herramientas con fórmulas y pasos explicados en español.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
     title:       'Calculadoras de Estadística Online: Media, Varianza y Más',
-    description: 'Analiza datos con calculadoras de media, probabilidad, desviación estándar, varianza y estadística descriptiva. Herramientas con fórmulas y pasos en español.',
+    description: 'Calcula media aritmética, probabilidad, desviación estándar, varianza y estadística descriptiva online. Herramientas con fórmulas y pasos explicados en español.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card:        'summary',
     title:       'Calculadoras de Estadística Online: Media, Varianza y Más',
-    description: 'Analiza datos con calculadoras de media, probabilidad, desviación estándar, varianza y estadística descriptiva. Herramientas con fórmulas y pasos en español.',
+    description: 'Calcula media aritmética, probabilidad, desviación estándar, varianza y estadística descriptiva online. Herramientas con fórmulas y pasos explicados en español.',
   },
 };
 

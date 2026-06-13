@@ -15,22 +15,22 @@ import { MediaFAQ }        from '@/components/MediaFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/estadistica/calculadora-de-media';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Media Online | Datos y Pasos',
+  title: { absolute: 'Calculadora de Media Online: Aritmética y Ponderada' },
   description:
-    'Calcula la media online de un conjunto de datos. Introduce valores y revisa suma, cantidad, resultado e interpretación.',
+    'Calcula la media aritmética simple y ponderada de un conjunto de datos online en español. Obtén la suma, la cantidad, el resultado y el procedimiento explicado.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Media Online | Datos y Pasos',
-    description: 'Calcula la media online de un conjunto de datos. Introduce valores y revisa suma, cantidad, resultado e interpretación.',
+    title:       'Calculadora de Media Online: Aritmética y Ponderada',
+    description: 'Calcula la media aritmética simple y ponderada de un conjunto de datos online en español. Obtén la suma, la cantidad, el resultado y el procedimiento explicado.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadora de Media Online | Datos y Pasos',
-    description: 'Calcula la media online de un conjunto de datos. Introduce valores y revisa suma, cantidad, resultado e interpretación.',
+    title:       'Calculadora de Media Online: Aritmética y Ponderada',
+    description: 'Calcula la media aritmética simple y ponderada de un conjunto de datos online en español. Obtén la suma, la cantidad, el resultado y el procedimiento explicado.',
   },
 };
 
@@ -41,7 +41,7 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id':   CANONICAL,
       url:     CANONICAL,
-      name:    'Calculadora de Media Online | Datos y Pasos',
+      name:    'Calculadora de Media Online: Aritmética y Ponderada',
       description: 'Calculadora de media aritmética: simple y ponderada. Introduce datos y obtén suma, cantidad, media y procedimiento paso a paso.',
       inLanguage: 'es',
       isPartOf:   { '@id': 'https://calculadoramatematica.com' },

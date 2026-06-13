@@ -15,22 +15,22 @@ import { DesviacionFAQ }        from '@/components/DesviacionFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/estadistica/calculadora-de-desviacion-estandar';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Desviación Estándar Online',
+  title: { absolute: 'Calculadora de Desviación Estándar: Muestra y Población' },
   description:
-    'Calcula desviación estándar online para muestra y población. Introduce datos y revisa media, varianza, resultado y pasos.',
+    'Calcula la desviación estándar poblacional y muestral online en español. Introduce un conjunto de datos y revisa la media, varianza y el resultado paso a paso.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Desviación Estándar Online',
-    description: 'Calcula desviación estándar online para muestra y población. Introduce datos y revisa media, varianza, resultado y pasos.',
+    title:       'Calculadora de Desviación Estándar: Muestra y Población',
+    description: 'Calcula la desviación estándar poblacional y muestral online en español. Introduce un conjunto de datos y revisa la media, varianza y el resultado paso a paso.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadora de Desviación Estándar Online',
-    description: 'Calcula desviación estándar online para muestra y población. Introduce datos y revisa media, varianza, resultado y pasos.',
+    title:       'Calculadora de Desviación Estándar: Muestra y Población',
+    description: 'Calcula la desviación estándar poblacional y muestral online en español. Introduce un conjunto de datos y revisa la media, varianza y el resultado paso a paso.',
   },
 };
 
@@ -41,7 +41,7 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id':   CANONICAL,
       url:     CANONICAL,
-      name:    'Calculadora de Desviación Estándar Online',
+      name:    'Calculadora de Desviación Estándar: Muestra y Población',
       description: 'Calculadora de desviación estándar poblacional y muestral: introduce datos y obtén media, varianza, resultado y procedimiento.',
       inLanguage: 'es',
       isPartOf:   { '@id': 'https://calculadoramatematica.com' },
@@ -60,7 +60,7 @@ const jsonLd = {
     {
       '@type': 'WebApplication',
       '@id':   `${CANONICAL}#app`,
-      name:    'Calculadora de Desviación Estándar Online',
+      name:    'Calculadora de Desviación Estándar: Muestra y Población',
       url:     CANONICAL,
       description: 'Calcula desviación estándar poblacional y muestral de un conjunto de datos. Muestra media, varianza y procedimiento paso a paso.',
       applicationCategory: 'EducationalApplication',

@@ -15,22 +15,22 @@ import { VarianzaFAQ }       from '@/components/VarianzaFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/estadistica/calculadora-de-varianza';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Varianza Online | Muestra y Población',
+  title: { absolute: 'Calculadora de Varianza Online: Poblacional y Muestral' },
   description:
-    'Calcula varianza online para muestra y población. Introduce datos y revisa media, diferencias cuadradas, resultado y pasos.',
+    'Calcula la varianza poblacional y muestral de un conjunto de datos online en español. Obtén la media, diferencias cuadradas, el resultado y el procedimiento.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Varianza Online | Muestra y Población',
-    description: 'Calcula varianza online para muestra y población. Introduce datos y revisa media, diferencias cuadradas, resultado y pasos.',
+    title:       'Calculadora de Varianza Online: Poblacional y Muestral',
+    description: 'Calcula la varianza poblacional y muestral de un conjunto de datos online en español. Obtén la media, diferencias cuadradas, el resultado y el procedimiento.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadora de Varianza Online | Muestra y Población',
-    description: 'Calcula varianza online para muestra y población. Introduce datos y revisa media, diferencias cuadradas, resultado y pasos.',
+    title:       'Calculadora de Varianza Online: Poblacional y Muestral',
+    description: 'Calcula la varianza poblacional y muestral de un conjunto de datos online en español. Obtén la media, diferencias cuadradas, el resultado y el procedimiento.',
   },
 };
 
@@ -41,7 +41,7 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id':   CANONICAL,
       url:     CANONICAL,
-      name:    'Calculadora de Varianza Online | Muestra y Población',
+      name:    'Calculadora de Varianza Online: Poblacional y Muestral',
       description: 'Calculadora de varianza poblacional y muestral. Introduce datos y obtén media, diferencias cuadradas, varianza y procedimiento.',
       inLanguage: 'es',
       isPartOf:   { '@id': 'https://calculadoramatematica.com' },

@@ -15,22 +15,22 @@ import { EstadisticaCalcFAQ }          from '@/components/EstadisticaCalcFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/estadistica/calculadora-de-estadistica';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Estadística Online | Resumen de Datos',
+  title: { absolute: 'Calculadora de Estadística: Media, Mediana y Varianza' },
   description:
-    'Calcula estadística online para un conjunto de datos. Obtén media, mediana, moda, rango, varianza, desviación estándar y resumen.',
+    'Obtén el resumen estadístico de un conjunto de datos online: media, mediana, moda, rango, varianza y desviación estándar con pasos y fórmulas en español.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Estadística Online | Resumen de Datos',
-    description: 'Calcula estadística online para un conjunto de datos. Obtén media, mediana, moda, rango, varianza, desviación estándar y resumen.',
+    title:       'Calculadora de Estadística: Media, Mediana y Varianza',
+    description: 'Obtén el resumen estadístico de un conjunto de datos online: media, mediana, moda, rango, varianza y desviación estándar con pasos y fórmulas en español.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadora de Estadística Online | Resumen de Datos',
-    description: 'Calcula estadística online para un conjunto de datos. Obtén media, mediana, moda, rango, varianza, desviación estándar y resumen.',
+    title:       'Calculadora de Estadística: Media, Mediana y Varianza',
+    description: 'Obtén el resumen estadístico de un conjunto de datos online: media, mediana, moda, rango, varianza y desviación estándar con pasos y fórmulas en español.',
   },
 };
 
@@ -41,7 +41,7 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id':   CANONICAL,
       url:     CANONICAL,
-      name:    'Calculadora de Estadística Online | Resumen de Datos',
+      name:    'Calculadora de Estadística: Media, Mediana y Varianza',
       description: 'Calculadora de estadística descriptiva: media, mediana, moda, rango, varianza y desviación estándar poblacional y muestral.',
       inLanguage: 'es',
       isPartOf:   { '@id': 'https://calculadoramatematica.com' },
