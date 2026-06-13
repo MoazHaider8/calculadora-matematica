@@ -13,7 +13,7 @@ import { EstadisticaFAQ }       from '@/components/EstadisticaFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/estadistica';
 
 export const metadata: Metadata = {
-  title: 'Calculadoras de Estadística Online: Media, Varianza y Más',
+  title: { absolute: 'Calculadoras de Estadística Online: Media, Varianza y Más' },
   description:
     'Analiza datos con calculadoras de media, probabilidad, desviación estándar, varianza y estadística descriptiva. Herramientas con fórmulas y pasos en español.',
   alternates: { canonical: CANONICAL },
