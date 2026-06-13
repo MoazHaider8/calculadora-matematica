@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Space_Grotesk, Inter } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import { faqItems, categories } from '@/lib/data';
 
@@ -151,6 +152,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(buildSchema()) }}
         />
       </head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-YPCPMM7NW0"
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-YPCPMM7NW0');
+        `}
+      </Script>
       <body className="min-h-screen flex flex-col">{children}</body>
     </html>
   );
