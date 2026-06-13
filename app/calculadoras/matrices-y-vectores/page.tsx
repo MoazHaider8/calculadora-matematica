@@ -11,7 +11,7 @@ import { HubRelatedCategories } from '@/components/HubRelatedCategories';
 import { MatVecFAQ } from '@/components/MatVecFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadoras Online de Matrices, Vectores y Álgebra Lineal',
+  title: { absolute: 'Calculadoras de Matrices, Vectores y Álgebra Lineal Online' },
   description:
     'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
   alternates: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadoras Online de Matrices, Vectores y Álgebra Lineal',
+    title: 'Calculadoras de Matrices, Vectores y Álgebra Lineal Online',
     description:
       'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
     url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadoras Online de Matrices, Vectores y Álgebra Lineal',
+    title: 'Calculadoras de Matrices, Vectores y Álgebra Lineal Online',
     description:
       'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
   },
