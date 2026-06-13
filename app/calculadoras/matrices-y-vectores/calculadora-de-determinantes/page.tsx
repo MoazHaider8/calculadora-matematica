@@ -13,26 +13,26 @@ import { DeterminanteRelated } from '@/components/DeterminanteRelated';
 import { DeterminanteFAQ } from '@/components/DeterminanteFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Determinantes Online | Matrices',
+  title: { absolute: 'Calculadora de Determinantes: Matrices 2x2, 3x3 y 4x4' },
   description:
-    'Calcula determinantes online para matrices 2x2, 3x3 y 4x4. Introduce la matriz y revisa resultado, método e interpretación.',
+    'Calcula determinantes de matrices 2x2, 3x3 y 4x4 online. Introduce los valores, revisa el resultado, el método de cálculo y lo que indica el determinante.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-determinantes',
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Determinantes Online | Matrices',
+    title: 'Calculadora de Determinantes: Matrices 2x2, 3x3 y 4x4',
     description:
-      'Calcula determinantes online para matrices 2x2, 3x3 y 4x4. Introduce la matriz y revisa resultado, método e interpretación.',
+      'Calcula determinantes de matrices 2x2, 3x3 y 4x4 online. Introduce los valores, revisa el resultado, el método de cálculo y lo que indica el determinante.',
     url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-determinantes',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadora de Determinantes Online | Matrices',
+    title: 'Calculadora de Determinantes: Matrices 2x2, 3x3 y 4x4',
     description:
-      'Calcula determinantes online para matrices 2x2, 3x3 y 4x4. Introduce la matriz y revisa resultado, método e interpretación.',
+      'Calcula determinantes de matrices 2x2, 3x3 y 4x4 online. Introduce los valores, revisa el resultado, el método de cálculo y lo que indica el determinante.',
   },
 };
 
@@ -43,8 +43,8 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-determinantes',
       url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-determinantes',
-      name: 'Calculadora de Determinantes Online | Matrices',
-      description: 'Calcula determinantes online para matrices 2x2, 3x3 y 4x4. Introduce la matriz y revisa resultado, método e interpretación.',
+      name: 'Calculadora de Determinantes: Matrices 2x2, 3x3 y 4x4',
+      description: 'Calcula determinantes de matrices 2x2, 3x3 y 4x4 online. Introduce los valores, revisa el resultado, el método de cálculo y lo que indica el determinante.',
       inLanguage: 'es',
       isPartOf: { '@id': 'https://calculadoramatematica.com' },
       breadcrumb: { '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-determinantes#breadcrumb' },

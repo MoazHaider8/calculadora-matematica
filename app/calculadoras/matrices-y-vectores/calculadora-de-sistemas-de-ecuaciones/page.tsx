@@ -13,26 +13,26 @@ import { SistemasRelated } from '@/components/SistemasRelated';
 import { SistemasFAQ } from '@/components/SistemasFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Sistemas de Ecuaciones Online',
+  title: { absolute: 'Calculadora de Sistemas de Ecuaciones Online 2x2 y 3x3' },
   description:
-    'Resuelve sistemas de ecuaciones online 2x2 y 3x3. Introduce coeficientes, revisa solución, método y comprobación.',
+    'Resuelve sistemas de ecuaciones lineales 2x2 y 3x3 online en español. Introduce los coeficientes, obtén las soluciones y revisa el método con comprobación.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones',
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Sistemas de Ecuaciones Online',
+    title: 'Calculadora de Sistemas de Ecuaciones Online 2x2 y 3x3',
     description:
-      'Resuelve sistemas de ecuaciones online 2x2 y 3x3. Introduce coeficientes, revisa solución, método y comprobación.',
+      'Resuelve sistemas de ecuaciones lineales 2x2 y 3x3 online en español. Introduce los coeficientes, obtén las soluciones y revisa el método con comprobación.',
     url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadora de Sistemas de Ecuaciones Online',
+    title: 'Calculadora de Sistemas de Ecuaciones Online 2x2 y 3x3',
     description:
-      'Resuelve sistemas de ecuaciones online 2x2 y 3x3. Introduce coeficientes, revisa solución, método y comprobación.',
+      'Resuelve sistemas de ecuaciones lineales 2x2 y 3x3 online en español. Introduce los coeficientes, obtén las soluciones y revisa el método con comprobación.',
   },
 };
 
@@ -43,8 +43,8 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones',
       url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones',
-      name: 'Calculadora de Sistemas de Ecuaciones Online',
-      description: 'Resuelve sistemas de ecuaciones online 2x2 y 3x3. Introduce coeficientes, revisa solución, método y comprobación.',
+      name: 'Calculadora de Sistemas de Ecuaciones Online 2x2 y 3x3',
+      description: 'Resuelve sistemas de ecuaciones lineales 2x2 y 3x3 online en español. Introduce los coeficientes, obtén las soluciones y revisa el método con comprobación.',
       inLanguage: 'es',
       isPartOf: { '@id': 'https://calculadoramatematica.com' },
       breadcrumb: { '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones#breadcrumb' },
@@ -62,7 +62,7 @@ const jsonLd = {
     {
       '@type': 'WebApplication',
       '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones#app',
-      name: 'Calculadora de Sistemas de Ecuaciones Online',
+      name: 'Calculadora de Sistemas de Ecuaciones Online 2x2 y 3x3',
       url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-sistemas-de-ecuaciones',
       description: 'Resuelve sistemas lineales 2×2 y 3×3 con eliminación gaussiana. Detecta solución única, sin solución e infinitas soluciones.',
       applicationCategory: 'EducationalApplication',

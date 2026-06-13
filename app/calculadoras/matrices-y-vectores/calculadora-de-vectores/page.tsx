@@ -13,26 +13,26 @@ import { VectorRelated } from '@/components/VectorRelated';
 import { VectorFAQ } from '@/components/VectorFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Vectores Online | Operaciones',
+  title: { absolute: 'Calculadora de Vectores Online: 2D, 3D y Operaciones' },
   description:
-    'Opera vectores online. Suma, resta, producto punto, producto cruz, norma, vector unitario y ángulo con explicación.',
+    'Opera con vectores 2D y 3D online. Calcula suma, resta, producto escalar, producto vectorial, norma, vector unitario y ángulo entre vectores en español.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-vectores',
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Vectores Online | Operaciones',
+    title: 'Calculadora de Vectores Online: 2D, 3D y Operaciones',
     description:
-      'Opera vectores online. Suma, resta, producto punto, producto cruz, norma, vector unitario y ángulo con explicación.',
+      'Opera con vectores 2D y 3D online. Calcula suma, resta, producto escalar, producto vectorial, norma, vector unitario y ángulo entre vectores en español.',
     url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-vectores',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadora de Vectores Online | Operaciones',
+    title: 'Calculadora de Vectores Online: 2D, 3D y Operaciones',
     description:
-      'Opera vectores online. Suma, resta, producto punto, producto cruz, norma, vector unitario y ángulo con explicación.',
+      'Opera con vectores 2D y 3D online. Calcula suma, resta, producto escalar, producto vectorial, norma, vector unitario y ángulo entre vectores en español.',
   },
 };
 
@@ -43,8 +43,8 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-vectores',
       url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-vectores',
-      name: 'Calculadora de Vectores Online | Operaciones',
-      description: 'Opera vectores online. Suma, resta, producto punto, producto cruz, norma, vector unitario y ángulo con explicación.',
+      name: 'Calculadora de Vectores Online: 2D, 3D y Operaciones',
+      description: 'Opera con vectores 2D y 3D online. Calcula suma, resta, producto escalar, producto vectorial, norma, vector unitario y ángulo entre vectores en español.',
       inLanguage: 'es',
       isPartOf: { '@id': 'https://calculadoramatematica.com' },
       breadcrumb: { '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-vectores#breadcrumb' },

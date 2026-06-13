@@ -13,26 +13,26 @@ import { MatricesRelated } from '@/components/MatricesRelated';
 import { MatricesFAQ } from '@/components/MatricesFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Matrices Online | Operaciones y Pasos',
+  title: { absolute: 'Calculadora de Matrices Online: Suma, Resta y Producto' },
   description:
-    'Opera matrices online. Suma, resta, multiplica, transpone y multiplica por escalar con resultado, dimensiones y explicación.',
+    'Realiza operaciones con matrices online: suma, resta, multiplicación, transpuesta y escalar. Obtén el resultado con dimensiones y procedimiento paso a paso.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-matrices',
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Matrices Online | Operaciones y Pasos',
+    title: 'Calculadora de Matrices Online: Suma, Resta y Producto',
     description:
-      'Opera matrices online. Suma, resta, multiplica, transpone y multiplica por escalar con resultado, dimensiones y explicación.',
+      'Realiza operaciones con matrices online: suma, resta, multiplicación, transpuesta y escalar. Obtén el resultado con dimensiones y procedimiento paso a paso.',
     url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-matrices',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadora de Matrices Online | Operaciones y Pasos',
+    title: 'Calculadora de Matrices Online: Suma, Resta y Producto',
     description:
-      'Opera matrices online. Suma, resta, multiplica, transpone y multiplica por escalar con resultado, dimensiones y explicación.',
+      'Realiza operaciones con matrices online: suma, resta, multiplicación, transpuesta y escalar. Obtén el resultado con dimensiones y procedimiento paso a paso.',
   },
 };
 
@@ -43,8 +43,8 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-matrices',
       url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-matrices',
-      name: 'Calculadora de Matrices Online | Operaciones y Pasos',
-      description: 'Opera matrices online. Suma, resta, multiplica, transpone y multiplica por escalar con resultado, dimensiones y explicación.',
+      name: 'Calculadora de Matrices Online: Suma, Resta y Producto',
+      description: 'Realiza operaciones con matrices online: suma, resta, multiplicación, transpuesta y escalar. Obtén el resultado con dimensiones y procedimiento paso a paso.',
       inLanguage: 'es',
       isPartOf: { '@id': 'https://calculadoramatematica.com' },
       breadcrumb: { '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-matrices#breadcrumb' },

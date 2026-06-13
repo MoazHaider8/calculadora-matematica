@@ -13,7 +13,7 @@ import { MatVecFAQ } from '@/components/MatVecFAQ';
 export const metadata: Metadata = {
   title: { absolute: 'Calculadoras de Matrices, Vectores y Álgebra Lineal Online' },
   description:
-    'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
+    'Resuelve operaciones con matrices, determinantes, vectores y sistemas de ecuaciones. Herramientas de álgebra lineal con pasos, fórmulas y resultados en español.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores',
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Calculadoras de Matrices, Vectores y Álgebra Lineal Online',
     description:
-      'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
+      'Resuelve operaciones con matrices, determinantes, vectores y sistemas de ecuaciones. Herramientas de álgebra lineal con pasos, fórmulas y resultados en español.',
     url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores',
     locale: 'es_ES',
     type: 'website',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary',
     title: 'Calculadoras de Matrices, Vectores y Álgebra Lineal Online',
     description:
-      'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
+      'Resuelve operaciones con matrices, determinantes, vectores y sistemas de ecuaciones. Herramientas de álgebra lineal con pasos, fórmulas y resultados en español.',
   },
 };
 
@@ -43,7 +43,7 @@ const jsonLd = {
       url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores',
       name: 'Calculadoras Online de Matrices, Vectores y Álgebra Lineal Online',
       description:
-        'Usa calculadoras de matrices, determinantes, vectores, sistemas de ecuaciones y matriz inversa. Herramientas con pasos y fórmulas para revisar resultados.',
+        'Resuelve operaciones con matrices, determinantes, vectores y sistemas de ecuaciones. Herramientas de álgebra lineal con pasos, fórmulas y resultados en español.',
       inLanguage: 'es',
       isPartOf: { '@id': 'https://calculadoramatematica.com' },
       breadcrumb: { '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores#breadcrumb' },

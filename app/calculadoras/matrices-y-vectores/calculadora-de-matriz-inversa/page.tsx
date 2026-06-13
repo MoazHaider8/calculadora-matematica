@@ -13,26 +13,26 @@ import { MatrizInversaRelated } from '@/components/MatrizInversaRelated';
 import { MatrizInversaFAQ } from '@/components/MatrizInversaFAQ';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Matriz Inversa Online | A⁻¹',
+  title: { absolute: 'Calculadora de Matriz Inversa: Gauss-Jordan y Adjunta' },
   description:
-    'Calcula la matriz inversa online para matrices 2x2 y 3x3. Revisa A⁻¹, determinante, método y verificación.',
+    'Calcula la matriz inversa de matrices 2x2 y 3x3 online en español. Obtén A⁻¹, el determinante, el método Gauss-Jordan y la verificación completa paso a paso.',
   alternates: {
     canonical: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-matriz-inversa',
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Matriz Inversa Online | A⁻¹',
+    title: 'Calculadora de Matriz Inversa: Gauss-Jordan y Adjunta',
     description:
-      'Calcula la matriz inversa online para matrices 2x2 y 3x3. Revisa A⁻¹, determinante, método y verificación.',
+      'Calcula la matriz inversa de matrices 2x2 y 3x3 online en español. Obtén A⁻¹, el determinante, el método Gauss-Jordan y la verificación completa paso a paso.',
     url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-matriz-inversa',
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Calculadora de Matriz Inversa Online | A⁻¹',
+    title: 'Calculadora de Matriz Inversa: Gauss-Jordan y Adjunta',
     description:
-      'Calcula la matriz inversa online para matrices 2x2 y 3x3. Revisa A⁻¹, determinante, método y verificación.',
+      'Calcula la matriz inversa de matrices 2x2 y 3x3 online en español. Obtén A⁻¹, el determinante, el método Gauss-Jordan y la verificación completa paso a paso.',
   },
 };
 
@@ -43,8 +43,8 @@ const jsonLd = {
       '@type': 'WebPage',
       '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-matriz-inversa',
       url: 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-matriz-inversa',
-      name: 'Calculadora de Matriz Inversa Online | A⁻¹',
-      description: 'Calcula la matriz inversa online para matrices 2x2 y 3x3. Revisa A⁻¹, determinante, método y verificación.',
+      name: 'Calculadora de Matriz Inversa: Gauss-Jordan y Adjunta',
+      description: 'Calcula la matriz inversa de matrices 2x2 y 3x3 online en español. Obtén A⁻¹, el determinante, el método Gauss-Jordan y la verificación completa paso a paso.',
       inLanguage: 'es',
       isPartOf: { '@id': 'https://calculadoramatematica.com' },
       breadcrumb: { '@id': 'https://calculadoramatematica.com/calculadoras/matrices-y-vectores/calculadora-de-matriz-inversa#breadcrumb' },
