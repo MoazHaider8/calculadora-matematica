@@ -18,16 +18,16 @@ const PAGE_URL = `${BASE_URL}/calculadoras/calculo/calculadora-de-logaritmos`;
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Calculadora de Logaritmos Online | Base y Pasos',
+    absolute: 'Calculadora de Logaritmos Online: Base 10, e y Personalizada',
   },
   description:
-    'Calcula logaritmos online con base 10, base e o base personalizada. Consulta resultado decimal, fórmula de cambio de base y pasos.',
+    'Calcula logaritmos en base 10, base e o base personalizada. Obtén resultado decimal, fórmula de cambio de base y pasos explicados para verificar cada operación.',
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Logaritmos Online | Base y Pasos',
+    title: 'Calculadora de Logaritmos Online: Base 10, e y Personalizada',
     description:
-      'Calcula logaritmos con base 10, base e o base personalizada. Resultado decimal, cambio de base y comprobación exponencial.',
+      'Calcula logaritmos en base 10, base e o base personalizada. Obtén resultado decimal, fórmula de cambio de base y pasos explicados para verificar cada operación.',
     url: PAGE_URL,
     siteName: 'Calculadora Matemática',
     locale: 'es_ES',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadora de Logaritmos Online | Base y Pasos',
+    title: 'Calculadora de Logaritmos Online: Base 10, e y Personalizada',
     description:
       'Calcula logaritmos con base 10, base e o base personalizada con resultado y fórmula de cambio de base.',
   },

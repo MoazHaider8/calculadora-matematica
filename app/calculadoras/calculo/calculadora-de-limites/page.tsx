@@ -17,16 +17,16 @@ const PAGE_URL = `${BASE_URL}/calculadoras/calculo/calculadora-de-limites`;
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Calculadora de Límites Online | Paso a Paso',
+    absolute: 'Calculadora de Límites Online: Laterales e Infinitos',
   },
   description:
-    'Usa la calculadora de límites online para resolver límites laterales e infinitos con resultado, tabla de valores y explicación.',
+    'Calcula límites de funciones en línea: laterales, al infinito y tabla de valores. Obtén el resultado con procedimiento explicado y análisis de errores comunes.',
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Límites Online | Paso a Paso',
+    title: 'Calculadora de Límites Online: Laterales e Infinitos',
     description:
-      'Resuelve límites de funciones con análisis lateral, límites al infinito, tabla de valores y explicación del procedimiento.',
+      'Calcula límites de funciones en línea: laterales, al infinito y tabla de valores. Obtén el resultado con procedimiento explicado y análisis de errores comunes.',
     url: PAGE_URL,
     siteName: 'Calculadora Matemática',
     locale: 'es_ES',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadora de Límites Online | Paso a Paso',
+    title: 'Calculadora de Límites Online: Laterales e Infinitos',
     description:
       'Resuelve límites bilaterales, laterales e infinitos con tabla de valores y explicación.',
   },

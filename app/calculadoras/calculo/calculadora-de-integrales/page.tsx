@@ -17,16 +17,16 @@ const PAGE_URL = `${BASE_URL}/calculadoras/calculo/calculadora-de-integrales`;
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Calculadora de Integrales Online | Paso a Paso',
+    absolute: 'Calculadora de Integrales Online: Definidas e Indefinidas',
   },
   description:
-    'Calcula integrales definidas e indefinidas online. Introduce una función, elige variable y consulta resultado, pasos y aproximación decimal.',
+    'Calcula integrales definidas e indefinidas online en español. Introduce la función, elige la variable y obtén resultado exacto con pasos y aproximación decimal.',
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Integrales Online | Paso a Paso',
+    title: 'Calculadora de Integrales Online: Definidas e Indefinidas',
     description:
-      'Resuelve integrales definidas e indefinidas. Resultado exacto, aproximación decimal y explicación del procedimiento.',
+      'Calcula integrales definidas e indefinidas online en español. Introduce la función, elige la variable y obtén resultado exacto con pasos y aproximación decimal.',
     url: PAGE_URL,
     siteName: 'Calculadora Matemática',
     locale: 'es_ES',
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadora de Integrales Online | Paso a Paso',
+    title: 'Calculadora de Integrales Online: Definidas e Indefinidas',
     description:
-      'Resuelve integrales definidas e indefinidas online con resultado exacto y aproximación decimal.',
+      'Calcula integrales definidas e indefinidas online en español. Introduce la función, elige la variable y obtén resultado exacto con pasos y aproximación decimal.',
   },
 };
 

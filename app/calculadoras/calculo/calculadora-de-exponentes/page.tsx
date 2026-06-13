@@ -17,8 +17,8 @@ const BASE_URL = 'https://calculadoramatematica.com';
 const PAGE_URL = `${BASE_URL}/calculadoras/calculo/calculadora-de-exponentes`;
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Exponentes y Potencias Online',
-  description: 'Calcula exponentes y potencias online. Introduce base y exponente, simplifica expresiones y revisa propiedades básicas.',
+  title: { absolute: 'Calculadora de Exponentes Online: Potencias y Propiedades' },
+  description: 'Calcula potencias y exponentes online con base y exponente personalizados. Resuelve exponentes negativos, fraccionarios y notación científica con pasos claros.',
   keywords: [
     'calculadora de exponentes',
     'calculadora de potencias',
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     locale: 'es_ES',
     url: PAGE_URL,
     siteName: 'Calculadoras Matemáticas',
-    title: 'Calculadora de Exponentes y Potencias Online',
-    description: 'Calcula exponentes y potencias online. Introduce base y exponente, simplifica expresiones y revisa propiedades básicas.',
+    title: 'Calculadora de Exponentes Online: Potencias y Propiedades',
+    description: 'Calcula potencias y exponentes online con base y exponente personalizados. Resuelve exponentes negativos, fraccionarios y notación científica con pasos claros.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadora de Exponentes y Potencias Online',
-    description: 'Calcula exponentes y potencias online. Introduce base y exponente, simplifica expresiones y revisa propiedades básicas.',
+    title: 'Calculadora de Exponentes Online: Potencias y Propiedades',
+    description: 'Calcula potencias y exponentes online con base y exponente personalizados. Resuelve exponentes negativos, fraccionarios y notación científica con pasos claros.',
   },
 };
 

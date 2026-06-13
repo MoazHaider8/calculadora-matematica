@@ -18,7 +18,7 @@ const PAGE_URL = `${BASE_URL}/calculadoras/calculo`;
 export const metadata: Metadata = {
   title: { absolute: 'Calculadoras de Cálculo Online: Integrales, Derivadas y Más' },
   description:
-    'Usa calculadoras de integrales, derivadas, límites, logaritmos y exponentes. Cada herramienta muestra fórmulas y pasos para revisar el resultado con claridad.',
+    'Resuelve integrales, derivadas, límites, logaritmos y exponentes con calculadoras de cálculo en español. Cada herramienta incluye fórmulas, pasos y resultado.',
   keywords: [
     'calculadoras de cálculo',
     'calculadora de cálculo',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Calculadoras de Cálculo Online: Integrales, Derivadas y Más',
     description:
-      'Usa calculadoras de integrales, derivadas, límites, logaritmos y exponentes. Cada herramienta muestra fórmulas y pasos para revisar el resultado con claridad.',
+      'Resuelve integrales, derivadas, límites, logaritmos y exponentes con calculadoras de cálculo en español. Cada herramienta incluye fórmulas, pasos y resultado.',
     url: PAGE_URL,
     siteName: 'Calculadora Matemática',
     locale: 'es_ES',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Calculadoras de Cálculo Online: Integrales, Derivadas y Más',
     description:
-      'Usa calculadoras de integrales, derivadas, límites, logaritmos y exponentes. Cada herramienta muestra fórmulas y pasos para revisar el resultado con claridad.',
+      'Resuelve integrales, derivadas, límites, logaritmos y exponentes con calculadoras de cálculo en español. Cada herramienta incluye fórmulas, pasos y resultado.',
   },
   robots: { index: true, follow: true },
 };

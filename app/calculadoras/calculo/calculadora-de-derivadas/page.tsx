@@ -17,16 +17,16 @@ const PAGE_URL = `${BASE_URL}/calculadoras/calculo/calculadora-de-derivadas`;
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Calculadora de Derivadas Online | Paso a Paso',
+    absolute: 'Calculadora de Derivadas: Funciones, Reglas y Evaluación',
   },
   description:
-    'Usa la calculadora de derivadas online para derivar funciones, elegir variable y orden, evaluar en un punto y revisar reglas aplicadas.',
+    'Deriva funciones en línea con la calculadora de derivadas. Elige variable y orden, evalúa en un punto y revisa las reglas de derivación aplicadas paso a paso.',
   alternates: { canonical: PAGE_URL },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Calculadora de Derivadas Online | Paso a Paso',
+    title: 'Calculadora de Derivadas: Funciones, Reglas y Evaluación',
     description:
-      'Deriva funciones de forma simbólica, evalúa la derivada en un punto y obtén la recta tangente con reglas explicadas.',
+      'Deriva funciones en línea con la calculadora de derivadas. Elige variable y orden, evalúa en un punto y revisa las reglas de derivación aplicadas paso a paso.',
     url: PAGE_URL,
     siteName: 'Calculadora Matemática',
     locale: 'es_ES',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadora de Derivadas Online | Paso a Paso',
+    title: 'Calculadora de Derivadas: Funciones, Reglas y Evaluación',
     description:
       'Deriva funciones, elige variable y orden, evalúa en un punto y consulta la recta tangente.',
   },
