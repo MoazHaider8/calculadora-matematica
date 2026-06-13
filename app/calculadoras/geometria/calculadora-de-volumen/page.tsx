@@ -15,22 +15,22 @@ import { VolumenFAQ }       from '@/components/VolumenFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/geometria/calculadora-de-volumen';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Volumen Online | Cuerpos Geométricos',
+  title: { absolute: 'Calculadora de Volumen Online: Cubo, Cilindro y Esfera' },
   description:
-    'Calcula volúmenes online de cubos, prismas, cilindros, conos, esferas y pirámides con fórmula, unidad cúbica y pasos.',
+    'Calcula el volumen de cubo, prisma rectangular, cilindro, cono, esfera, pirámide y prisma triangular online. Revisa la fórmula y el procedimiento en español.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Volumen Online | Cuerpos Geométricos',
-    description: 'Calcula volúmenes online de cubos, prismas, cilindros, conos, esferas y pirámides con fórmula, unidad cúbica y pasos.',
+    title:       'Calculadora de Volumen Online: Cubo, Cilindro y Esfera',
+    description: 'Calcula el volumen de cubo, prisma rectangular, cilindro, cono, esfera, pirámide y prisma triangular online. Revisa la fórmula y el procedimiento en español.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadora de Volumen Online | Cuerpos Geométricos',
-    description: 'Calcula volúmenes online de cubos, prismas, cilindros, conos, esferas y pirámides con fórmula, unidad cúbica y pasos.',
+    title:       'Calculadora de Volumen Online: Cubo, Cilindro y Esfera',
+    description: 'Calcula el volumen de cubo, prisma rectangular, cilindro, cono, esfera, pirámide y prisma triangular online. Revisa la fórmula y el procedimiento en español.',
   },
 };
 

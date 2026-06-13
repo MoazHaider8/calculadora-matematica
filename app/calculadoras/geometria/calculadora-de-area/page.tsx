@@ -15,22 +15,22 @@ import { AreaFAQ }        from '@/components/AreaFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/geometria/calculadora-de-area';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Área Online | Figuras Geométricas',
+  title: { absolute: 'Calculadora de Área Online: Figuras Planas con Fórmula' },
   description:
-    'Calcula áreas online de cuadrados, rectángulos, triángulos, círculos, trapecios, rombos y paralelogramos con fórmula y pasos.',
+    'Calcula el área de cuadrado, rectángulo, triángulo, círculo, trapecio, rombo y paralelogramo online. Revisa la fórmula y el procedimiento en español.',
   alternates: { canonical: CANONICAL },
   robots: { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Área Online | Figuras Geométricas',
-    description: 'Calcula áreas online de cuadrados, rectángulos, triángulos, círculos, trapecios, rombos y paralelogramos con fórmula y pasos.',
+    title:       'Calculadora de Área Online: Figuras Planas con Fórmula',
+    description: 'Calcula el área de cuadrado, rectángulo, triángulo, círculo, trapecio, rombo y paralelogramo online. Revisa la fórmula y el procedimiento en español.',
     url:         CANONICAL,
     locale:      'es_ES',
     type:        'website',
   },
   twitter: {
     card:        'summary',
-    title:       'Calculadora de Área Online | Figuras Geométricas',
-    description: 'Calcula áreas online de cuadrados, rectángulos, triángulos, círculos, trapecios, rombos y paralelogramos con fórmula y pasos.',
+    title:       'Calculadora de Área Online: Figuras Planas con Fórmula',
+    description: 'Calcula el área de cuadrado, rectángulo, triángulo, círculo, trapecio, rombo y paralelogramo online. Revisa la fórmula y el procedimiento en español.',
   },
 };
 

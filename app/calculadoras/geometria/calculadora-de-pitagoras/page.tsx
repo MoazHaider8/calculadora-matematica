@@ -15,20 +15,20 @@ import { PitagorasFAQ }        from '@/components/PitagorasFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/geometria/calculadora-de-pitagoras';
 
 export const metadata: Metadata = {
-  title:       'Calculadora de Pitágoras Online | Hipotenusa y Catetos',
-  description: 'Calcula hipotenusa o catetos con el teorema de Pitágoras. Introduce dos lados y revisa fórmula, resultado y pasos.',
+  title: { absolute: 'Calculadora de Pitágoras Online: Hipotenusa y Catetos' },
+  description: 'Calcula la hipotenusa o cualquier cateto de un triángulo rectángulo usando el teorema de Pitágoras. Introduce dos lados y obtén el tercero con pasos en español.',
   alternates:  { canonical: CANONICAL },
   robots:      { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Pitágoras Online | Hipotenusa y Catetos',
-    description: 'Calcula hipotenusa o catetos con el teorema de Pitágoras. Introduce dos lados y revisa fórmula, resultado y pasos.',
+    title:       'Calculadora de Pitágoras Online: Hipotenusa y Catetos',
+    description: 'Calcula la hipotenusa o cualquier cateto de un triángulo rectángulo usando el teorema de Pitágoras. Introduce dos lados y obtén el tercero con pasos en español.',
     url:         CANONICAL,
     type:        'website',
   },
   twitter: {
     card:        'summary_large_image',
-    title:       'Calculadora de Pitágoras Online | Hipotenusa y Catetos',
-    description: 'Calcula hipotenusa o catetos con el teorema de Pitágoras. Introduce dos lados y revisa fórmula, resultado y pasos.',
+    title:       'Calculadora de Pitágoras Online: Hipotenusa y Catetos',
+    description: 'Calcula la hipotenusa o cualquier cateto de un triángulo rectángulo usando el teorema de Pitágoras. Introduce dos lados y obtén el tercero con pasos en español.',
   },
 };
 
@@ -40,7 +40,7 @@ const jsonLd = {
       '@id':   CANONICAL,
       url:     CANONICAL,
       name:    'Calculadora de Pitágoras Online | Hipotenusa y Catetos',
-      description: 'Calcula hipotenusa o catetos con el teorema de Pitágoras. Introduce dos lados y revisa fórmula, resultado y pasos.',
+      description: 'Calcula la hipotenusa o cualquier cateto de un triángulo rectángulo usando el teorema de Pitágoras. Introduce dos lados y obtén el tercero con pasos en español.',
       inLanguage: 'es',
       breadcrumb: { '@id': `${CANONICAL}#breadcrumb` },
     },

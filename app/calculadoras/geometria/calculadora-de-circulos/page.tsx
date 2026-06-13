@@ -15,20 +15,20 @@ import { CirculosFAQ }        from '@/components/CirculosFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/geometria/calculadora-de-circulos';
 
 export const metadata: Metadata = {
-  title:       'Calculadora de Círculos Online | Radio y Área',
-  description: 'Calcula radio, diámetro, área y circunferencia de un círculo online. Introduce un valor y revisa fórmulas y pasos.',
+  title: { absolute: 'Calculadora de Círculos Online: Radio, Diámetro y Área' },
+  description: 'Calcula radio, diámetro, área y circunferencia de un círculo en español. Introduce cualquier valor conocido y obtén los demás con la fórmula y el procedimiento.',
   alternates:  { canonical: CANONICAL },
   robots:      { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Círculos Online | Radio y Área',
-    description: 'Calcula radio, diámetro, área y circunferencia de un círculo online. Introduce un valor y revisa fórmulas y pasos.',
+    title:       'Calculadora de Círculos Online: Radio, Diámetro y Área',
+    description: 'Calcula radio, diámetro, área y circunferencia de un círculo en español. Introduce cualquier valor conocido y obtén los demás con la fórmula y el procedimiento.',
     url:         CANONICAL,
     type:        'website',
   },
   twitter: {
     card:        'summary_large_image',
-    title:       'Calculadora de Círculos Online | Radio y Área',
-    description: 'Calcula radio, diámetro, área y circunferencia de un círculo online. Introduce un valor y revisa fórmulas y pasos.',
+    title:       'Calculadora de Círculos Online: Radio, Diámetro y Área',
+    description: 'Calcula radio, diámetro, área y circunferencia de un círculo en español. Introduce cualquier valor conocido y obtén los demás con la fórmula y el procedimiento.',
   },
 };
 
@@ -40,7 +40,7 @@ const jsonLd = {
       '@id':   CANONICAL,
       url:     CANONICAL,
       name:    'Calculadora de Círculos Online | Radio y Área',
-      description: 'Calcula radio, diámetro, área y circunferencia de un círculo online. Introduce un valor y revisa fórmulas y pasos.',
+      description: 'Calcula radio, diámetro, área y circunferencia de un círculo en español. Introduce cualquier valor conocido y obtén los demás con la fórmula y el procedimiento.',
       inLanguage: 'es',
       breadcrumb: { '@id': `${CANONICAL}#breadcrumb` },
     },

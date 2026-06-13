@@ -15,20 +15,20 @@ import { TriangulosFAQ }       from '@/components/TriangulosFAQ';
 const CANONICAL = 'https://calculadoramatematica.com/calculadoras/geometria/calculadora-de-triangulos';
 
 export const metadata: Metadata = {
-  title:       'Calculadora de Triángulos Online | Área y Lados',
-  description: 'Calcula triángulos online con base, altura, lados y ángulos. Obtén área, perímetro, tipo de triángulo, fórmula y pasos.',
+  title: { absolute: 'Calculadora de Triángulos Online: Área, Tipo y Ángulos' },
+  description: 'Calcula el área y perímetro de triángulos con base y altura, tres lados o ángulos. Identifica el tipo de triángulo y revisa la fórmula y los pasos en español.',
   alternates:  { canonical: CANONICAL },
   robots:      { index: true, follow: true },
   openGraph: {
-    title:       'Calculadora de Triángulos Online | Área y Lados',
-    description: 'Calcula triángulos online con base, altura, lados y ángulos. Obtén área, perímetro, tipo de triángulo, fórmula y pasos.',
+    title:       'Calculadora de Triángulos Online: Área, Tipo y Ángulos',
+    description: 'Calcula el área y perímetro de triángulos con base y altura, tres lados o ángulos. Identifica el tipo de triángulo y revisa la fórmula y los pasos en español.',
     url:         CANONICAL,
     type:        'website',
   },
   twitter: {
     card:        'summary_large_image',
-    title:       'Calculadora de Triángulos Online | Área y Lados',
-    description: 'Calcula triángulos online con base, altura, lados y ángulos. Obtén área, perímetro, tipo de triángulo, fórmula y pasos.',
+    title:       'Calculadora de Triángulos Online: Área, Tipo y Ángulos',
+    description: 'Calcula el área y perímetro de triángulos con base y altura, tres lados o ángulos. Identifica el tipo de triángulo y revisa la fórmula y los pasos en español.',
   },
 };
 
@@ -40,7 +40,7 @@ const jsonLd = {
       '@id':   CANONICAL,
       url:     CANONICAL,
       name:    'Calculadora de Triángulos Online | Área y Lados',
-      description: 'Calcula triángulos online con base, altura, lados y ángulos. Obtén área, perímetro, tipo de triángulo, fórmula y pasos.',
+      description: 'Calcula el área y perímetro de triángulos con base y altura, tres lados o ángulos. Identifica el tipo de triángulo y revisa la fórmula y los pasos en español.',
       inLanguage: 'es',
       breadcrumb: { '@id': `${CANONICAL}#breadcrumb` },
     },
