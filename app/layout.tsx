@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Space_Grotesk, Inter } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
-import { faqItems, categories } from '@/lib/data';
+import { categories } from '@/lib/data';
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -117,15 +117,6 @@ function buildSchema() {
           { '@type': 'ListItem', position: 1, name: 'Inicio', item: BASE_URL },
           { '@type': 'ListItem', position: 2, name: 'Calculadoras', item: `${BASE_URL}/calculadoras` },
         ],
-      },
-      {
-        '@type': 'FAQPage',
-        '@id': `${BASE_URL}/#faq`,
-        mainEntity: faqItems.map((item) => ({
-          '@type': 'Question',
-          name: item.question,
-          acceptedAnswer: { '@type': 'Answer', text: item.answer },
-        })),
       },
       {
         '@type': 'ItemList',
